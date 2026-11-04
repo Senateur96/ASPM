@@ -1,0 +1,2646 @@
+{
+  "_aide": "Liste des textes du registre. Mode d'emploi complet dans README.md. Valeurs possibles : force = contraignant | indicatif | volontaire ; source = officielle | base_reference | secondaire ; themes = FIN, CIR, BIO, CLI, SOC avec la valeur dedie ou integre ; nouveau = true pour afficher le texte dans « Derniers textes ajoutés ».",
+  "date_mise_a_jour": "2026-10-31",
+  "version": "1.0",
+  "textes": [
+    {
+      "id": "ZAF-01",
+      "pays": "ZAF",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "volontaire",
+      "date": "2022-04-01",
+      "langue": "en",
+      "titre_officiel": "South African Green Finance Taxonomy, 1st Edition",
+      "titre_fr": "Taxonomie sud-africaine de la finance verte, 1re édition",
+      "type_fr": "Taxonomie",
+      "type_en": "Taxonomy",
+      "autorite": "National Treasury",
+      "resume_fr": "Système de classification des activités économiques considérées comme vertes, publié par le Trésor national avec les régulateurs financiers. Usage volontaire par les banques, investisseurs et émetteurs.",
+      "resume_en": "Classification system for economic activities considered green, published by National Treasury with the financial regulators. Voluntary use by banks, investors and issuers.",
+      "lien": "https://www.treasury.gov.za/comm_media/press/2022/SA%20Green%20Finance%20Taxonomy%20-%201st%20Edition%20Final%2030.03.2022.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "KEN-01",
+      "pays": "KEN",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2021-10-15",
+      "langue": "en",
+      "titre_officiel": "Banking Circular No. 4 of 2021, Guidance on Climate-Related Risk Management",
+      "titre_fr": "Circulaire bancaire n° 4 de 2021, lignes directrices sur la gestion des risques liés au climat",
+      "type_fr": "Lignes directrices prudentielles",
+      "type_en": "Prudential guidance",
+      "autorite": "Central Bank of Kenya",
+      "resume_fr": "Attentes de la banque centrale envers les banques en matière de gouvernance, de stratégie, de gestion et de publication des risques financiers liés au climat.",
+      "resume_en": "Central bank expectations for banks on governance, strategy, management and disclosure of climate-related financial risks.",
+      "lien": "https://www.centralbank.go.ke/uploads/banking_circulars/1315792700_Banking%20Circular%20No.%204%20of%202021%20-%20Guidance%20on%20Climate-Related%20Risk%20Management.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "KEN-02",
+      "pays": "KEN",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2025-04-04",
+      "langue": "en",
+      "titre_officiel": "Kenya Green Finance Taxonomy",
+      "titre_fr": "Taxonomie kényane de la finance verte",
+      "type_fr": "Taxonomie",
+      "type_en": "Taxonomy",
+      "autorite": "Central Bank of Kenya",
+      "resume_fr": "Publiée le 4 avril 2025. Aide les institutions ciblées à classer leurs activités selon leur contribution aux objectifs climatiques (atténuation et adaptation). Document évolutif ; la biodiversité sera traitée dans des mises à jour.",
+      "resume_en": "Published on 4 April 2025. Helps target institutions classify their activities by their contribution to climate objectives (mitigation and adaptation). A living document; biodiversity will be covered in later updates.",
+      "lien": "https://www.centralbank.go.ke/uploads/press_releases/1726446167_Press%20Release%20-%20Issuance%20of%20the%20Kenya%20Green%20Finance%20Taxonomy%20and%20Climate%20Risk%20Disclosure%20Framework%20for%20the%20Banking%20Sector.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "RWA-01",
+      "pays": "RWA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "volontaire",
+      "date": "2025-09",
+      "langue": "en",
+      "titre_officiel": "Rwanda Green Taxonomy",
+      "titre_fr": "Taxonomie verte du Rwanda",
+      "type_fr": "Taxonomie",
+      "type_en": "Taxonomy",
+      "autorite": "Ministry of Finance and Economic Planning (MINECOFIN), Ministry of Environment",
+      "resume_fr": "Système d'étiquetage volontaire des activités vertes, couvrant l'atténuation et l'adaptation. Élaboré en deux phases (2023 à 2024) et lancé publiquement en septembre 2025.",
+      "resume_en": "Voluntary labelling system for green activities, covering mitigation and adaptation. Developed in two phases (2023 to 2024) and publicly launched in September 2025.",
+      "lien": "https://www.minecofin.gov.rw/rwandagreentaxonomy/faq-about-rwanda-green-taxonomy",
+      "source": "officielle"
+    },
+    {
+      "id": "MAR-01",
+      "pays": "MAR",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2021-03-05",
+      "langue": "fr",
+      "titre_officiel": "Directive n° 5/W/2021 relative à la gestion des risques financiers liés au changement climatique et à l'environnement",
+      "titre_en": "Directive No. 5/W/2021 on the management of financial risks related to climate change and the environment",
+      "type_fr": "Directive",
+      "type_en": "Directive",
+      "autorite": "Bank Al-Maghrib",
+      "resume_fr": "Principes que les établissements de crédit doivent appliquer pour identifier, mesurer, gérer et contrôler les risques physiques et de transition. Signée le 5 mars 2021, d'application progressive.",
+      "resume_en": "Principles credit institutions must apply to identify, measure, manage and control physical and transition risks. Signed on 5 March 2021, phased in gradually.",
+      "lien": "https://www.greenfinanceplatform.org/policies-and-regulations/bank-al-maghrib-bam-%E2%80%9Cdirective-relative-au-dispositif-de-gestion-des",
+      "source": "base_reference"
+    },
+    {
+      "id": "EGY-01",
+      "pays": "EGY",
+      "themes": {
+        "FIN": "dedie",
+        "SOC": "integre"
+      },
+      "force": "contraignant",
+      "date": "2021-07-05",
+      "langue": "ar",
+      "titre_officiel": "Financial Regulatory Authority Decrees No. 107 and 108 of 2021",
+      "titre_fr": "Décrets n° 107 et 108 de 2021 de l'Autorité de régulation financière",
+      "type_fr": "Décrets réglementaires",
+      "type_en": "Regulatory decrees",
+      "autorite": "Financial Regulatory Authority (FRA)",
+      "resume_fr": "Publication annuelle d'informations ESG pour les sociétés cotées et les institutions financières non bancaires, à partir de 2022. Informations climatiques supplémentaires au-delà de 500 millions de livres égyptiennes de capital ou de fonds propres. Le volet social couvre notamment le travail des enfants, le travail forcé et la santé et sécurité.",
+      "resume_en": "Annual ESG disclosure for listed companies and non-bank financial institutions, from 2022. Additional climate disclosures above EGP 500 million of capital or equity. The social section covers child labour, forced labour and health and safety, among others.",
+      "lien": "https://www.climate-laws.org/geographies/egypt/policies/financial-regulatory-authority-decrees-no-107-and-108",
+      "source": "base_reference"
+    },
+    {
+      "id": "NGA-01",
+      "pays": "NGA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "volontaire",
+      "date": "2012-07",
+      "langue": "en",
+      "titre_officiel": "Nigerian Sustainable Banking Principles",
+      "titre_fr": "Principes nigérians de banque durable",
+      "type_fr": "Principes sectoriels",
+      "type_en": "Sector principles",
+      "autorite": "Central Bank of Nigeria, NDIC, banques signataires",
+      "resume_fr": "Engagement conjoint de la banque centrale, de l'assureur des dépôts et d'une trentaine de banques. Prévoit un système de gestion environnementale et sociale et des rapports de progrès à partir de fin 2013.",
+      "resume_en": "Joint commitment by the central bank, the deposit insurer and about thirty banks. Requires an environmental and social management system and progress reports from end 2013.",
+      "lien": "https://www.cbn.gov.ng/Out/2012/CCD/Circular-NSBP.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "NGA-02",
+      "pays": "NGA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2024-12",
+      "langue": "en",
+      "titre_officiel": "Roadmap for the Adoption of IFRS Sustainability Disclosure Standards in Nigeria",
+      "titre_fr": "Feuille de route pour l'adoption des normes IFRS de publication d'informations de durabilité au Nigeria",
+      "type_fr": "Feuille de route",
+      "type_en": "Roadmap",
+      "autorite": "Financial Reporting Council of Nigeria",
+      "resume_fr": "Adoption volontaire à partir des exercices ouverts le 1er janvier 2024. Obligatoire pour les entités d'intérêt public au 1er janvier 2028 et pour les PME au 1er janvier 2030.",
+      "resume_en": "Voluntary adoption for periods beginning on 1 January 2024. Mandatory for public interest entities from 1 January 2028 and for SMEs from 1 January 2030.",
+      "lien": "https://frcnigeria.gov.ng/wp-content/uploads/2026/01/Amended-FINAL-COPY-OF-SUSTAINABILITY-ROADMAP-FOR-PRINTING-DECEMBER-2024-Amended1.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "GHA-01",
+      "pays": "GHA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2019-11",
+      "langue": "en",
+      "titre_officiel": "Ghana Sustainable Banking Principles and Sector Guidance Notes",
+      "titre_fr": "Principes ghanéens de banque durable et notes d'orientation sectorielles",
+      "type_fr": "Principes sectoriels",
+      "type_en": "Sector principles",
+      "autorite": "Bank of Ghana",
+      "resume_fr": "Principes de prise en compte des risques environnementaux et sociaux dans l'activité bancaire, lancés en novembre 2019 avec des notes par secteur.",
+      "resume_en": "Principles for integrating environmental and social risks into banking, launched in November 2019 with sector-specific notes.",
+      "lien": "https://www.bog.gov.gh/speeches/speech-by-governor-dr-ernest-addison-at-the-formal-launch-of-the-ghana-sustainable-banking-principles/",
+      "source": "officielle"
+    },
+    {
+      "id": "GHA-02",
+      "pays": "GHA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2024-03-28",
+      "langue": "en",
+      "titre_officiel": "IFRS Sustainability Disclosure Adoption Roadmap for Ghana",
+      "titre_fr": "Feuille de route d'adoption des normes IFRS de durabilité au Ghana",
+      "type_fr": "Feuille de route",
+      "type_en": "Roadmap",
+      "autorite": "Institute of Chartered Accountants, Ghana (ICAG)",
+      "resume_fr": "Adoption volontaire de 2024 à 2026, puis obligatoire pour les entités d'intérêt public significatives à partir des exercices ouverts le 1er janvier 2027 et pour les autres assujettis à partir de 2028.",
+      "resume_en": "Voluntary adoption from 2024 to 2026, then mandatory for significant public interest entities for periods beginning on 1 January 2027 and for other mandatory adopters from 2028.",
+      "lien": "https://www.icagh.org/wp-content/uploads/2024/06/PRESS-RELEASE-IFRS-S1-S2.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "MUS-01",
+      "pays": "MUS",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2022-04-01",
+      "langue": "en",
+      "titre_officiel": "Guideline on Climate-related and Environmental Financial Risk Management",
+      "titre_fr": "Ligne directrice sur la gestion des risques financiers climatiques et environnementaux",
+      "type_fr": "Lignes directrices prudentielles",
+      "type_en": "Prudential guidance",
+      "autorite": "Bank of Mauritius",
+      "resume_fr": "Attentes du superviseur bancaire sur l'intégration des risques climatiques et environnementaux dans la gouvernance, la stratégie et la gestion des risques.",
+      "resume_en": "Banking supervisor expectations on integrating climate and environmental risks into governance, strategy and risk management.",
+      "lien": "https://www.bom.mu/sites/default/files/guideline_on_climate-related_and_environmental_financial_risk_management_01.04.2022.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "TZA-01",
+      "pays": "TZA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2022",
+      "langue": "en",
+      "titre_officiel": "Guidelines on Climate-Related Financial Risks Management, 2022",
+      "titre_fr": "Lignes directrices de 2022 sur la gestion des risques financiers liés au climat",
+      "type_fr": "Lignes directrices prudentielles",
+      "type_en": "Prudential guidance",
+      "autorite": "Bank of Tanzania",
+      "resume_fr": "Applicables à toutes les banques et institutions financières. Gouvernance, contrôle interne, analyse de scénarios, tests de résistance et publication, en cohérence avec les principes du Comité de Bâle de 2022.",
+      "resume_en": "Apply to all banks and financial institutions. Governance, internal control, scenario analysis, stress testing and disclosure, consistent with the Basel Committee's 2022 principles.",
+      "lien": "https://www.bot.go.tz/Publications/Acts,%20Regulations,%20Circulars,%20Guidelines/Guidelines/en/2022102612201747.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "UGA-01",
+      "pays": "UGA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2025",
+      "langue": "en",
+      "titre_officiel": "Guidelines to Supervised Financial Institutions for the Management of Climate-related Financial Risks, 2025",
+      "titre_fr": "Lignes directrices de 2025 aux institutions supervisées sur la gestion des risques financiers liés au climat",
+      "type_fr": "Lignes directrices prudentielles",
+      "type_en": "Prudential guidance",
+      "autorite": "Bank of Uganda",
+      "resume_fr": "Identification, mesure, gestion et publication des risques financiers liés au climat par les institutions financières supervisées.",
+      "resume_en": "Identification, measurement, management and disclosure of climate-related financial risks by supervised financial institutions.",
+      "lien": "https://bou.or.ug/bouwebsite/bouwebsitecontent/acts/supervision_acts_regulations/FI_Regulations/BOU-Guidelines-to-Supervised-Financial-Institutions-for-the-Management-of-Climate-related-Financial-Risks-2025.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "UMOA-01",
+      "pays": "UMOA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2020-03",
+      "langue": "fr",
+      "titre_officiel": "Guide pour l'émission d'obligations vertes sur le marché financier régional de l'UMOA",
+      "titre_en": "Guide for green bond issuance on the WAMU regional financial market",
+      "type_fr": "Guide de marché",
+      "type_en": "Market guide",
+      "autorite": "CREPMF (aujourd'hui AMF-UMOA)",
+      "resume_fr": "Règles de place pour les émetteurs d'obligations vertes sur le marché financier régional.",
+      "resume_en": "Market rules for green bond issuers on the regional financial market.",
+      "lien": "https://www.financialafrik.com/2020/03/27/marche-financier-umoa-le-crepmf-met-en-place-un-guide-pour-lemission-dobligations-vertes",
+      "source": "secondaire"
+    },
+    {
+      "id": "CEMAC-01",
+      "pays": "CEMAC",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2021-09-29",
+      "langue": "fr",
+      "titre_officiel": "Guide des obligations vertes, sociales et durables de la CEMAC",
+      "titre_en": "CEMAC green, social and sustainability bond guidelines",
+      "type_fr": "Guide de marché",
+      "type_en": "Market guide",
+      "autorite": "COSUMAF",
+      "resume_fr": "Cadre pour l'émission d'obligations vertes, sociales et durables sur le marché financier de l'Afrique centrale, préparé avec la SFI.",
+      "resume_en": "Framework for issuing green, social and sustainability bonds on the Central African capital market, prepared with the IFC.",
+      "lien": "https://data.sbfnetwork.org/sites/default/files/2024-06/2021-09-29%20COSUMAF%20-%20IFC%20SSA%20SEF%20-%20CEMAC%20GSS%20bond%20guidelines%20-%20French.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "AFR-01",
+      "pays": "AU",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "volontaire",
+      "date": "2025-07-17",
+      "langue": "en",
+      "titre_officiel": "Continental Sustainable Finance Taxonomy",
+      "titre_fr": "Taxonomie continentale de la finance durable",
+      "type_fr": "Taxonomie",
+      "type_en": "Taxonomy",
+      "autorite": "Banque africaine de développement (plateforme AFAC)",
+      "resume_fr": "Taxonomie volontaire validée à Nairobi les 16 et 17 juillet 2025 par des régulateurs, banques, assureurs et institutions de financement du développement. Ce n'est pas un acte de l'Union africaine.",
+      "resume_en": "Voluntary taxonomy validated in Nairobi on 16 and 17 July 2025 by regulators, banks, insurers and development finance institutions. It is not an African Union act.",
+      "lien": "https://www.mfw4a.org/news/africas-financial-industry-validates-continental-sustainable-finance-taxonomy",
+      "source": "secondaire"
+    },
+    {
+      "id": "KEN-03",
+      "pays": "KEN",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2017-02-28",
+      "langue": "en",
+      "titre_officiel": "Gazette Notice No. 2356 (ban on plastic carrier bags)",
+      "titre_fr": "Avis au Journal officiel n° 2356 (interdiction des sacs plastiques)",
+      "type_fr": "Avis ministériel",
+      "type_en": "Ministerial notice",
+      "autorite": "Cabinet Secretary for Environment and Natural Resources",
+      "resume_fr": "Interdit l'usage, la fabrication et l'importation des sacs plastiques de caisse et des sacs plats, y compris les sacs poubelle, pour un usage commercial et domestique. Publié le 28 février 2017, applicable le 28 août 2017 après six mois de délai. Les emballages industriels primaires sont exemptés.",
+      "resume_en": "Bans the use, manufacture and import of plastic carrier bags and flat bags, including bin liners, for commercial and household use. Published on 28 February 2017, applicable from 28 August 2017 after a six-month grace period. Industrial primary packaging is exempt.",
+      "lien": "https://www.nema.go.ke/images/featured/FAQS_on_plastics_ban.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "KEN-04",
+      "pays": "KEN",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2022-08-12",
+      "langue": "en",
+      "titre_officiel": "Sustainable Waste Management Act, No. 31 of 2022",
+      "titre_fr": "Loi n° 31 de 2022 sur la gestion durable des déchets",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Kenya",
+      "resume_fr": "Cadre national de gestion des déchets fondé sur le tri à la source, le recyclage et la responsabilité élargie du producteur.",
+      "resume_en": "National waste management framework based on separation at source, recycling and extended producer responsibility.",
+      "lien": "https://new.kenyalaw.org/akn/ke/act/2022/31/eng@2022-08-12",
+      "source": "base_reference"
+    },
+    {
+      "id": "KEN-05",
+      "pays": "KEN",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2024",
+      "langue": "en",
+      "titre_officiel": "Sustainable Waste Management (Extended Producer Responsibility) Regulations, 2024 (L.N. 176 of 2024)",
+      "titre_fr": "Règlement de 2024 sur la responsabilité élargie du producteur",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Cabinet Secretary for Environment",
+      "resume_fr": "Oblige les producteurs et importateurs de produits et d'emballages à financer et organiser la collecte et le recyclage de leurs produits en fin de vie.",
+      "resume_en": "Requires producers and importers of products and packaging to finance and organise the collection and recycling of their end-of-life products.",
+      "lien": "https://new.kenyalaw.org/akn/ke/act/ln/2024/176/eng@2025-03-24",
+      "source": "base_reference"
+    },
+    {
+      "id": "RWA-02",
+      "pays": "RWA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2019-08-10",
+      "langue": "rw",
+      "titre_officiel": "Law N° 17/2019 of 10/08/2019 relating to the prohibition of manufacturing, importation, use and sale of plastic carry bags and single-use plastic items",
+      "titre_fr": "Loi n° 17/2019 du 10/08/2019 relative à l'interdiction de la fabrication, de l'importation, de l'utilisation et de la vente des sacs et articles plastiques à usage unique",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement du Rwanda",
+      "resume_fr": "Étend aux articles plastiques à usage unique l'interdiction des sacs plastiques en vigueur depuis 2008.",
+      "resume_en": "Extends to single-use plastic items the plastic bag ban in force since 2008.",
+      "lien": "https://leap.unep.org/en/countries/rw/national-legislation/law-no-172019-relating-prohibition-manufacturing-importation-use",
+      "source": "base_reference"
+    },
+    {
+      "id": "MAR-02",
+      "pays": "MAR",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015-12-07",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 77-15 portant interdiction de la fabrication, de l'importation, de l'exportation, de la commercialisation et de l'utilisation de sacs en matières plastiques",
+      "titre_en": "Law No. 77-15 prohibiting the manufacture, import, export, sale and use of plastic bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement du Maroc",
+      "resume_fr": "Promulguée par le dahir n° 1-15-148 du 7 décembre 2015, appliquée à partir du 1er juillet 2016. Certains sacs à usage industriel, agricole ou de conservation restent autorisés sous conditions techniques fixées par voie réglementaire.",
+      "resume_en": "Enacted by Dahir No. 1-15-148 of 7 December 2015 and applied from 1 July 2016. Some industrial, agricultural and storage bags remain allowed under technical conditions set by regulation.",
+      "lien": "https://adala.justice.gov.ma/api/uploads/2024/03/22/Interdiction%20de%20la%20fabrication,%20de%20l'importation..-1711116868376.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "SEN-01",
+      "pays": "SEN",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020-01-08",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2020-04 du 8 janvier 2020 relative à la prévention et à la réduction de l'incidence sur l'environnement des produits plastiques",
+      "titre_en": "Law No. 2020-04 of 8 January 2020 on preventing and reducing the environmental impact of plastic products",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Sénégal",
+      "resume_fr": "Interdit plusieurs produits plastiques à usage unique et organise la gestion des déchets plastiques. Publiée au Journal officiel n° 7259 du 20 janvier 2020.",
+      "resume_en": "Bans several single-use plastic products and organises plastic waste management. Published in Official Journal No. 7259 of 20 January 2020.",
+      "lien": "https://www.vie-publique.sn/documents/1032/JO-7259-du-20-janvier-2020",
+      "source": "officielle"
+    },
+    {
+      "id": "ZAF-02",
+      "pays": "ZAF",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020-11",
+      "langue": "en",
+      "titre_officiel": "Extended Producer Responsibility Regulations, 2020 (Government Notice No. 1184)",
+      "titre_fr": "Règlement de 2020 sur la responsabilité élargie du producteur",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister of Forestry, Fisheries and the Environment",
+      "resume_fr": "Pris en application de la loi de 2008 sur la gestion des déchets. Impose aux producteurs d'emballages, de produits électriques et électroniques et d'éclairage de mettre en place des dispositifs de collecte et de recyclage.",
+      "resume_en": "Made under the 2008 Waste Act. Requires producers of packaging, electrical and electronic equipment and lighting to set up collection and recycling schemes.",
+      "lien": "https://www.gov.za/sites/default/files/gcis_document/202011/43879gon1184.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "TZA-02",
+      "pays": "TZA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2019-05-17",
+      "langue": "en",
+      "titre_officiel": "Environmental Management (Prohibition of Plastic Carrier Bags) Regulations, 2019 (G.N. No. 394)",
+      "titre_fr": "Règlement de 2019 portant interdiction des sacs plastiques",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister responsible for Environment",
+      "resume_fr": "Interdit l'importation, l'exportation, la fabrication, la vente, le stockage et l'usage des sacs plastiques, avec des exceptions limitées.",
+      "resume_en": "Bans the import, export, manufacture, sale, storage and use of plastic carrier bags, with limited exceptions.",
+      "lien": "https://tanzlii.org/en/akn/tz/act/gn/2019/394/eng@2019-05-17",
+      "source": "base_reference"
+    },
+    {
+      "id": "EGY-02",
+      "pays": "EGY",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020",
+      "langue": "ar",
+      "titre_officiel": "Waste Management Regulation Law No. 202 of 2020",
+      "titre_fr": "Loi n° 202 de 2020 sur la régulation de la gestion des déchets",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Chambre des représentants",
+      "resume_fr": "Premier cadre législatif unifié pour tous les types de déchets. Règlement d'application adopté par la décision n° 722 de 2022 du Premier ministre.",
+      "resume_en": "First unified legal framework covering all waste types. Implementing regulation adopted by Prime Minister's Decision No. 722 of 2022.",
+      "lien": "https://leap.unep.org/en/countries/eg/national-legislation/waste-management-law-no202-2020",
+      "source": "base_reference"
+    },
+    {
+      "id": "GHA-03",
+      "pays": "GHA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2020",
+      "langue": "en",
+      "titre_officiel": "National Plastics Management Policy",
+      "titre_fr": "Politique nationale de gestion des plastiques",
+      "type_fr": "Politique",
+      "type_en": "Policy",
+      "autorite": "Ministry of Environment, Science, Technology and Innovation",
+      "resume_fr": "Feuille de route nationale pour réduire la pollution plastique et développer le recyclage, avec une approche d'économie circulaire.",
+      "resume_en": "National roadmap to reduce plastic pollution and scale up recycling, built on a circular economy approach.",
+      "lien": "https://leap.unep.org/en/countries/gh/national-legislation/national-plastic-management-policy",
+      "source": "base_reference"
+    },
+    {
+      "id": "CIV-01",
+      "pays": "CIV",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2013-05-22",
+      "langue": "fr",
+      "titre_officiel": "Décret n° 2013-327 du 22 mai 2013 portant interdiction de la production, de l'importation, de la commercialisation, de la détention et de l'utilisation des sachets plastiques",
+      "titre_en": "Decree No. 2013-327 of 22 May 2013 banning the production, import, sale, possession and use of plastic bags",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Présidence de la République",
+      "resume_fr": "Interdiction générale des sachets plastiques, avec un délai de six mois de mise en conformité à compter de l'entrée en vigueur.",
+      "resume_en": "General ban on plastic bags, with a six-month compliance period from entry into force.",
+      "lien": "https://faolex.fao.org/docs/pdf/IVC132141.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "BFA-01",
+      "pays": "BFA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2014-05-20",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 017-2014/AN du 20 mai 2014 portant interdiction de la production, de l'importation, de la commercialisation et de la distribution des emballages et sachets plastiques non biodégradables",
+      "titre_en": "Law No. 017-2014/AN of 20 May 2014 banning non-biodegradable plastic packaging and bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Burkina Faso",
+      "resume_fr": "Les sanctions sont fixées par le décret n° 2015-798 du 3 juillet 2015, lien ci-contre.",
+      "resume_en": "Penalties are set by Decree No. 2015-798 of 3 July 2015, linked here.",
+      "lien": "https://faolex.fao.org/docs/pdf/bkf150837.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "BEN-01",
+      "pays": "BEN",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2017-12-26",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2017-39 du 26 décembre 2017 portant interdiction de la production, de l'importation, de la commercialisation et de l'utilisation des sachets en plastique non biodégradables",
+      "titre_en": "Law No. 2017-39 of 26 December 2017 banning non-biodegradable plastic bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Bénin",
+      "resume_fr": "Conditions d'application précisées par le décret n° 2019-027 du 21 janvier 2019.",
+      "resume_en": "Implementing conditions set by Decree No. 2019-027 of 21 January 2019.",
+      "lien": "https://leap.unep.org/en/countries/bj/national-legislation/loi-ndeg-2017-39-du-26-decembre-2017-portant-interdiction-de-la",
+      "source": "base_reference"
+    },
+    {
+      "id": "TUN-01",
+      "pays": "TUN",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020-01-16",
+      "langue": "fr",
+      "titre_officiel": "Décret gouvernemental n° 2020-32 du 16 janvier 2020 fixant les types de sacs en plastique dont la production, l'importation, la distribution et la détention sur le marché intérieur sont interdites",
+      "titre_en": "Government Decree No. 2020-32 setting the types of plastic bags banned from production, import, distribution and possession on the domestic market",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Gouvernement tunisien",
+      "resume_fr": "Applicable le 1er mars 2020 aux grandes surfaces et pharmacies, puis le 1er janvier 2021 à tous les producteurs, importateurs, distributeurs et détenteurs.",
+      "resume_en": "Applied from 1 March 2020 to shopping centres and pharmacies, then from 1 January 2021 to all producers, importers, distributors and holders.",
+      "lien": "https://faolex.fao.org/docs/pdf/tun195579.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "MUS-02",
+      "pays": "MUS",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020",
+      "langue": "en",
+      "titre_officiel": "Environment Protection (Banning of Plastic Bags) Regulations 2020 (GN No. 197 of 2020) and Environment Protection (Control of Single Use Plastic Products) Regulations 2020",
+      "titre_fr": "Règlements de 2020 sur l'interdiction des sacs plastiques et le contrôle des produits plastiques à usage unique",
+      "type_fr": "Règlements",
+      "type_en": "Regulations",
+      "autorite": "Minister of Environment",
+      "resume_fr": "Le règlement sur les produits à usage unique (juillet 2020) s'applique par étapes à partir du 15 janvier 2021. Le règlement sur les sacs (septembre 2020) étend l'interdiction à de nouveaux types de sacs à partir du 1er mars 2021.",
+      "resume_en": "The single-use products regulations (July 2020) apply in stages from 15 January 2021. The plastic bag regulations (September 2020) extend the ban to new bag types from 1 March 2021.",
+      "lien": "https://www.mcci.org/media/286509/gn-197-of-2020-environment-protection-banning-of-plastic-bags-regulations-2020.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "NGA-03",
+      "pays": "NGA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2020-10",
+      "langue": "en",
+      "titre_officiel": "National Policy on Plastic Waste Management",
+      "titre_fr": "Politique nationale de gestion des déchets plastiques",
+      "type_fr": "Politique",
+      "type_en": "Policy",
+      "autorite": "Federal Ministry of Environment, approuvée par le Conseil exécutif fédéral",
+      "resume_fr": "Approuvée en octobre 2020. Objectifs de réduction, de collecte et de recyclage des déchets plastiques, accompagnés de lignes directrices de mise en œuvre.",
+      "resume_en": "Approved in October 2020. Targets for reducing, collecting and recycling plastic waste, with implementation guidelines.",
+      "lien": "https://leap.unep.org/en/countries/ng/national-legislation/national-policy-plastic-waste-management",
+      "source": "base_reference"
+    },
+    {
+      "id": "MLI-01",
+      "pays": "MLI",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2014-07-03",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2014-024 du 3 juillet 2014 portant interdiction de la production, de l'importation et de la commercialisation des sachets plastiques non biodégradables",
+      "titre_en": "Law No. 2014-024 of 3 July 2014 banning non-biodegradable plastic bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Mali",
+      "resume_fr": "Remplace la loi n° 2012-003 du 23 janvier 2012. Modalités fixées par le décret n° 2014-0595 du 29 juillet 2014.",
+      "resume_en": "Replaces Law No. 2012-003 of 23 January 2012. Details set by Decree No. 2014-0595 of 29 July 2014.",
+      "lien": "https://leap.unep.org/en/countries/ml/national-legislation/loi-ndeg-2014-024-du-03-juillet-2014-portant-interdiction-de-la",
+      "source": "base_reference"
+    },
+    {
+      "id": "COM-01",
+      "pays": "COM",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2017-06-06",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 17-011/AU du 6 juin 2017 portant interdiction de la production, de l'importation, de la commercialisation et de la distribution des emballages et sachets plastiques non biodégradables",
+      "titre_en": "Law No. 17-011/AU of 6 June 2017 banning non-biodegradable plastic packaging and bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée de l'Union des Comores",
+      "resume_fr": "Interdiction des emballages et sachets plastiques non biodégradables.",
+      "resume_en": "Ban on non-biodegradable plastic packaging and bags.",
+      "lien": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-n-17-011au-du-6-juin-2017-portant-interdiction-de-la-production-de-limportation-de-la-commercialisation-et-de-la-distribution-des-emballages-et-sachets-plastiques-non-biodegradables.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "MOZ-01",
+      "pays": "MOZ",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015-08-05",
+      "langue": "pt",
+      "titre_officiel": "Decreto n.º 16/2015, de 5 de Agosto, que aprova o Regulamento sobre a Gestão e Controlo do Saco de Plástico",
+      "titre_fr": "Décret n° 16/2015 du 5 août 2015 portant règlement sur la gestion et le contrôle des sacs plastiques",
+      "titre_en": "Decree No. 16/2015 of 5 August 2015 approving the Regulation on the Management and Control of Plastic Bags",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Conselho de Ministros",
+      "resume_fr": "Encadre la production, l'importation et la distribution des sacs plastiques.",
+      "resume_en": "Regulates the production, import and distribution of plastic bags.",
+      "lien": "https://leap.unep.org/en/countries/mz/national-legislation/decree-no-162015-establishing-regulation-management-and-control",
+      "source": "base_reference"
+    },
+    {
+      "id": "CPV-01",
+      "pays": "CPV",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015",
+      "langue": "pt",
+      "titre_officiel": "Lei n.º 99/VIII/2015",
+      "titre_fr": "Loi n° 99/VIII/2015 interdisant la production, l'importation et la commercialisation des sacs plastiques",
+      "titre_en": "Law No. 99/VIII/2015 banning the production, import and sale of plastic bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assembleia Nacional de Cabo Verde",
+      "resume_fr": "Interdiction de la production, de l'importation et de la commercialisation des sacs plastiques conventionnels.",
+      "resume_en": "Ban on the production, import and sale of conventional plastic bags.",
+      "lien": "https://leap.unep.org/en/countries/cv/national-legislation/law-no-99viii2015-establishing-prohibition-production-import",
+      "source": "base_reference"
+    },
+    {
+      "id": "DZA-01",
+      "pays": "DZA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2001-12-12",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 01-19 du 12 décembre 2001 relative à la gestion, au contrôle et à l'élimination des déchets",
+      "titre_en": "Law No. 01-19 of 12 December 2001 on the management, control and disposal of waste",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement algérien",
+      "resume_fr": "Loi-cadre sur les déchets. Principes de prévention, de valorisation et de responsabilité du générateur de déchets.",
+      "resume_en": "Framework waste law. Principles of prevention, recovery and waste generator responsibility.",
+      "lien": "https://ampeid.org/documents/algeria/law-no-01-19---relating-to-the-management-control-and-elimination-of-waste/",
+      "source": "base_reference"
+    },
+    {
+      "id": "GIN-01",
+      "pays": "GIN",
+      "themes": {
+        "CIR": "integre",
+        "CLI": "integre"
+      },
+      "force": "contraignant",
+      "date": "2019-07-04",
+      "langue": "fr",
+      "titre_officiel": "Loi L/2019/0034/AN du 4 juillet 2019 portant Code de l'environnement de la République de Guinée",
+      "titre_en": "Law L/2019/0034/AN of 4 July 2019 on the Environmental Code of the Republic of Guinea",
+      "type_fr": "Code",
+      "type_en": "Code",
+      "autorite": "Assemblée nationale de Guinée",
+      "resume_fr": "Code général de l'environnement. Contient des dispositions sur les déchets et les plastiques et sur les changements climatiques, recensées par des bases spécialisées.",
+      "resume_en": "General environmental code. Contains provisions on waste and plastics and on climate change, as recorded by specialised databases.",
+      "lien": "https://leap.unep.org/en/countries/gn/national-legislation/loi-l20190034an-du-04-juillet-2019-portant-code-de-lenvironnement",
+      "source": "base_reference"
+    },
+    {
+      "id": "AU-01",
+      "pays": "AU",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1991",
+      "langue": "fr",
+      "titre_officiel": "Convention de Bamako sur l'interdiction d'importer en Afrique des déchets dangereux et sur le contrôle des mouvements transfrontières et la gestion des déchets dangereux produits en Afrique",
+      "titre_en": "Bamako Convention on the Ban of the Import into Africa and the Control of Transboundary Movement and Management of Hazardous Wastes within Africa",
+      "type_fr": "Traité",
+      "type_en": "Treaty",
+      "autorite": "Organisation de l'unité africaine",
+      "resume_fr": "Adoptée en 1991, en vigueur depuis 1998. Lie les seuls États parties. Secrétariat assuré par le PNUE.",
+      "resume_en": "Adopted in 1991, in force since 1998. Binds state parties only. Secretariat provided by UNEP.",
+      "lien": "https://unep.org/bamako-convention",
+      "source": "officielle"
+    },
+    {
+      "id": "ZAF-03",
+      "pays": "ZAF",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2004-06-07",
+      "langue": "en",
+      "titre_officiel": "National Environmental Management: Biodiversity Act, 2004 (Act No. 10 of 2004)",
+      "titre_fr": "Loi n° 10 de 2004 sur la gestion de l'environnement national, volet biodiversité",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of South Africa",
+      "resume_fr": "Protection des espèces et des écosystèmes menacés, contrôle des espèces exotiques envahissantes, bioprospection et partage des avantages. Publiée au Journal officiel n° 26436 du 7 juin 2004.",
+      "resume_en": "Protection of threatened species and ecosystems, control of alien invasive species, bioprospecting and benefit sharing. Published in Government Gazette No. 26436 of 7 June 2004.",
+      "lien": "https://lawlibrary.org.za/akn/za/act/2004/10",
+      "source": "base_reference"
+    },
+    {
+      "id": "MAR-03",
+      "pays": "MAR",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2010",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 22-07 relative aux aires protégées",
+      "titre_en": "Law No. 22-07 on protected areas",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement du Maroc",
+      "resume_fr": "Catégories d'aires protégées, procédure de création et règles de gestion. Certaines dispositions sont appliquées par le décret n° 2-18-242.",
+      "resume_en": "Protected area categories, designation procedure and management rules. Some provisions are implemented by Decree No. 2-18-242.",
+      "lien": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Aires%20prot%C3%A9g%C3%A9es-1714463160546.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "MDG-01",
+      "pays": "MDG",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2015-005 portant refonte du Code de gestion des aires protégées",
+      "titre_en": "Law No. 2015-005 revising the Protected Areas Management Code",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale de Madagascar",
+      "resume_fr": "Code des aires protégées (COAP). Modes de gouvernance, catégories et procédures de création des aires protégées.",
+      "resume_en": "Protected Areas Code (COAP). Governance arrangements, categories and procedures for creating protected areas.",
+      "lien": "https://www.assemblee-nationale.mg/wp-content/uploads/2020/11/Loi-n%C2%B02015-005-Code-de-gestion-des-aires-prot%C3%A9g%C3%A9es.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "GAB-01",
+      "pays": "GAB",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2007-08-27",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 003/2007 du 27 août 2007 relative aux parcs nationaux",
+      "titre_en": "Law No. 003/2007 of 27 August 2007 on national parks",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement du Gabon",
+      "resume_fr": "Régime juridique des parcs nationaux et création de l'Agence nationale des parcs nationaux.",
+      "resume_en": "Legal regime for national parks and creation of the National Agency for National Parks.",
+      "lien": "https://journal-officiel.ga/7126-003-2007-/",
+      "source": "officielle"
+    },
+    {
+      "id": "KEN-06",
+      "pays": "KEN",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2013",
+      "langue": "en",
+      "titre_officiel": "Wildlife Conservation and Management Act, No. 47 of 2013",
+      "titre_fr": "Loi n° 47 de 2013 sur la conservation et la gestion de la faune sauvage",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Kenya",
+      "resume_fr": "Conservation de la faune, aires protégées, participation des communautés et sanctions contre le braconnage et le trafic.",
+      "resume_en": "Wildlife conservation, protected areas, community participation and penalties for poaching and trafficking.",
+      "lien": "https://new.kenyalaw.org/akn/ke/act/2013/47/eng@2022-12-31",
+      "source": "base_reference"
+    },
+    {
+      "id": "UGA-02",
+      "pays": "UGA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2019",
+      "langue": "en",
+      "titre_officiel": "Uganda Wildlife Act, 2019 (Act 17 of 2019)",
+      "titre_fr": "Loi ougandaise de 2019 sur la faune sauvage",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Uganda",
+      "resume_fr": "Remplace la loi de 1996. Gestion des aires protégées, partage des revenus avec les communautés et peines alourdies pour les infractions contre les espèces protégées.",
+      "resume_en": "Replaces the 1996 Act. Protected area management, revenue sharing with communities and heavier penalties for offences against protected species.",
+      "lien": "https://ulii.org/akn/ug/act/2019/17",
+      "source": "base_reference"
+    },
+    {
+      "id": "TZA-03",
+      "pays": "TZA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2009",
+      "langue": "en",
+      "titre_officiel": "Wildlife Conservation Act, No. 5 of 2009",
+      "titre_fr": "Loi n° 5 de 2009 sur la conservation de la faune sauvage",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Tanzania",
+      "resume_fr": "Cadre de la conservation de la faune, des réserves de gibier et des zones de gestion communautaire de la faune.",
+      "resume_en": "Framework for wildlife conservation, game reserves and wildlife management areas.",
+      "lien": "https://leap.unep.org/en/countries/tz/national-legislation/wildlife-conservation-act-no-5-2009",
+      "source": "base_reference"
+    },
+    {
+      "id": "GIN-02",
+      "pays": "GIN",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2016-06-10",
+      "langue": "fr",
+      "titre_officiel": "Loi L/2016/016/AN du 10 juin 2016 autorisant la ratification de la Convention africaine sur la conservation de la nature et des ressources naturelles (version révisée)",
+      "titre_en": "Law L/2016/016/AN of 10 June 2016 authorising ratification of the revised African Convention on the Conservation of Nature and Natural Resources",
+      "type_fr": "Loi de ratification",
+      "type_en": "Ratification law",
+      "autorite": "Assemblée nationale de Guinée",
+      "resume_fr": "Autorise la Guinée à ratifier la Convention de Maputo révisée.",
+      "resume_en": "Authorises Guinea to ratify the revised Maputo Convention.",
+      "lien": "https://leap.unep.org/en/countries/gn/national-legislation/loi-l2016016ansgg-du-10-juin-2016-autorisant-la-ratification-de",
+      "source": "base_reference"
+    },
+    {
+      "id": "AU-02",
+      "pays": "AU",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2003-07-11",
+      "langue": "fr",
+      "titre_officiel": "Convention africaine sur la conservation de la nature et des ressources naturelles (version révisée, Maputo)",
+      "titre_en": "African Convention on the Conservation of Nature and Natural Resources (revised version, Maputo)",
+      "type_fr": "Traité",
+      "type_en": "Treaty",
+      "autorite": "Union africaine",
+      "resume_fr": "Adoptée à Maputo en 2003, en vigueur depuis 2016. Couvre les sols, l'eau, la flore, la faune, les aires de conservation et les droits procéduraux. Lie les seuls États parties.",
+      "resume_en": "Adopted in Maputo in 2003, in force since 2016. Covers soil, water, flora, fauna, conservation areas and procedural rights. Binds state parties only.",
+      "lien": "https://www.ecolex.org/fr/details/treaty/african-convention-on-the-conservation-of-nature-and-natural-resources-revised-version-tre-001395/",
+      "source": "base_reference"
+    },
+    {
+      "id": "ZAF-04",
+      "pays": "ZAF",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2024-07-23",
+      "langue": "en",
+      "titre_officiel": "Climate Change Act, 2024 (Act No. 22 of 2024)",
+      "titre_fr": "Loi n° 22 de 2024 sur le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of South Africa",
+      "resume_fr": "Plafonds d'émissions sectoriels, budgets carbone par entreprise, plans d'adaptation provinciaux et municipaux. Une partie des dispositions est entrée en vigueur en mars 2025 ; les autres attendent leurs règlements d'application.",
+      "resume_en": "Sectoral emission targets, company carbon budgets, provincial and municipal adaptation plans. Part of the Act came into force in March 2025; other parts await implementing regulations.",
+      "lien": "https://www.gov.za/documents/acts/climate-change-act-22-2024-english-tshivenda-23-jul-2024",
+      "source": "officielle"
+    },
+    {
+      "id": "ZAF-05",
+      "pays": "ZAF",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2019-05-23",
+      "langue": "en",
+      "titre_officiel": "Carbon Tax Act, 2019 (Act No. 15 of 2019)",
+      "titre_fr": "Loi n° 15 de 2019 sur la taxe carbone",
+      "type_fr": "Loi fiscale",
+      "type_en": "Tax act",
+      "autorite": "Parliament of South Africa",
+      "resume_fr": "Taxe sur les émissions de gaz à effet de serre en vigueur depuis le 1er juin 2019, avec des abattements progressifs.",
+      "resume_en": "Tax on greenhouse gas emissions in force since 1 June 2019, with phased allowances.",
+      "lien": "https://www.gov.za/documents/acts/carbon-tax-act-15-2019-english-afrikaans-23-may-2019",
+      "source": "officielle"
+    },
+    {
+      "id": "NGA-04",
+      "pays": "NGA",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2021-11",
+      "langue": "en",
+      "titre_officiel": "Climate Change Act, 2021",
+      "titre_fr": "Loi de 2021 sur le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "National Assembly of Nigeria",
+      "resume_fr": "Crée le Conseil national sur le changement climatique, prévoit un budget carbone et un objectif de neutralité carbone fixé entre 2050 et 2070.",
+      "resume_en": "Creates the National Council on Climate Change, provides for a carbon budget and a net zero target set between 2050 and 2070.",
+      "lien": "https://www.climate-laws.org/geographies/nigeria/laws/nigeria-s-climate-change-act",
+      "source": "base_reference"
+    },
+    {
+      "id": "UGA-03",
+      "pays": "UGA",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2021",
+      "langue": "en",
+      "titre_officiel": "National Climate Change Act, 2021",
+      "titre_fr": "Loi nationale de 2021 sur le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Uganda",
+      "resume_fr": "Donne force de loi à l'Accord de Paris, organise les mesures d'atténuation et d'adaptation et la mesure, la notification et la vérification des émissions.",
+      "resume_en": "Gives the force of law to the Paris Agreement, organises mitigation and adaptation measures and the measurement, reporting and verification of emissions.",
+      "lien": "https://bills.parliament.ug/attachments/National%20Climate%20Change%20Act%202021.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "KEN-07",
+      "pays": "KEN",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2023",
+      "langue": "en",
+      "titre_officiel": "Climate Change (Amendment) Act, No. 9 of 2023",
+      "titre_fr": "Loi n° 9 de 2023 modifiant la loi sur le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Kenya",
+      "resume_fr": "Modifie la loi de 2016 sur le changement climatique pour encadrer les marchés du carbone et le partage des bénéfices avec les communautés.",
+      "resume_en": "Amends the 2016 Climate Change Act to regulate carbon markets and benefit sharing with communities.",
+      "lien": "https://leap.unep.org/en/countries/ke/national-legislation/climate-change-amendment-act-no-9-2023",
+      "source": "base_reference"
+    },
+    {
+      "id": "KEN-08",
+      "pays": "KEN",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2024",
+      "langue": "en",
+      "titre_officiel": "Climate Change (Carbon Markets) Regulations, 2024 (L.N. 84 of 2024)",
+      "titre_fr": "Règlement de 2024 sur les marchés du carbone",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Cabinet Secretary for Environment, Climate Change and Forestry",
+      "resume_fr": "Procédures d'autorisation des projets carbone, registre national et règles de transfert de crédits au titre de l'article 6 de l'Accord de Paris.",
+      "resume_en": "Approval procedures for carbon projects, national registry and rules for credit transfers under Article 6 of the Paris Agreement.",
+      "lien": "https://new.kenyalaw.org/akn/ke/act/ln/2024/84/eng@2024-06-07",
+      "source": "base_reference"
+    },
+    {
+      "id": "ZMB-01",
+      "pays": "ZMB",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2024-12-26",
+      "langue": "en",
+      "titre_officiel": "Green Economy and Climate Change Act, 2024 (Act No. 18 of 2024)",
+      "titre_fr": "Loi n° 18 de 2024 sur l'économie verte et le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "National Assembly of Zambia",
+      "resume_fr": "Intègre en droit zambien les engagements de la CCNUCC et de l'Accord de Paris, et encadre les mécanismes de marché du carbone.",
+      "resume_en": "Domesticates UNFCCC and Paris Agreement commitments and regulates carbon market mechanisms.",
+      "lien": "https://zambialii.org/akn/zm/act/2024/18/eng@2024-12-26",
+      "source": "base_reference"
+    },
+    {
+      "id": "ZWE-01",
+      "pays": "ZWE",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2025",
+      "langue": "en",
+      "titre_officiel": "Carbon Trading (General) Regulations, 2025 (S.I. 48 of 2025)",
+      "titre_fr": "Règlement général de 2025 sur l'échange de crédits carbone",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Government of Zimbabwe",
+      "resume_fr": "Remplace le règlement S.I. 150 de 2023. Autorisation et enregistrement des projets carbone, partage des revenus.",
+      "resume_en": "Replaces S.I. 150 of 2023. Approval and registration of carbon projects, revenue sharing.",
+      "lien": "https://leap.unep.org/en/countries/zw/national-legislation/carbon-trading-general-regulations-2025-si-48-2025",
+      "source": "base_reference"
+    },
+    {
+      "id": "GAB-02",
+      "pays": "GAB",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2021-09-13",
+      "langue": "fr",
+      "titre_officiel": "Ordonnance n° 019/2021 du 13 septembre 2021 relative aux changements climatiques",
+      "titre_en": "Ordinance No. 019/2021 of 13 September 2021 on climate change",
+      "type_fr": "Ordonnance",
+      "type_en": "Ordinance",
+      "autorite": "Président de la République gabonaise",
+      "resume_fr": "Cadre juridique national de l'atténuation, de l'adaptation et des marchés du carbone.",
+      "resume_en": "National legal framework for mitigation, adaptation and carbon markets.",
+      "lien": "https://leap.unep.org/en/countries/ga/national-legislation/ordonnance-ndeg-0192021-du-13092021-relative-aux-changements",
+      "source": "base_reference"
+    },
+    {
+      "id": "EGY-03",
+      "pays": "EGY",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2022-05",
+      "langue": "ar",
+      "titre_officiel": "National Climate Change Strategy 2050",
+      "titre_fr": "Stratégie nationale sur le changement climatique 2050",
+      "type_fr": "Stratégie",
+      "type_en": "Strategy",
+      "autorite": "Gouvernement égyptien, ministère de l'Environnement",
+      "resume_fr": "Stratégie lancée en mai 2022, articulée autour de l'atténuation, de l'adaptation, de la gouvernance, du financement et de la recherche.",
+      "resume_en": "Strategy launched in May 2022, built around mitigation, adaptation, governance, finance and research.",
+      "lien": "https://climate-laws.org/document/egypt-national-climate-change-strategy-nccs-2050_d3b1",
+      "source": "base_reference"
+    },
+    {
+      "id": "ETH-01",
+      "pays": "ETH",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2011",
+      "langue": "en",
+      "titre_officiel": "Ethiopia's Climate-Resilient Green Economy (CRGE) Strategy",
+      "titre_fr": "Stratégie éthiopienne d'économie verte résiliente au climat (CRGE)",
+      "type_fr": "Stratégie",
+      "type_en": "Strategy",
+      "autorite": "Federal Democratic Republic of Ethiopia",
+      "resume_fr": "Stratégie de croissance verte et de résilience climatique visant le statut de pays à revenu intermédiaire à l'horizon 2025.",
+      "resume_en": "Green growth and climate resilience strategy aiming at middle-income status by 2025.",
+      "lien": "https://www.undp.org/ethiopia/news/going-green-ethiopia-launches-its-strategy-climate-resilient-green-economy",
+      "source": "officielle"
+    },
+    {
+      "id": "RWA-03",
+      "pays": "RWA",
+      "themes": {
+        "CLI": "integre",
+        "BIO": "integre"
+      },
+      "force": "contraignant",
+      "date": "2018-08-13",
+      "langue": "rw",
+      "titre_officiel": "Law N° 48/2018 of 13/08/2018 on Environment",
+      "titre_fr": "Loi n° 48/2018 du 13/08/2018 sur l'environnement",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement du Rwanda",
+      "resume_fr": "Loi-cadre sur l'environnement, avec des dispositions sur le changement climatique et la conservation de la biodiversité.",
+      "resume_en": "Framework environmental law, with provisions on climate change and biodiversity conservation.",
+      "lien": "https://leap.unep.org/en/akn/rw/act/law/2018/48/eng@2018-09-21",
+      "source": "base_reference"
+    },
+    {
+      "id": "MAR-04",
+      "pays": "MAR",
+      "themes": {
+        "CLI": "integre"
+      },
+      "force": "contraignant",
+      "date": "2014-03-06",
+      "langue": "fr",
+      "titre_officiel": "Loi-cadre n° 99-12 portant Charte nationale de l'environnement et du développement durable",
+      "titre_en": "Framework Law No. 99-12 on the National Charter for the Environment and Sustainable Development",
+      "type_fr": "Loi-cadre",
+      "type_en": "Framework law",
+      "autorite": "Parlement du Maroc",
+      "resume_fr": "Principes et objectifs de l'action publique en matière d'environnement et de développement durable, y compris la lutte contre le changement climatique.",
+      "resume_en": "Principles and objectives of public action on the environment and sustainable development, including action on climate change.",
+      "lien": "https://leap.unep.org/en/countries/ma/national-legislation/la-loi-cadre-ndeg-99-12-du-6-mars-2014-portant-charte-nationale",
+      "source": "base_reference"
+    },
+    {
+      "id": "GHA-04",
+      "pays": "GHA",
+      "themes": {
+        "CLI": "integre"
+      },
+      "force": "contraignant",
+      "date": "2025",
+      "langue": "en",
+      "titre_officiel": "Environmental Protection Act, 2025",
+      "titre_fr": "Loi de 2025 sur la protection de l'environnement",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Ghana",
+      "resume_fr": "Refonte du droit de l'environnement ghanéen, qui intègre des dispositions sur le changement climatique.",
+      "resume_en": "Overhaul of Ghana's environmental law, which includes climate change provisions.",
+      "lien": "https://climate-laws.org/document/environmental-protection-act-2025_1d92",
+      "source": "base_reference"
+    },
+    {
+      "id": "AU-03",
+      "pays": "AU",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2022",
+      "langue": "en",
+      "titre_officiel": "African Union Climate Change and Resilient Development Strategy and Action Plan (2022-2032)",
+      "titre_fr": "Stratégie et plan d'action de l'Union africaine sur le changement climatique et le développement résilient (2022-2032)",
+      "type_fr": "Stratégie",
+      "type_en": "Strategy",
+      "autorite": "Union africaine",
+      "resume_fr": "Cadre continental pour coordonner l'adaptation, l'atténuation et le financement climatique des États membres.",
+      "resume_en": "Continental framework to coordinate member states' adaptation, mitigation and climate finance.",
+      "lien": "https://www.unccd.int/resources/unccd-library/african-union-climate-change-and-resilient-development-strategy-and-action",
+      "source": "base_reference"
+    },
+    {
+      "id": "KEN-09",
+      "pays": "KEN",
+      "themes": {
+        "SOC": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2019-06",
+      "langue": "en",
+      "titre_officiel": "National Action Plan on Business and Human Rights",
+      "titre_fr": "Plan d'action national sur les entreprises et les droits de l'homme",
+      "type_fr": "Plan d'action",
+      "type_en": "Action plan",
+      "autorite": "Government of Kenya",
+      "resume_fr": "Document finalisé en juin 2019 qui décline les Principes directeurs des Nations unies sur cinq ans.",
+      "resume_en": "Document finalised in June 2019 that applies the UN Guiding Principles over five years.",
+      "lien": "https://bhr.knchr.org/Portals/0/Publications/2019%20FINAL%20BHR%20NAP%20JUNE%20PDF.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "UGA-04",
+      "pays": "UGA",
+      "themes": {
+        "SOC": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2021-07-31",
+      "langue": "en",
+      "titre_officiel": "National Action Plan on Business and Human Rights (2021-2026)",
+      "titre_fr": "Plan d'action national sur les entreprises et les droits de l'homme (2021-2026)",
+      "type_fr": "Plan d'action",
+      "type_en": "Action plan",
+      "autorite": "Ministry of Gender, Labour and Social Development",
+      "resume_fr": "Plan quinquennal publié le 31 juillet 2021, piloté par le ministère du Genre, du Travail et du Développement social.",
+      "resume_en": "Five-year plan published on 31 July 2021, led by the Ministry of Gender, Labour and Social Development.",
+      "lien": "https://globalnaps.org/country/uganda/",
+      "source": "base_reference"
+    },
+    {
+      "id": "NGA-05",
+      "pays": "NGA",
+      "themes": {
+        "SOC": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2024",
+      "langue": "en",
+      "titre_officiel": "National Action Plan on Business and Human Rights (2024-2028)",
+      "titre_fr": "Plan d'action national sur les entreprises et les droits de l'homme (2024-2028)",
+      "type_fr": "Plan d'action",
+      "type_en": "Action plan",
+      "autorite": "Federal Government of Nigeria, National Human Rights Commission",
+      "resume_fr": "Plan quinquennal de mise en œuvre des Principes directeurs des Nations unies.",
+      "resume_en": "Five-year plan to implement the UN Guiding Principles.",
+      "lien": "https://globalnaps.org/wp-content/uploads/2024/02/NAP-Nigeria-2024-2028-English.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "LBR-01",
+      "pays": "LBR",
+      "themes": {
+        "SOC": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2024-08-14",
+      "langue": "en",
+      "titre_officiel": "National Action Plan on Business and Human Rights",
+      "titre_fr": "Plan d'action national sur les entreprises et les droits de l'homme",
+      "type_fr": "Plan d'action",
+      "type_en": "Action plan",
+      "autorite": "Government of Liberia",
+      "resume_fr": "Lancé le 14 août 2024. Quatrième plan de ce type adopté en Afrique, après le Kenya, l'Ouganda et le Nigeria.",
+      "resume_en": "Launched on 14 August 2024. Fourth such plan adopted in Africa, after Kenya, Uganda and Nigeria.",
+      "lien": "https://liberia.un.org/en/277457-national-action-plan-business-and-human-rights",
+      "source": "base_reference"
+    },
+    {
+      "id": "KEN-10",
+      "pays": "KEN",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2025-04-04",
+      "langue": "en",
+      "titre_officiel": "Climate Risk Disclosure Framework for the Banking Sector",
+      "titre_fr": "Cadre de publication des risques climatiques pour le secteur bancaire",
+      "type_fr": "Cadre de publication",
+      "type_en": "Disclosure framework",
+      "autorite": "Central Bank of Kenya",
+      "resume_fr": "Publié avec la taxonomie le 4 avril 2025. Aide les banques commerciales à collecter et publier leurs informations climatiques, en cohérence avec IFRS S2 et les principes du Comité de Bâle.",
+      "resume_en": "Issued with the taxonomy on 4 April 2025. Helps commercial banks collect and disclose climate information, consistent with IFRS S2 and Basel Committee principles.",
+      "lien": "https://www.centralbank.go.ke/uploads/press_releases/1726446167_Press%20Release%20-%20Issuance%20of%20the%20Kenya%20Green%20Finance%20Taxonomy%20and%20Climate%20Risk%20Disclosure%20Framework%20for%20the%20Banking%20Sector.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "KEN-11",
+      "pays": "KEN",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2016",
+      "langue": "en",
+      "titre_officiel": "Climate Change Act, No. 11 of 2016",
+      "titre_fr": "Loi n° 11 de 2016 sur le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Kenya",
+      "resume_fr": "Loi-cadre climat. Crée le Conseil national sur le changement climatique et prévoit un plan d'action national. Modifiée en 2023 pour encadrer les marchés du carbone.",
+      "resume_en": "Framework climate law. Establishes the National Climate Change Council and provides for a national action plan. Amended in 2023 to regulate carbon markets.",
+      "lien": "https://new.kenyalaw.org/akn/ke/act/2016/11",
+      "source": "base_reference"
+    },
+    {
+      "id": "TUN-02",
+      "pays": "TUN",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2021-10",
+      "langue": "fr",
+      "titre_officiel": "Guide d'émission d'obligations vertes, socialement responsables et durables en Tunisie",
+      "titre_en": "Guide to issuing green, social and sustainability bonds in Tunisia",
+      "type_fr": "Guide de marché",
+      "type_en": "Market guide",
+      "autorite": "Conseil du marché financier (CMF), avec la SFI",
+      "resume_fr": "Recommandations sur la sélection des projets, le reporting et la revue externe, alignées sur les Principes de l'ICMA. Ce n'est pas un texte réglementaire : les obligations concernées restent soumises au régime des obligations classiques.",
+      "resume_en": "Recommendations on project selection, reporting and external review, aligned with the ICMA Principles. It is not a regulation: these bonds remain subject to the ordinary bond regime.",
+      "lien": "https://cmf.tn/sites/default/files/pdfs/documentation/guides/Guide_d'emission_d'obligations_GSS_2021.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "MAR-05",
+      "pays": "MAR",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2016-11-03",
+      "langue": "fr",
+      "titre_officiel": "Guide sur les green bonds",
+      "titre_en": "Green bonds guide",
+      "type_fr": "Guide de marché",
+      "type_en": "Market guide",
+      "autorite": "Autorité marocaine du marché des capitaux (AMMC)",
+      "resume_fr": "Guide du régulateur à l'intention des émetteurs d'obligations vertes, publié en novembre 2016. Un guide sur les obligations vertes, sociales et durables a suivi en 2018.",
+      "resume_en": "Regulator's guide for green bond issuers, published in November 2016. A guide on green, social and sustainability bonds followed in 2018.",
+      "lien": "https://www.ammc.ma/fr/actualites/communique-presse/lammc-lance-un-guide-sur-les-green-bonds-au-maroc",
+      "source": "officielle"
+    },
+    {
+      "id": "NGA-06",
+      "pays": "NGA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018",
+      "langue": "en",
+      "titre_officiel": "Rules on Green Bonds",
+      "titre_fr": "Règles applicables aux obligations vertes",
+      "type_fr": "Règles de marché",
+      "type_en": "Market rules",
+      "autorite": "Securities and Exchange Commission, Nigeria",
+      "resume_fr": "Règles d'émission d'obligations vertes ajoutées aux règles de la commission en 2018 : usage des fonds, revue externe et reporting.",
+      "resume_en": "Green bond issuance rules added to the Commission's rules in 2018: use of proceeds, external review and reporting.",
+      "lien": "https://www.sbfnetwork.org/wp-content/assets/policy-library/1580_Nigeria_Green_bond_issuance_rules_2018_SEC.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "ZAF-06",
+      "pays": "ZAF",
+      "themes": {
+        "FIN": "dedie",
+        "SOC": "integre"
+      },
+      "force": "volontaire",
+      "date": "2022-06",
+      "langue": "en",
+      "titre_officiel": "JSE Sustainability Disclosure Guidance and JSE Climate Disclosure Guidance",
+      "titre_fr": "Lignes directrices de la JSE sur la publication d'informations de durabilité et sur le climat",
+      "type_fr": "Lignes directrices de bourse",
+      "type_en": "Exchange guidance",
+      "autorite": "Johannesburg Stock Exchange",
+      "resume_fr": "Deux guides d'application volontaire publiés en juin 2022 à l'intention des sociétés cotées. Le volet durabilité couvre aussi les indicateurs sociaux.",
+      "resume_en": "Two voluntary guides published in June 2022 for listed companies. The sustainability guide also covers social indicators.",
+      "lien": "https://www.jse.co.za/sites/default/files/media/documents/JSE%20Sustainability%20Disclosure%20Guidance%20June%202022.pdf",
+      "source": "officielle"
+    },
+    {
+      "id": "EGY-04",
+      "pays": "EGY",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2022",
+      "langue": "ar",
+      "titre_officiel": "Sustainable Finance Binding Regulations",
+      "titre_fr": "Règles contraignantes de finance durable",
+      "type_fr": "Règles prudentielles",
+      "type_en": "Prudential rules",
+      "autorite": "Central Bank of Egypt",
+      "resume_fr": "Chaque banque doit créer un département indépendant de durabilité, intégrer la finance durable dans ses décisions de crédit et d'investissement et publier des rapports périodiques. Annoncées fin 2022.",
+      "resume_en": "Each bank must set up an independent sustainability department, integrate sustainable finance into lending and investment decisions and issue periodic reports. Announced in late 2022.",
+      "lien": "https://www.sbfnetwork.org/wp-content/assets/policy-library/688_Sustainable_Finance_Binding_Regulations_Egypt.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "NER-01",
+      "pays": "NER",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2014-11-05",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2014-63 du 5 novembre 2014 portant interdiction de la production, de l'importation, de la commercialisation, de l'utilisation et du stockage des sachets et des emballages en plastique souple à basse densité",
+      "titre_en": "Law No. 2014-63 of 5 November 2014 banning low-density flexible plastic bags and packaging",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Niger",
+      "resume_fr": "Modalités d'application fixées par le décret n° 2015-321 du 25 juin 2015.",
+      "resume_en": "Implementing rules set by Decree No. 2015-321 of 25 June 2015.",
+      "lien": "https://leap.unep.org/en/countries/ne/national-legislation/loi-ndeg-2014-63-du-05-novembre-2014-portant-interdiction-de-la",
+      "source": "base_reference"
+    },
+    {
+      "id": "MRT-01",
+      "pays": "MRT",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2012-06-21",
+      "langue": "fr",
+      "titre_officiel": "Décret n° 2012-157 du 21 juin 2012 portant interdiction de la fabrication, de l'importation, de la commercialisation et de l'utilisation des sachets et emballages en plastique souple",
+      "titre_en": "Decree No. 2012-157 of 21 June 2012 banning flexible plastic bags and packaging",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Gouvernement de la Mauritanie",
+      "resume_fr": "Interdiction des sachets et emballages en plastique souple.",
+      "resume_en": "Ban on flexible plastic bags and packaging.",
+      "lien": "https://leap.unep.org/en/countries/mr/national-legislation/decret-ndeg-2012-157-du-21-juin-2012-portant-interdiction-de-la",
+      "source": "base_reference"
+    },
+    {
+      "id": "COD-01",
+      "pays": "COD",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2017-12-30",
+      "langue": "fr",
+      "titre_officiel": "Décret n° 17/018 du 30 décembre 2017 portant interdiction de production, d'importation, de commercialisation et d'utilisation des sacs, sachets, films et autres emballages en plastique",
+      "titre_en": "Decree No. 17/018 of 30 December 2017 banning plastic bags, sachets, films and other plastic packaging",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Premier ministre de la RDC",
+      "resume_fr": "Vise les emballages plastiques pour aliments, eau et boissons, ainsi que les emballages non biodégradables. Publié au Journal officiel le 1er mars 2018.",
+      "resume_en": "Covers plastic packaging for food, water and beverages, and non-biodegradable packaging. Published in the Official Gazette on 1 March 2018.",
+      "lien": "https://faolex.fao.org/docs/pdf/Cng189575.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "COD-02",
+      "pays": "COD",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2014-02-11",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 14/003 du 11 février 2014 relative à la conservation de la nature",
+      "titre_en": "Law No. 14/003 of 11 February 2014 on nature conservation",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement de la RDC",
+      "resume_fr": "Cadre de la conservation de la diversité biologique, des aires protégées et de l'accès aux ressources génétiques. Modifiée par la loi n° 24/020 du 30 décembre 2024.",
+      "resume_en": "Framework for biological diversity conservation, protected areas and access to genetic resources. Amended by Law No. 24/020 of 30 December 2024.",
+      "lien": "https://leap.unep.org/en/countries/cd/national-legislation/loi-ndeg-14003-du-11-fevrier-2014-relative-la-conservation-de-la",
+      "source": "base_reference"
+    },
+    {
+      "id": "CMR-01",
+      "pays": "CMR",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2012-10-24",
+      "langue": "fr",
+      "titre_officiel": "Arrêté conjoint n° 004/MINEPDED/MINCOMMERCE du 24 octobre 2012 portant réglementation de la fabrication, de l'importation et de la commercialisation des emballages non biodégradables",
+      "titre_en": "Joint Order No. 004/MINEPDED/MINCOMMERCE of 24 October 2012 regulating non-biodegradable packaging",
+      "type_fr": "Arrêté",
+      "type_en": "Ministerial order",
+      "autorite": "Ministères de l'Environnement et du Commerce",
+      "resume_fr": "Interdit la fabrication, l'importation et la commercialisation d'emballages plastiques non biodégradables, sous réserve d'exceptions.",
+      "resume_en": "Bans the manufacture, import and sale of non-biodegradable plastic packaging, subject to exceptions.",
+      "lien": "https://leap.unep.org/en/countries/cm/national-legislation/arrete-conjoint-no004-minepdedmincommerce-du-24-octobre-2012",
+      "source": "base_reference"
+    },
+    {
+      "id": "MDG-02",
+      "pays": "MDG",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2014-10-07",
+      "langue": "fr",
+      "titre_officiel": "Décret n° 2014-1587 du 7 octobre 2014 portant interdiction de la production, de l'importation, de la commercialisation et de l'utilisation des sachets et des sacs plastiques sur le territoire national",
+      "titre_en": "Decree No. 2014-1587 of 7 October 2014 banning plastic sachets and bags nationwide",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Gouvernement de Madagascar",
+      "resume_fr": "Vise les sacs et sachets de 50 microns ou moins. Importation interdite à partir du 1er mai 2015, production, vente et usage à partir du 1er octobre 2015. Emballages médicaux exclus.",
+      "resume_en": "Covers bags and sachets of 50 microns or less. Imports banned from 1 May 2015; production, sale and use from 1 October 2015. Medical packaging excluded.",
+      "lien": "https://faolex.fao.org/docs/pdf/mad146115.pdf",
+      "source": "base_reference"
+    },
+    {
+      "id": "GMB-01",
+      "pays": "GMB",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015",
+      "langue": "en",
+      "titre_officiel": "Ban on Plastic Bags Order 2015",
+      "titre_fr": "Ordonnance de 2015 interdisant les sacs plastiques",
+      "type_fr": "Ordonnance",
+      "type_en": "Order",
+      "autorite": "Government of The Gambia",
+      "resume_fr": "Interdit l'importation, la vente et l'usage des sacs plastiques. Application à partir du 1er juillet 2015.",
+      "resume_en": "Bans the import, sale and use of plastic bags. Applied from 1 July 2015.",
+      "lien": "https://leap.unep.org/en/countries/gm/national-legislation/ban-plastic-bags-order-2015",
+      "source": "base_reference"
+    },
+    {
+      "id": "BWA-01",
+      "pays": "BWA",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018-06-01",
+      "langue": "en",
+      "titre_officiel": "Waste Management (Plastic Carrier Bags and Plastic Flat Bags Prohibition) Regulations, 2018 (S.I. No. 74 of 2018)",
+      "titre_fr": "Règlement de 2018 interdisant les sacs plastiques",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister of Environment, Natural Resources Conservation and Tourism",
+      "resume_fr": "Interdiction des sacs plastiques de caisse et des sacs plats, prise en application de la loi sur la gestion des déchets.",
+      "resume_en": "Ban on plastic carrier bags and flat bags, made under the Waste Management Act.",
+      "lien": "https://elaw.org/resource/bw_plasticlaws",
+      "source": "secondaire"
+    },
+    {
+      "id": "SYC-01",
+      "pays": "SYC",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2017-06-30",
+      "langue": "en",
+      "titre_officiel": "Environment Protection (Restriction on Importation, Distribution and Sale of Plastic Utensils and Polystyrene Boxes) Regulations, 2017 (S.I. 38 of 2017)",
+      "titre_fr": "Règlement de 2017 restreignant les ustensiles en plastique et les boîtes en polystyrène",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister responsible for Environment",
+      "resume_fr": "Interdit la fabrication, l'importation, la distribution et la vente d'ustensiles en plastique et de boîtes alimentaires en polystyrène. En vigueur depuis le 1er juillet 2017.",
+      "resume_en": "Bans the manufacture, import, distribution and sale of plastic utensils and polystyrene food boxes. In force since 1 July 2017.",
+      "lien": "https://seylii.org/akn/sc/act/si/2017/38",
+      "source": "base_reference"
+    },
+    {
+      "id": "MWI-01",
+      "pays": "MWI",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015",
+      "langue": "en",
+      "titre_officiel": "Environment Management (Plastics) Regulations, 2015",
+      "titre_fr": "Règlement de 2015 sur les plastiques",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Government of Malawi",
+      "resume_fr": "Interdit les plastiques minces. Contestée par des fabricants, l'interdiction a été confirmée par la Cour suprême d'appel en juillet 2019.",
+      "resume_en": "Bans thin plastics. Challenged by manufacturers, the ban was upheld by the Supreme Court of Appeal in July 2019.",
+      "lien": "https://leap.unep.org/en/countries/mw/national-legislation/environment-management-plastics-regulations-2015",
+      "source": "base_reference"
+    },
+    {
+      "id": "MWI-02",
+      "pays": "MWI",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018-12-12",
+      "langue": "en",
+      "titre_officiel": "Environment Management (Climate Change Fund) Regulations, 2018",
+      "titre_fr": "Règlement de 2018 sur le fonds pour le changement climatique",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister responsible for Environment",
+      "resume_fr": "Organise le fonds national pour le changement climatique prévu par la loi de 2017 sur la gestion de l'environnement.",
+      "resume_en": "Organises the national climate change fund provided for by the 2017 Environment Management Act.",
+      "lien": "https://malawilii.org/akn/mw/act/gn/2018/87/eng@2018-12-12",
+      "source": "base_reference"
+    },
+    {
+      "id": "COG-01",
+      "pays": "COG",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2008-11-28",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 37-2008 du 28 novembre 2008 sur la faune et les aires protégées",
+      "titre_en": "Law No. 37-2008 of 28 November 2008 on wildlife and protected areas",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement de la République du Congo",
+      "resume_fr": "Protection de la faune, classement et gestion des aires protégées, sanctions contre le braconnage.",
+      "resume_en": "Wildlife protection, designation and management of protected areas, penalties for poaching.",
+      "lien": "https://leap.unep.org/en/countries/cg/national-legislation/loi-no-37-2008-sur-la-faune-et-les-aires-protegees",
+      "source": "base_reference"
+    },
+    {
+      "id": "CIV-02",
+      "pays": "CIV",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2002-02-11",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2002-102 du 11 février 2002 relative à la création, à la gestion et au financement des parcs nationaux et des réserves naturelles",
+      "titre_en": "Law No. 2002-102 of 11 February 2002 on the creation, management and financing of national parks and nature reserves",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale de Côte d'Ivoire",
+      "resume_fr": "Régime des parcs nationaux et réserves naturelles et de leur financement.",
+      "resume_en": "Legal regime for national parks and nature reserves and their financing.",
+      "lien": "https://civlii.laws.africa/en/akn/ci/act/2002/102/fra@2024-01-26/source",
+      "source": "base_reference"
+    },
+    {
+      "id": "ETH-02",
+      "pays": "ETH",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2007",
+      "langue": "en",
+      "titre_officiel": "Development, Conservation and Utilization of Wildlife Proclamation No. 541/2007",
+      "titre_fr": "Proclamation n° 541/2007 sur le développement, la conservation et l'utilisation de la faune sauvage",
+      "type_fr": "Proclamation",
+      "type_en": "Proclamation",
+      "autorite": "Federal Democratic Republic of Ethiopia",
+      "resume_fr": "Cadre fédéral de la conservation de la faune et des aires protégées. Complétée par le règlement n° 163/2008 du Conseil des ministres.",
+      "resume_en": "Federal framework for wildlife and protected area conservation. Supplemented by Council of Ministers Regulations No. 163/2008.",
+      "lien": "https://leap.unep.org/en/countries/et/national-legislation/development-conservation-and-utilization-wildlife-proclamation-no",
+      "source": "base_reference"
+    },
+    {
+      "id": "BEN-02",
+      "pays": "BEN",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018-08-06",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2018-18 du 6 août 2018 sur les changements climatiques",
+      "titre_en": "Law No. 2018-18 of 6 August 2018 on climate change",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Bénin",
+      "resume_fr": "Loi-cadre sur l'atténuation et l'adaptation, l'organisation institutionnelle de l'action climatique et son financement.",
+      "resume_en": "Framework law on mitigation and adaptation, the institutional organisation of climate action and its financing.",
+      "lien": "https://sgg.gouv.bj/doc/loi-2018-18/download",
+      "source": "officielle"
+    },
+    {
+      "id": "TZA-04",
+      "pays": "TZA",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2022-10-28",
+      "langue": "en",
+      "titre_officiel": "Environmental Management (Control and Management of Carbon Trading) Regulations, 2022 (G.N. No. 636)",
+      "titre_fr": "Règlement de 2022 sur le contrôle et la gestion des échanges de crédits carbone",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister responsible for Environment",
+      "resume_fr": "Enregistrement des projets carbone, partage des revenus et rôle du centre national de suivi du carbone. Modifié en 2023.",
+      "resume_en": "Registration of carbon projects, revenue sharing and role of the national carbon monitoring centre. Amended in 2023.",
+      "lien": "https://tanzlii.org/en/akn/tz/act/gn/2022/636/eng@2022-10-28",
+      "source": "base_reference"
+    },
+    {
+      "id": "MUS-03",
+      "pays": "MUS",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020",
+      "langue": "en",
+      "titre_officiel": "Climate Change Act 2020 (Act No. 11 of 2020)",
+      "titre_fr": "Loi n° 11 de 2020 sur le changement climatique",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "National Assembly of Mauritius",
+      "resume_fr": "Cadre institutionnel de l'action climatique, inventaire des émissions et obligations de rapport des ministères et organismes publics.",
+      "resume_en": "Institutional framework for climate action, emissions inventory and reporting duties of ministries and public bodies.",
+      "lien": "https://leap.unep.org/en/countries/mu/national-legislation/climate-change-act-no-11-2020",
+      "source": "base_reference"
+    },
+    {
+      "id": "AGO-01",
+      "pays": "AGO",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020-04-16",
+      "langue": "pt",
+      "titre_officiel": "Lei n.º 8/20, de 16 de Abril, Lei das Áreas de Conservação Ambiental",
+      "titre_fr": "Loi n° 8/20 du 16 avril 2020 sur les aires de conservation environnementale",
+      "titre_en": "Law No. 8/20 of 16 April 2020 on Environmental Conservation Areas",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assembleia Nacional de Angola",
+      "resume_fr": "Crée le système national des aires de conservation et fixe cinq catégories, des réserves naturelles aux paysages protégés. Modifiée par la loi n° 12/21 du 7 mai 2021, qui encadre des activités extractives dans certaines aires ; règlement d'application adopté par le décret présidentiel n° 50/24.",
+      "resume_en": "Creates the national system of conservation areas and sets five categories, from nature reserves to protected landscapes. Amended by Law No. 12/21 of 7 May 2021, which regulates extractive activities in certain areas; implementing regulation adopted by Presidential Decree No. 50/24.",
+      "lien": "https://faolex.fao.org/docs/pdf/ang194819.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "BDI-01",
+      "pays": "BDI",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018-08-08",
+      "langue": "fr",
+      "titre_officiel": "Décret n° 100/099 du 8 août 2018 portant interdiction de l'importation, de la fabrication, de la commercialisation et de l'utilisation des sachets et d'autres emballages en plastique",
+      "titre_en": "Decree No. 100/099 of 8 August 2018 banning the import, manufacture, sale and use of plastic bags and other plastic packaging",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Présidence de la République du Burundi",
+      "resume_fr": "Interdit les sachets et autres emballages en plastique, avec des exceptions (usages médicaux, industriels, pharmaceutiques, construction, recherche). Délai de dix-huit mois pour écouler les stocks.",
+      "resume_en": "Bans plastic bags and other plastic packaging, with exceptions (medical, industrial, pharmaceutical, construction and research uses). Eighteen-month period to use up stocks.",
+      "lien": "https://faolex.fao.org/docs/pdf/Bur179818.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "ERI-01",
+      "pays": "ERI",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2004-09-17",
+      "langue": "en",
+      "titre_officiel": "Regulations to Amend the Production, Importation, Sale or Distribution of Thin Plastic Bags Prohibition in Eritrea, Legal Notice No. 99/2004",
+      "titre_fr": "Règlement modifiant l'interdiction de la production, de l'importation, de la vente et de la distribution des sacs plastiques minces, avis légal n° 99/2004",
+      "type_fr": "Avis légal",
+      "type_en": "Legal notice",
+      "autorite": "Government of the State of Eritrea",
+      "resume_fr": "Remplace l'article 2 de l'avis légal n° 63/2002 et interdit la production, l'importation, la vente et la distribution des sacs en polyéthylène d'une épaisseur inférieure ou égale à 0,1 mm.",
+      "resume_en": "Replaces Article 2 of Legal Notice No. 63/2002 and bans the production, import, sale and distribution of polyethylene bags no more than 0.1 mm thick.",
+      "lien": "https://faolex.fao.org/docs/pdf/eri202836.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "TGO-01",
+      "pays": "TGO",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2011-01-05",
+      "langue": "fr",
+      "titre_officiel": "Décret n° 2011-003/PR du 5 janvier 2011 fixant les modalités de gestion des sachets et emballages plastiques au Togo",
+      "titre_en": "Decree No. 2011-003/PR of 5 January 2011 on the management of plastic bags and packaging in Togo",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Présidence de la République togolaise",
+      "resume_fr": "Interdit la production, l'importation, la distribution et la vente des sachets et emballages plastiques non biodégradables. Oblige producteurs et utilisateurs professionnels à reprendre et collecter les sachets usagés.",
+      "resume_en": "Bans the production, import, distribution and sale of non-biodegradable plastic bags and packaging. Requires producers and professional users to take back and collect used bags.",
+      "lien": "https://leap.unep.org/en/countries/tg/national-legislation/decret-ndeg-2011-003-pr-du-05-janvier-2011-fixant-les-modalites",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "STP-01",
+      "pays": "STP",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020",
+      "langue": "pt",
+      "titre_officiel": "Lei n.º 8/2020 que aprova medidas de redução do uso de sacos de plástico",
+      "titre_fr": "Loi n° 8/2020 portant mesures de réduction de l'usage des sacs plastiques",
+      "titre_en": "Law No. 8/2020 approving measures to reduce the use of plastic bags",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assembleia Nacional de São Tomé e Príncipe",
+      "resume_fr": "Mesures de réduction de l'usage des sacs plastiques.",
+      "resume_en": "Measures to reduce the use of plastic bags.",
+      "lien": "https://leap.unep.org/en/countries/st/national-legislation/law-no-82020-approving-measures-reduce-use-plastic-bags-sao-tome",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "SWZ-01",
+      "pays": "SWZ",
+      "themes": {
+        "CIR": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2021",
+      "langue": "en",
+      "titre_officiel": "Control of Plastic Bags Regulations, 2021",
+      "titre_fr": "Règlement de 2021 sur le contrôle des sacs plastiques",
+      "type_fr": "Règlement",
+      "type_en": "Regulations",
+      "autorite": "Minister responsible for Environment",
+      "resume_fr": "Pris en application de l'article 89 de la loi de 2002 sur la gestion de l'environnement. Vise les sacs d'une épaisseur inférieure à 24 micromètres ; interdiction annoncée à compter du 1er décembre 2024.",
+      "resume_en": "Made under section 89 of the 2002 Environment Management Act. Covers bags thinner than 24 micrometres; ban announced from 1 December 2024.",
+      "lien": "https://leap.unep.org/en/countries/sz/national-legislation/control-plastic-bag-regulations-2021",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "LSO-01",
+      "pays": "LSO",
+      "themes": {
+        "BIO": "integre",
+        "CIR": "integre"
+      },
+      "force": "contraignant",
+      "date": "2008-12-05",
+      "langue": "en",
+      "titre_officiel": "Environment Act, 2008 (Act No. 10 of 2008)",
+      "titre_fr": "Loi n° 10 de 2008 sur l'environnement",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Lesotho",
+      "resume_fr": "Loi-cadre sur l'environnement. Dispositions sur la conservation de la diversité biologique et les ressources génétiques (articles 65 à 68) et sur la gestion des déchets dangereux (articles 74 à 80).",
+      "resume_en": "Framework environmental law. Provisions on biological diversity conservation and genetic resources (sections 65 to 68) and on hazardous waste management (sections 74 to 80).",
+      "lien": "https://lesotholii.org/akn/ls/act/2008/10/eng@2008-12-05",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "NAM-01",
+      "pays": "NAM",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1975",
+      "langue": "en",
+      "titre_officiel": "Nature Conservation Ordinance, 1975 (Ordinance 4 of 1975)",
+      "titre_fr": "Ordonnance n° 4 de 1975 sur la conservation de la nature",
+      "type_fr": "Ordonnance",
+      "type_en": "Ordinance",
+      "autorite": "South West Africa administration (pre-independence text kept in force)",
+      "resume_fr": "Texte de base de la protection de la faune et de la flore et des aires de conservation en Namibie, modifié à plusieurs reprises, notamment pour alourdir les sanctions contre la criminalité faunique.",
+      "resume_en": "Core text for wildlife and flora protection and conservation areas in Namibia, amended several times, including to increase penalties for wildlife crime.",
+      "lien": "https://namiblii.org/akn/na/act/ord/1975/4",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "SLE-01",
+      "pays": "SLE",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2012",
+      "langue": "en",
+      "titre_officiel": "National Protected Area Authority and Conservation Trust Fund Act, 2012",
+      "titre_fr": "Loi de 2012 sur l'Autorité nationale des aires protégées et le fonds fiduciaire de conservation",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Sierra Leone",
+      "resume_fr": "Crée l'autorité chargée des aires protégées et un fonds fiduciaire pour financer la conservation.",
+      "resume_en": "Establishes the protected areas authority and a trust fund to finance conservation.",
+      "lien": "https://climate-laws.org/documents/the-national-protected-area-authority-and-conservation-trust-fund-act-2012_6128",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "SLE-02",
+      "pays": "SLE",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2022-07-14",
+      "langue": "en",
+      "titre_officiel": "Wildlife Conservation (Amendment) Act, 2022 (Act No. 10 of 2022)",
+      "titre_fr": "Loi n° 10 de 2022 modifiant la loi sur la conservation de la faune sauvage",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Sierra Leone",
+      "resume_fr": "Modifie la loi sur la conservation de la faune sauvage.",
+      "resume_en": "Amends the Wildlife Conservation Act.",
+      "lien": "https://www.parliament.gov.sl/uploads/acts/THE%20WILDLIFE%20CONSERVATION%20(AMENDMENT)ACT,2022%20-%2014TH%20JULY,%202022.pdf",
+      "source": "officielle",
+      "nouveau": true
+    },
+    {
+      "id": "SOM-01",
+      "pays": "SOM",
+      "themes": {
+        "CLI": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2020",
+      "langue": "en",
+      "titre_officiel": "National Climate Change Policy (2020, updated 2023)",
+      "titre_fr": "Politique nationale sur le changement climatique (2020, mise à jour en 2023)",
+      "type_fr": "Politique",
+      "type_en": "Policy",
+      "autorite": "Federal Government of Somalia",
+      "resume_fr": "Cadre national de l'adaptation et de l'atténuation, actualisé en 2023.",
+      "resume_en": "National framework for adaptation and mitigation, updated in 2023.",
+      "lien": "https://climate-laws.org/document/national-climate-change-policy-2020_e9d2",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "CAF-01",
+      "pays": "CAF",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2020-11-30",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 20.026 du 30 novembre 2020 portant code de gestion de la faune et des aires protégées",
+      "titre_en": "Law No. 20.026 of 30 November 2020 on the wildlife and protected areas management code",
+      "type_fr": "Code",
+      "type_en": "Code",
+      "autorite": "Assemblée nationale centrafricaine",
+      "resume_fr": "Code de gestion de la faune sauvage et des aires protégées de la République centrafricaine.",
+      "resume_en": "Code for the management of wildlife and protected areas in the Central African Republic.",
+      "lien": "https://cms.int/bukhara-deer/fr/document/loi-n%C2%BA-20026-du-30-novembre-2020-portant-code-de-gestion-de-la-faune-et-des-aires-prot%C3%A9g%C3%A9es",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "TCD-01",
+      "pays": "TCD",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2008",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 14/PR/2008 portant régime des forêts, de la faune et des ressources halieutiques",
+      "titre_en": "Law No. 14/PR/2008 on forests, wildlife and fishery resources",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Tchad",
+      "resume_fr": "Régime de la faune et des aires protégées, en même temps que celui des forêts et de la pêche. Décret d'application n° 380/PR/PM/MAE/2014.",
+      "resume_en": "Regime for wildlife and protected areas, together with forests and fisheries. Implementing Decree No. 380/PR/PM/MAE/2014.",
+      "lien": "https://leap.unep.org/en/countries/td/national-legislation/loi-no-14pr2008-portant-regime-des-forets-de-la-faune-et-des",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "DJI-01",
+      "pays": "DJI",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2025-04-17",
+      "langue": "fr",
+      "titre_officiel": "Loi du 17 avril 2025 relative aux aires protégées",
+      "titre_en": "Law of 17 April 2025 on protected areas",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale de Djibouti",
+      "resume_fr": "Nouveau régime des aires protégées terrestres et marines de Djibouti.",
+      "resume_en": "New regime for Djibouti's terrestrial and marine protected areas.",
+      "lien": "https://leap.unep.org/en/countries/dj/national-legislation/loi-ndeg-16an239eme-l-du-17-avril-2025-relative-aux-aires",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "DJI-02",
+      "pays": "DJI",
+      "themes": {
+        "CIR": "integre",
+        "BIO": "integre"
+      },
+      "force": "contraignant",
+      "date": "2009",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 51/AN/09/6ème L portant Code de l'environnement",
+      "titre_en": "Law No. 51/AN/09/6th L on the Environmental Code",
+      "type_fr": "Code",
+      "type_en": "Code",
+      "autorite": "Assemblée nationale de Djibouti",
+      "resume_fr": "Code de l'environnement. Chapitre sur les déchets (articles 75 à 88) et chapitre sur les ressources végétales et animales et les aires protégées.",
+      "resume_en": "Environmental code. Chapter on waste (articles 75 to 88) and chapter on plant and animal resources and protected areas.",
+      "lien": "https://ccd.dj/wp-content/uploads/2022/06/code-de-l-environnement.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "GNQ-01",
+      "pays": "GNQ",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1988",
+      "langue": "es",
+      "titre_officiel": "Ley n.º 8/1988 reguladora de la fauna silvestre, caza y áreas protegidas",
+      "titre_fr": "Loi n° 8/1988 sur la faune sauvage, la chasse et les aires protégées",
+      "titre_en": "Law No. 8/1988 on wildlife, hunting and protected areas",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Cámara de Representantes del Pueblo",
+      "resume_fr": "Régime de la faune sauvage, de la chasse et des aires protégées de Guinée équatoriale.",
+      "resume_en": "Regime for wildlife, hunting and protected areas in Equatorial Guinea.",
+      "lien": "https://www.ecolex.org/es/details/legislation/ley-no-81988-reguladora-de-la-fauna-silvestre-caza-y-areas-protegidas-lex-faoc011874/",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "GNB-01",
+      "pays": "GNB",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2011",
+      "langue": "pt",
+      "titre_officiel": "Decreto-Lei n.º 5-A/2011, Lei-Quadro das Áreas Protegidas",
+      "titre_fr": "Décret-loi n° 5-A/2011 portant loi-cadre sur les aires protégées",
+      "titre_en": "Decree-Law No. 5-A/2011, Framework Law on Protected Areas",
+      "type_fr": "Décret-loi",
+      "type_en": "Decree-law",
+      "autorite": "Governo da Guiné-Bissau",
+      "resume_fr": "Cadre juridique des aires protégées, sous la tutelle de l'Institut de la biodiversité et des aires protégées (IBAP).",
+      "resume_en": "Legal framework for protected areas, overseen by the Institute for Biodiversity and Protected Areas (IBAP).",
+      "lien": "https://leap.unep.org/en/countries/gw/national-legislation/decree-law-no-5-a2011-establishing-legal-framework-protected",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "GNB-02",
+      "pays": "GNB",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2017-06-27",
+      "langue": "pt",
+      "titre_officiel": "Decreto n.º 15/2017 que classifica o Parque Nacional do Boé",
+      "titre_fr": "Décret n° 15/2017 portant classement du parc national de Boé",
+      "titre_en": "Decree No. 15/2017 classifying Boé National Park",
+      "type_fr": "Décret",
+      "type_en": "Decree",
+      "autorite": "Governo da Guiné-Bissau",
+      "resume_fr": "Crée le parc national de Boé (105 373 hectares, bassin du Corubal). Promulgué le 27 juin 2017 avec le décret n° 13/2017 sur le parc de Dulombi.",
+      "resume_en": "Creates Boé National Park (105,373 hectares, Corubal basin). Promulgated on 27 June 2017 along with Decree No. 13/2017 on Dulombi Park.",
+      "lien": "https://faolex.fao.org/docs/pdf/gbs206864.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "SSD-01",
+      "pays": "SSD",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2003",
+      "langue": "en",
+      "titre_officiel": "Wild Life Conservation and National Parks Act, 2003",
+      "titre_fr": "Loi de 2003 sur la conservation de la faune et les parcs nationaux",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Southern Sudan authorities (before independence in 2011)",
+      "resume_fr": "Texte de référence sur la faune et les parcs nationaux, adopté avant l'indépendance et recensé comme législation en vigueur du Soudan du Sud.",
+      "resume_en": "Reference text on wildlife and national parks, adopted before independence and recorded as South Sudanese legislation in force.",
+      "lien": "https://leap.unep.org/en/countries/ss/national-legislation/wild-life-conservation-and-national-parks-act-2003",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "SDN-01",
+      "pays": "SDN",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1986",
+      "langue": "ar",
+      "titre_officiel": "Wildlife and National Parks Protection Act, 1986",
+      "titre_fr": "Loi de 1986 sur la protection de la faune et des parcs nationaux",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Gouvernement du Soudan",
+      "resume_fr": "Protection de la faune sauvage et régime des parcs nationaux.",
+      "resume_en": "Wildlife protection and national park regime.",
+      "lien": "https://leap.unep.org/en/countries/sd/national-legislation/wildlife-and-national-parks-protection-act-1986",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "LBY-01",
+      "pays": "LBY",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1989",
+      "langue": "ar",
+      "titre_officiel": "Law No. 15 of 1989 on the Protection of Animals and Trees",
+      "titre_fr": "Loi n° 15 de 1989 sur la protection des animaux et des arbres",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Libyan authorities",
+      "resume_fr": "Protection des animaux sauvages et des arbres.",
+      "resume_en": "Protection of wild animals and trees.",
+      "lien": "https://leap.unep.org/en/countries/ly/national-legislation/law-no15-1989-animals-and-trees-protection",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "GIN-03",
+      "pays": "GIN",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018-06-20",
+      "langue": "fr",
+      "titre_officiel": "Loi ordinaire L/2018/0049/AN du 20 juin 2018 portant code de protection de la faune sauvage et réglementation de la chasse",
+      "titre_en": "Ordinary Law L/2018/0049/AN of 20 June 2018 on the code for wildlife protection and hunting regulation",
+      "type_fr": "Code",
+      "type_en": "Code",
+      "autorite": "Assemblée nationale de Guinée",
+      "resume_fr": "Protection des espèces sauvages, régime de la chasse et sanctions contre le commerce illégal d'espèces protégées.",
+      "resume_en": "Protection of wild species, hunting regime and penalties against illegal trade in protected species.",
+      "lien": "https://cms.int/lions/en/document/ordinary-law-l20180049an-20-june-2018-code-protection-wildlife-and-regulation-hunting",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "DZA-02",
+      "pays": "DZA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2011-02-17",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 11-02 du 17 février 2011 relative aux aires protégées dans le cadre du développement durable",
+      "titre_en": "Law No. 11-02 of 17 February 2011 on protected areas in the context of sustainable development",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement algérien",
+      "resume_fr": "Classification, création et gestion des aires protégées.",
+      "resume_en": "Classification, creation and management of protected areas.",
+      "lien": "https://leap.unep.org/en/countries/dz/national-legislation/loi-no-11-02-du-14-rabie-el-aouel-1432-correspondant-au-17",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "EGY-05",
+      "pays": "EGY",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1983",
+      "langue": "ar",
+      "titre_officiel": "Law No. 102 of 1983 on Natural Protected Areas",
+      "titre_fr": "Loi n° 102 de 1983 sur les aires naturelles protégées",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement égyptien",
+      "resume_fr": "Base juridique des aires protégées égyptiennes, appliquée par la résolution n° 1067 de 1983.",
+      "resume_en": "Legal basis of Egypt's protected areas, implemented by Resolution No. 1067 of 1983.",
+      "lien": "https://leap.unep.org/en/countries/eg/national-legislation/law-no-102-1983-natural-protected-areas",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "ZMB-02",
+      "pays": "ZMB",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2015-08-14",
+      "langue": "en",
+      "titre_officiel": "Zambia Wildlife Act, 2015 (Act No. 14 of 2015)",
+      "titre_fr": "Loi n° 14 de 2015 sur la faune sauvage",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "National Assembly of Zambia",
+      "resume_fr": "Gestion de la faune, des parcs nationaux et des zones de gestion du gibier, et participation des communautés.",
+      "resume_en": "Management of wildlife, national parks and game management areas, and community participation.",
+      "lien": "https://zambialii.org/akn/zm/act/2015/14/eng@2015-08-14",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "ZMB-03",
+      "pays": "ZMB",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2019",
+      "langue": "en",
+      "titre_officiel": "Securities (Green Bonds) Guidelines, 2019",
+      "titre_fr": "Lignes directrices de 2019 sur les obligations vertes",
+      "type_fr": "Lignes directrices de marché",
+      "type_en": "Market guidelines",
+      "autorite": "Securities and Exchange Commission of Zambia",
+      "resume_fr": "Cadre d'émission et de cotation des obligations vertes en Zambie.",
+      "resume_en": "Framework for issuing and listing green bonds in Zambia.",
+      "lien": "https://regalert.today/document/the-securities-green-bonds-guidelines-2019-c27f1313-79ab-447c-ac15-d30366d6bbda",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "ZMB-04",
+      "pays": "ZMB",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2023-10-06",
+      "langue": "en",
+      "titre_officiel": "Green Loans Guidelines, 2023 (Gazette Notice No. 1349 of 2023)",
+      "titre_fr": "Lignes directrices de 2023 sur les prêts verts",
+      "type_fr": "Lignes directrices prudentielles",
+      "type_en": "Prudential guidance",
+      "autorite": "Bank of Zambia",
+      "resume_fr": "Prises en vertu de la loi de 2017 sur les services bancaires et financiers et publiées au Journal officiel le 6 octobre 2023. Encadrent l'octroi de prêts verts par le secteur financier.",
+      "resume_en": "Issued under the Banking and Financial Services Act 2017 and gazetted on 6 October 2023. Frame green lending by the financial sector.",
+      "lien": "https://www.afriwise.com/blog/zambia-takes-pioneering-steps-the-green-loans-guidelines-2023",
+      "source": "secondaire",
+      "nouveau": true
+    },
+    {
+      "id": "RWA-04",
+      "pays": "RWA",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2025-01-07",
+      "langue": "en",
+      "titre_officiel": "Guidelines for Issuance of Green, Social, Sustainability and other Labels (GSS+) Bonds",
+      "titre_fr": "Lignes directrices sur l'émission d'obligations vertes, sociales, durables et autres labels (GSS+)",
+      "type_fr": "Lignes directrices de marché",
+      "type_en": "Market guidelines",
+      "autorite": "Capital Market Authority, Rwanda",
+      "resume_fr": "Annoncées le 7 janvier 2025. Encadrent l'émission publique et la cotation des obligations GSS+, sur la base des principes de l'ICMA et de la Climate Bonds Initiative. Les émissions privées sont hors champ.",
+      "resume_en": "Announced on 7 January 2025. Frame the public issuance and listing of GSS+ bonds, based on ICMA and Climate Bonds Initiative principles. Private issuance is out of scope.",
+      "lien": "https://www.cma.rw/news-publications/press-center/rwandas-capital-market-authority-issues-guidelines-for-issuance-of-green-social-sustainability-and-other-labels-gss-bonds",
+      "source": "officielle",
+      "nouveau": true
+    },
+    {
+      "id": "RWA-05",
+      "pays": "RWA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2013-09-02",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 70/2013 du 02/09/2013 régissant la biodiversité au Rwanda",
+      "titre_en": "Law No. 70/2013 of 02/09/2013 governing biodiversity in Rwanda",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Parlement du Rwanda",
+      "resume_fr": "Conservation de la biodiversité, protection des espèces et aires protégées, accès aux ressources génétiques. Publiée au Journal officiel n° 38 du 23 septembre 2013.",
+      "resume_en": "Biodiversity conservation, protection of species and protected areas, access to genetic resources. Published in Official Gazette No. 38 of 23 September 2013.",
+      "lien": "https://leap.unep.org/en/countries/rw/national-legislation/loi-ndeg702013-du-02092013-regissant-la-biodiversite-au-rwanda",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "KEN-12",
+      "pays": "KEN",
+      "themes": {
+        "FIN": "dedie"
+      },
+      "force": "indicatif",
+      "date": "2019",
+      "langue": "en",
+      "titre_officiel": "Policy Guidance Note for Green Bonds",
+      "titre_fr": "Note d'orientation sur les obligations vertes",
+      "type_fr": "Note d'orientation",
+      "type_en": "Guidance note",
+      "autorite": "Capital Markets Authority, Kenya",
+      "resume_fr": "Exigences pour l'émission d'obligations vertes sur le marché kényan : usage des fonds, revue externe et reporting.",
+      "resume_en": "Requirements for green bond issuance on the Kenyan market: use of proceeds, external review and reporting.",
+      "lien": "https://rise.esmap.org/data/files/library/kenya/Renewable%20Energy/Kenya_Policy%20Guidance%20Note%20for%20Green%20Bonds_2019.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "MOZ-02",
+      "pays": "MOZ",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2014-06-20",
+      "langue": "pt",
+      "titre_officiel": "Lei n.º 16/2014, de 20 de Junho, Lei da Protecção, Conservação e Uso Sustentável da Diversidade Biológica",
+      "titre_fr": "Loi n° 16/2014 du 20 juin 2014 sur la protection, la conservation et l'usage durable de la diversité biologique",
+      "titre_en": "Law No. 16/2014 of 20 June 2014 on the protection, conservation and sustainable use of biological diversity",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assembleia da República de Moçambique",
+      "resume_fr": "Loi sur la conservation : catégories d'aires de conservation, gestion et sanctions.",
+      "resume_en": "Conservation law: categories of conservation areas, management and penalties.",
+      "lien": "https://leap.unep.org/en/countries/mz/national-legislation/law-no-162014-protection-conservation-and-sustainable-use",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "GHA-05",
+      "pays": "GHA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2023",
+      "langue": "en",
+      "titre_officiel": "Wildlife Resources Management Act, 2023 (Act 1115)",
+      "titre_fr": "Loi de 2023 sur la gestion des ressources fauniques (Act 1115)",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Ghana",
+      "resume_fr": "Remplace l'ancien cadre de la faune et des aires protégées. Promulguée par le président en avril 2024.",
+      "resume_en": "Replaces the former wildlife and protected areas framework. Assented to by the President in April 2024.",
+      "lien": "https://leap.unep.org/en/countries/gh/national-legislation/wildlife-resources-management-act-2023-act-1115",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "BWA-02",
+      "pays": "BWA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1992",
+      "langue": "en",
+      "titre_officiel": "Wildlife Conservation and National Parks Act, 1992 (Act 28 of 1992)",
+      "titre_fr": "Loi n° 28 de 1992 sur la conservation de la faune et les parcs nationaux",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Botswana",
+      "resume_fr": "Conservation de la faune, parcs nationaux et réserves, régime de la chasse.",
+      "resume_en": "Wildlife conservation, national parks and reserves, hunting regime.",
+      "lien": "https://e-laws.botswanalaws.com/PDF/StatutesActpdf/1992Actpdf/WILDLIFE%20CONSERVATION%20AND%20NATIONAL%20PARKS%20ACT,%2028%20OF%201992.pdf",
+      "source": "officielle",
+      "nouveau": true
+    },
+    {
+      "id": "CMR-02",
+      "pays": "CMR",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1994-01-20",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 94/01 du 20 janvier 1994 portant régime des forêts, de la faune et de la pêche",
+      "titre_en": "Law No. 94/01 of 20 January 1994 on forestry, wildlife and fisheries",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Cameroun",
+      "resume_fr": "Régime de la faune et des aires protégées, en même temps que celui des forêts et de la pêche.",
+      "resume_en": "Regime for wildlife and protected areas, together with forestry and fisheries.",
+      "lien": "https://faolex.fao.org/docs/pdf/cmr4845F.pdf",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "ZWE-02",
+      "pays": "ZWE",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1975",
+      "langue": "en",
+      "titre_officiel": "Parks and Wild Life Act [Chapter 20:14]",
+      "titre_fr": "Loi sur les parcs et la faune sauvage [chapitre 20:14]",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "Parliament of Zimbabwe",
+      "resume_fr": "Régime des parcs nationaux et de la faune sauvage. Modifié par la loi n° 4 de 2025.",
+      "resume_en": "Regime for national parks and wildlife. Amended by Act No. 4 of 2025.",
+      "lien": "https://leap.unep.org/en/countries/zw/national-legislation/parks-and-wild-life-act-chapter-2014",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "BEN-03",
+      "pays": "BEN",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2004-10-18",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2002-16 du 18 octobre 2004 portant régime de la faune en République du Bénin",
+      "titre_en": "Law No. 2002-16 of 18 October 2004 on wildlife in the Republic of Benin",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Bénin",
+      "resume_fr": "Protection de la faune, aires protégées et régime de la chasse. Modalités précisées par le décret n° 2011-394 du 28 mai 2011.",
+      "resume_en": "Wildlife protection, protected areas and hunting regime. Details set by Decree No. 2011-394 of 28 May 2011.",
+      "lien": "https://leap.unep.org/en/countries/bj/national-legislation/loi-ndeg-2002-16-du-18-octobre-2004-portant-regime-de-la-faune-en",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "SEN-02",
+      "pays": "SEN",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1986",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 86-04 portant Code de la chasse et de la protection de la faune",
+      "titre_en": "Law No. 86-04 on the Hunting and Wildlife Protection Code",
+      "type_fr": "Code",
+      "type_en": "Code",
+      "autorite": "Assemblée nationale du Sénégal",
+      "resume_fr": "Régime de la chasse et protection de la faune ; partie réglementaire fixée par le décret n° 86-844.",
+      "resume_en": "Hunting regime and wildlife protection; regulatory part set by Decree No. 86-844.",
+      "lien": "https://leap.unep.org/en/countries/sn/national-legislation/loi-no-86-04-portant-code-de-la-chasse-et-de-la-protection-de-la",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "NGA-07",
+      "pays": "NGA",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2016-12",
+      "langue": "en",
+      "titre_officiel": "Endangered Species (Control of International Trade and Traffic) (Amendment) Act, 2016",
+      "titre_fr": "Loi de 2016 modifiant la loi sur le contrôle du commerce international des espèces menacées",
+      "type_fr": "Loi",
+      "type_en": "Act",
+      "autorite": "National Assembly of Nigeria",
+      "resume_fr": "Renforce les sanctions contre le commerce illégal d'espèces menacées. Promulguée en décembre 2016.",
+      "resume_en": "Strengthens penalties against illegal trade in endangered species. Signed into law in December 2016.",
+      "lien": "https://www.ecolex.org/details/legislation/endangered-species-control-of-international-trade-and-trafficamendment-act-2016-lex-faoc177674/",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "NER-02",
+      "pays": "NER",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "1998-04-29",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 98-07 du 29 avril 1998 fixant le régime de la chasse et de la protection de la faune",
+      "titre_en": "Law No. 98-07 of 29 April 1998 on hunting and wildlife protection",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Niger",
+      "resume_fr": "Régime de la chasse et protection de la faune ; modalités fixées par le décret n° 98-295 du 29 octobre 1998.",
+      "resume_en": "Hunting regime and wildlife protection; details set by Decree No. 98-295 of 29 October 1998.",
+      "lien": "https://leap.unep.org/en/countries/ne/national-legislation/loi-no-98-07-du-29-avril-1998-fixant-le-regime-de-la-chasse-et-de",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "MRT-02",
+      "pays": "MRT",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2018-041 relative à la chasse et à la gestion de la faune",
+      "titre_en": "Law No. 2018-041 on hunting and wildlife management",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale de Mauritanie",
+      "resume_fr": "Remplace la loi n° 97-006. Régime de la chasse et gestion de la faune sauvage.",
+      "resume_en": "Replaces Law No. 97-006. Hunting regime and wildlife management.",
+      "lien": "https://leap.unep.org/en/countries/mr/national-legislation/loi-ndeg2018-041-relative-la-chasse-et-la-gestion-de-la-faune",
+      "source": "base_reference",
+      "nouveau": true
+    },
+    {
+      "id": "MLI-02",
+      "pays": "MLI",
+      "themes": {
+        "BIO": "dedie"
+      },
+      "force": "contraignant",
+      "date": "2018-06-27",
+      "langue": "fr",
+      "titre_officiel": "Loi n° 2018-036 du 27 juin 2018 fixant les principes de gestion de la faune et de son habitat",
+      "titre_en": "Law No. 2018-036 of 27 June 2018 on the principles for managing wildlife and its habitat",
+      "type_fr": "Loi",
+      "type_en": "Law",
+      "autorite": "Assemblée nationale du Mali",
+      "resume_fr": "Principes de gestion de la faune sauvage et de ses habitats, y compris les aires protégées.",
+      "resume_en": "Principles for managing wildlife and its habitats, including protected areas.",
+      "lien": "https://leap.unep.org/en/countries/ml/national-legislation/loi-ndeg-2018-036-du-27-juin-2018-fixant-les-principes-de-gestion",
+      "source": "base_reference",
+      "nouveau": true
+    }
+  ],
+  "echeances": [
+    {
+      "date": "2027-01-01",
+      "id_texte": "GHA-02",
+      "description_fr": "Ghana : normes IFRS S1 et S2 obligatoires pour les entités d'intérêt public significatives (exercices ouverts à cette date).",
+      "description_en": "Ghana: IFRS S1 and S2 mandatory for significant public interest entities (periods beginning on this date)."
+    },
+    {
+      "date": "2028-01-01",
+      "id_texte": "GHA-02",
+      "description_fr": "Ghana : normes IFRS S1 et S2 obligatoires pour les autres assujettis.",
+      "description_en": "Ghana: IFRS S1 and S2 mandatory for other mandatory adopters."
+    },
+    {
+      "date": "2028-01-01",
+      "id_texte": "NGA-02",
+      "description_fr": "Nigeria : normes IFRS S1 et S2 obligatoires pour les entités d'intérêt public.",
+      "description_en": "Nigeria: IFRS S1 and S2 mandatory for public interest entities."
+    },
+    {
+      "date": "2030-01-01",
+      "id_texte": "NGA-02",
+      "description_fr": "Nigeria : normes IFRS S1 et S2 obligatoires pour les PME.",
+      "description_en": "Nigeria: IFRS S1 and S2 mandatory for SMEs."
+    }
+  ],
+  "historique_versions": [
+    {
+      "version": "0.3",
+      "date": "2026-10-31",
+      "fr": [
+        "Six sources secondaires remplacées par des sources officielles ou des bases de référence : Maroc (directive BAM), Égypte (stratégie climat 2050), Liberia, Malawi, Nigeria (politique plastique), Maurice (GN n° 197 de 2020).",
+        "Kenya, interdiction des sacs plastiques : source officielle de la NEMA, dates précises (28 février et 28 août 2017) et périmètre (sacs plats et sacs poubelle inclus, emballages industriels exemptés).",
+        "Nouveau logo, navigation ramenée à sept rubriques, recherche avec suggestions, fil d'Ariane et accès rapides."
+      ],
+      "en": [
+        "Six secondary sources replaced by official sources or reference databases: Morocco (BAM directive), Egypt (2050 climate strategy), Liberia, Malawi, Nigeria (plastics policy), Mauritius (GN No. 197 of 2020).",
+        "Kenya plastic bag ban: official NEMA source, exact dates (28 February and 28 August 2017) and scope (flat bags and bin liners included, industrial packaging exempt).",
+        "New logo, navigation reduced to seven sections, search with suggestions, breadcrumbs and quick links."
+      ]
+    },
+    {
+      "version": "0.2",
+      "date": "2026-10-31",
+      "fr": [
+        "24 textes ajoutés : Bénin, Botswana, Cameroun, Côte d'Ivoire, Égypte, Éthiopie, Gambie, Kenya, Madagascar, Malawi, Maroc, Maurice, Mauritanie, Niger, Nigeria, République du Congo, RDC, Seychelles, Afrique du Sud, Tanzanie, Tunisie.",
+        "Taxonomie kényane : source officielle de la banque centrale et date exacte (4 avril 2025).",
+        "Principes ghanéens de banque durable : source officielle de la Banque du Ghana.",
+        "Feuille de route IFRS du Nigeria : dates d'obligation corrigées (2028 et 2030).",
+        "Kenya : numéro de la loi modificative de 2023 (n° 9) et ajout de la loi climat de 2016.",
+        "Maroc : dahir de promulgation de la loi 77-15. Tunisie, Maurice : dates d'application précises.",
+        "Afrique du Sud : entrée en vigueur partielle de la loi climat précisée.",
+        "Ouganda : lien vers le texte publié par le Parlement."
+      ],
+      "en": [
+        "24 texts added: Benin, Botswana, Cameroon, Côte d'Ivoire, Egypt, Ethiopia, The Gambia, Kenya, Madagascar, Malawi, Morocco, Mauritius, Mauritania, Niger, Nigeria, Republic of the Congo, DRC, Seychelles, South Africa, Tanzania, Tunisia.",
+        "Kenyan taxonomy: official central bank source and exact date (4 April 2025).",
+        "Ghana Sustainable Banking Principles: official Bank of Ghana source.",
+        "Nigeria IFRS roadmap: mandatory dates corrected (2028 and 2030).",
+        "Kenya: number of the 2023 amending act (No. 9) and the 2016 climate act added.",
+        "Morocco: promulgation dahir for Law 77-15. Tunisia, Mauritius: exact application dates.",
+        "South Africa: partial commencement of the climate act clarified.",
+        "Uganda: link to the text published by Parliament."
+      ]
+    },
+    {
+      "version": "0.1",
+      "date": "2026-10-31",
+      "fr": [
+        "Première version : 67 textes, 27 pays, 5 thèmes."
+      ],
+      "en": [
+        "First version: 67 texts, 27 countries, 5 themes."
+      ]
+    }
+  ]
+}

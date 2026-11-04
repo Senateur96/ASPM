@@ -1,0 +1,1324 @@
+{
+  "_aide": "Pays, organisations régionales, thèmes, glossaire et ressources. Mode d'emploi dans README.md.",
+  "pays": {
+    "DZA": {
+      "fr": "Algérie",
+      "en": "Algeria",
+      "region": "N"
+    },
+    "AGO": {
+      "fr": "Angola",
+      "en": "Angola",
+      "region": "S"
+    },
+    "BEN": {
+      "fr": "Bénin",
+      "en": "Benin",
+      "region": "W"
+    },
+    "BWA": {
+      "fr": "Botswana",
+      "en": "Botswana",
+      "region": "S"
+    },
+    "BFA": {
+      "fr": "Burkina Faso",
+      "en": "Burkina Faso",
+      "region": "W"
+    },
+    "BDI": {
+      "fr": "Burundi",
+      "en": "Burundi",
+      "region": "C"
+    },
+    "CPV": {
+      "fr": "Cap-Vert",
+      "en": "Cabo Verde",
+      "region": "W"
+    },
+    "CMR": {
+      "fr": "Cameroun",
+      "en": "Cameroon",
+      "region": "C"
+    },
+    "CAF": {
+      "fr": "République centrafricaine",
+      "en": "Central African Republic",
+      "region": "C"
+    },
+    "TCD": {
+      "fr": "Tchad",
+      "en": "Chad",
+      "region": "C"
+    },
+    "COM": {
+      "fr": "Comores",
+      "en": "Comoros",
+      "region": "E"
+    },
+    "COG": {
+      "fr": "République du Congo",
+      "en": "Republic of the Congo",
+      "region": "C"
+    },
+    "COD": {
+      "fr": "République démocratique du Congo",
+      "en": "Democratic Republic of the Congo",
+      "region": "C"
+    },
+    "CIV": {
+      "fr": "Côte d'Ivoire",
+      "en": "Côte d'Ivoire",
+      "region": "W"
+    },
+    "DJI": {
+      "fr": "Djibouti",
+      "en": "Djibouti",
+      "region": "E"
+    },
+    "EGY": {
+      "fr": "Égypte",
+      "en": "Egypt",
+      "region": "N"
+    },
+    "GNQ": {
+      "fr": "Guinée équatoriale",
+      "en": "Equatorial Guinea",
+      "region": "C"
+    },
+    "ERI": {
+      "fr": "Érythrée",
+      "en": "Eritrea",
+      "region": "E"
+    },
+    "SWZ": {
+      "fr": "Eswatini",
+      "en": "Eswatini",
+      "region": "S"
+    },
+    "ETH": {
+      "fr": "Éthiopie",
+      "en": "Ethiopia",
+      "region": "E"
+    },
+    "GAB": {
+      "fr": "Gabon",
+      "en": "Gabon",
+      "region": "C"
+    },
+    "GMB": {
+      "fr": "Gambie",
+      "en": "The Gambia",
+      "region": "W"
+    },
+    "GHA": {
+      "fr": "Ghana",
+      "en": "Ghana",
+      "region": "W"
+    },
+    "GIN": {
+      "fr": "Guinée",
+      "en": "Guinea",
+      "region": "W"
+    },
+    "GNB": {
+      "fr": "Guinée-Bissau",
+      "en": "Guinea-Bissau",
+      "region": "W"
+    },
+    "KEN": {
+      "fr": "Kenya",
+      "en": "Kenya",
+      "region": "E"
+    },
+    "LSO": {
+      "fr": "Lesotho",
+      "en": "Lesotho",
+      "region": "S"
+    },
+    "LBR": {
+      "fr": "Liberia",
+      "en": "Liberia",
+      "region": "W"
+    },
+    "LBY": {
+      "fr": "Libye",
+      "en": "Libya",
+      "region": "N"
+    },
+    "MDG": {
+      "fr": "Madagascar",
+      "en": "Madagascar",
+      "region": "E"
+    },
+    "MWI": {
+      "fr": "Malawi",
+      "en": "Malawi",
+      "region": "S"
+    },
+    "MLI": {
+      "fr": "Mali",
+      "en": "Mali",
+      "region": "W"
+    },
+    "MRT": {
+      "fr": "Mauritanie",
+      "en": "Mauritania",
+      "region": "N"
+    },
+    "MUS": {
+      "fr": "Maurice",
+      "en": "Mauritius",
+      "region": "E"
+    },
+    "MAR": {
+      "fr": "Maroc",
+      "en": "Morocco",
+      "region": "N"
+    },
+    "MOZ": {
+      "fr": "Mozambique",
+      "en": "Mozambique",
+      "region": "S"
+    },
+    "NAM": {
+      "fr": "Namibie",
+      "en": "Namibia",
+      "region": "S"
+    },
+    "NER": {
+      "fr": "Niger",
+      "en": "Niger",
+      "region": "W"
+    },
+    "NGA": {
+      "fr": "Nigeria",
+      "en": "Nigeria",
+      "region": "W"
+    },
+    "RWA": {
+      "fr": "Rwanda",
+      "en": "Rwanda",
+      "region": "E"
+    },
+    "ESH": {
+      "fr": "République arabe sahraouie démocratique",
+      "en": "Sahrawi Arab Democratic Republic",
+      "region": "N"
+    },
+    "STP": {
+      "fr": "Sao Tomé-et-Principe",
+      "en": "São Tomé and Príncipe",
+      "region": "C"
+    },
+    "SEN": {
+      "fr": "Sénégal",
+      "en": "Senegal",
+      "region": "W"
+    },
+    "SYC": {
+      "fr": "Seychelles",
+      "en": "Seychelles",
+      "region": "E"
+    },
+    "SLE": {
+      "fr": "Sierra Leone",
+      "en": "Sierra Leone",
+      "region": "W"
+    },
+    "SOM": {
+      "fr": "Somalie",
+      "en": "Somalia",
+      "region": "E"
+    },
+    "ZAF": {
+      "fr": "Afrique du Sud",
+      "en": "South Africa",
+      "region": "S"
+    },
+    "SSD": {
+      "fr": "Soudan du Sud",
+      "en": "South Sudan",
+      "region": "E"
+    },
+    "SDN": {
+      "fr": "Soudan",
+      "en": "Sudan",
+      "region": "E"
+    },
+    "TZA": {
+      "fr": "Tanzanie",
+      "en": "Tanzania",
+      "region": "E"
+    },
+    "TGO": {
+      "fr": "Togo",
+      "en": "Togo",
+      "region": "W"
+    },
+    "TUN": {
+      "fr": "Tunisie",
+      "en": "Tunisia",
+      "region": "N"
+    },
+    "UGA": {
+      "fr": "Ouganda",
+      "en": "Uganda",
+      "region": "E"
+    },
+    "ZMB": {
+      "fr": "Zambie",
+      "en": "Zambia",
+      "region": "S"
+    },
+    "ZWE": {
+      "fr": "Zimbabwe",
+      "en": "Zimbabwe",
+      "region": "S"
+    }
+  },
+  "organisations": {
+    "UMOA": {
+      "nom_fr": "UEMOA / UMOA",
+      "nom_en": "WAEMU / WAMU",
+      "membres": [
+        "BEN",
+        "BFA",
+        "CIV",
+        "GNB",
+        "MLI",
+        "NER",
+        "SEN",
+        "TGO"
+      ],
+      "description_fr": "Union économique et monétaire ouest-africaine et Union monétaire ouest-africaine. Huit États partagent le franc CFA émis par la BCEAO et un marché financier régional régulé par l'AMF-UMOA (ex-CREPMF).",
+      "description_en": "West African Economic and Monetary Union and West African Monetary Union. Eight states share the CFA franc issued by the BCEAO and a regional capital market regulated by AMF-UMOA (formerly CREPMF)."
+    },
+    "CEMAC": {
+      "nom_fr": "CEMAC",
+      "nom_en": "CEMAC",
+      "membres": [
+        "CMR",
+        "CAF",
+        "COG",
+        "GAB",
+        "GNQ",
+        "TCD"
+      ],
+      "description_fr": "Communauté économique et monétaire de l'Afrique centrale. Six États partagent le franc CFA émis par la BEAC ; le marché financier régional est régulé par la COSUMAF.",
+      "description_en": "Economic and Monetary Community of Central Africa. Six states share the CFA franc issued by the BEAC; the regional capital market is regulated by COSUMAF."
+    },
+    "AU": {
+      "nom_fr": "Union africaine",
+      "nom_en": "African Union",
+      "membres": "tous",
+      "description_fr": "Les 55 États membres. Les conventions de l'UA ne lient que les États qui les ont ratifiées ; l'état des ratifications est publié par la Commission de l'UA.",
+      "description_en": "All 55 member states. AU conventions bind only the states that have ratified them; ratification status is published by the AU Commission."
+    }
+  },
+  "themes": [
+    {
+      "code": "FIN",
+      "nom_fr": "Finance durable et ESG",
+      "nom_en": "Sustainable finance and ESG",
+      "description_fr": "Taxonomies, règles prudentielles climatiques, publication d'informations de durabilité, obligations vertes. Actes de l'État, d'une banque centrale ou d'un régulateur.",
+      "description_en": "Taxonomies, climate prudential rules, sustainability disclosure, green bonds. Acts of the state, a central bank or a regulator.",
+      "inclus_fr": [
+        "Taxonomies",
+        "Règles et lignes directrices prudentielles liées au climat ou à l'environnement",
+        "Publication d'informations de durabilité",
+        "Règles et guides des obligations vertes, sociales et durables"
+      ],
+      "exclus_fr": [
+        "Chartes d'associations bancaires sans validation publique",
+        "Fiscalité environnementale générale"
+      ],
+      "inclus_en": [
+        "Taxonomies",
+        "Climate and environmental prudential rules and guidance",
+        "Sustainability disclosure",
+        "Green, social and sustainability bond rules and guides"
+      ],
+      "exclus_en": [
+        "Banking association charters without public endorsement",
+        "General environmental taxation"
+      ]
+    },
+    {
+      "code": "CIR",
+      "nom_fr": "Économie circulaire et déchets",
+      "nom_en": "Circular economy and waste",
+      "description_fr": "Gestion des déchets, interdictions de plastiques, responsabilité élargie du producteur, déchets dangereux.",
+      "description_en": "Waste management, plastic bans, extended producer responsibility, hazardous waste.",
+      "inclus_fr": [
+        "Lois-cadres sur les déchets",
+        "Interdictions et restrictions de plastiques",
+        "Responsabilité élargie du producteur",
+        "Déchets dangereux"
+      ],
+      "exclus_fr": [
+        "Pollution de l'air et produits chimiques",
+        "Assainissement des eaux usées"
+      ],
+      "inclus_en": [
+        "Framework waste laws",
+        "Plastic bans and restrictions",
+        "Extended producer responsibility",
+        "Hazardous waste"
+      ],
+      "exclus_en": [
+        "Air pollution and chemicals",
+        "Wastewater treatment"
+      ]
+    },
+    {
+      "code": "BIO",
+      "nom_fr": "Biodiversité",
+      "nom_en": "Biodiversity",
+      "description_fr": "Faune, flore, aires protégées, accès aux ressources génétiques et partage des avantages.",
+      "description_en": "Wildlife, flora, protected areas, access to genetic resources and benefit sharing.",
+      "inclus_fr": [
+        "Lois sur la faune et la flore",
+        "Aires protégées",
+        "Accès et partage des avantages",
+        "Ratification de conventions africaines sur la nature"
+      ],
+      "exclus_fr": [
+        "Forêts et pêche en tant que secteurs, sauf disposition sur une aire protégée"
+      ],
+      "inclus_en": [
+        "Wildlife and flora laws",
+        "Protected areas",
+        "Access and benefit sharing",
+        "Ratification of African nature conventions"
+      ],
+      "exclus_en": [
+        "Forestry and fisheries as sectors, unless a protected area provision applies"
+      ]
+    },
+    {
+      "code": "CLI",
+      "nom_fr": "Climat",
+      "nom_en": "Climate",
+      "description_fr": "Lois climat, tarification et marchés du carbone, stratégies climatiques nationales.",
+      "description_en": "Climate laws, carbon pricing and markets, national climate strategies.",
+      "inclus_fr": [
+        "Lois climat",
+        "Tarification et marchés du carbone",
+        "Stratégies climatiques nationales",
+        "Fonds climat créés par un texte"
+      ],
+      "exclus_fr": [
+        "Politiques énergétiques sans objectif climatique explicite",
+        "Réduction des risques de catastrophe"
+      ],
+      "inclus_en": [
+        "Climate laws",
+        "Carbon pricing and markets",
+        "National climate strategies",
+        "Climate funds created by law"
+      ],
+      "exclus_en": [
+        "Energy policies without an explicit climate objective",
+        "Disaster risk reduction"
+      ]
+    },
+    {
+      "code": "SOC",
+      "nom_fr": "Entreprises et droits humains",
+      "nom_en": "Business and human rights",
+      "description_fr": "Plans d'action nationaux, devoir de vigilance, volet social des obligations de publication.",
+      "description_en": "National action plans, due diligence, social section of disclosure rules.",
+      "inclus_fr": [
+        "Plans d'action nationaux entreprises et droits de l'homme",
+        "Volet social des obligations de publication",
+        "Devoir de vigilance"
+      ],
+      "exclus_fr": [
+        "Droit du travail général sans lien avec les normes fondamentales"
+      ],
+      "inclus_en": [
+        "National action plans on business and human rights",
+        "Social section of disclosure rules",
+        "Human rights due diligence"
+      ],
+      "exclus_en": [
+        "General labour law not linked to fundamental standards"
+      ]
+    }
+  ],
+  "glossaire_categories": {
+    "F": {
+      "fr": "Finance durable",
+      "en": "Sustainable finance"
+    },
+    "C": {
+      "fr": "Climat",
+      "en": "Climate"
+    },
+    "B": {
+      "fr": "Biodiversité",
+      "en": "Biodiversity"
+    },
+    "D": {
+      "fr": "Déchets et économie circulaire",
+      "en": "Waste and circular economy"
+    },
+    "S": {
+      "fr": "Social et droits humains",
+      "en": "Social and human rights"
+    },
+    "J": {
+      "fr": "Droit et méthode",
+      "en": "Law and method"
+    }
+  },
+  "glossaire": [
+    {
+      "categorie": "F",
+      "terme_fr": "Taxonomie verte",
+      "terme_en": "Green taxonomy",
+      "definition_fr": "Système de classification qui fixe, par des critères techniques, les activités économiques considérées comme contribuant à un objectif environnemental. Il sert de référence aux produits financiers verts et à la publication d'informations. En Afrique, l'Afrique du Sud, le Rwanda et le Kenya en ont publié une.",
+      "definition_en": "Classification system that sets technical criteria for economic activities considered to contribute to an environmental objective. It is a reference for green financial products and disclosure. In Africa, South Africa, Rwanda and Kenya have published one."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "ESG",
+      "terme_en": "ESG",
+      "definition_fr": "Environnement, social et gouvernance. Les trois familles de critères extra-financiers utilisées pour analyser une entreprise ou un investissement.",
+      "definition_en": "Environmental, social and governance. The three families of non-financial criteria used to analyse a company or an investment."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Finance durable",
+      "terme_en": "Sustainable finance",
+      "definition_fr": "Ensemble des pratiques qui intègrent les critères environnementaux, sociaux et de gouvernance dans les décisions de financement et d'investissement.",
+      "definition_en": "Practices that integrate environmental, social and governance criteria into financing and investment decisions."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Normes IFRS S1 et S2",
+      "terme_en": "IFRS S1 and S2",
+      "definition_fr": "Normes de publication d'informations de durabilité publiées par l'ISSB en juin 2023. IFRS S1 couvre les risques et opportunités liés à la durabilité en général, IFRS S2 ceux liés au climat. Le Ghana et le Nigeria ont fixé un calendrier d'adoption.",
+      "definition_en": "Sustainability disclosure standards issued by the ISSB in June 2023. IFRS S1 covers sustainability-related risks and opportunities in general, IFRS S2 climate-related ones. Ghana and Nigeria have set adoption timelines.",
+      "lien": "https://www.ifrs.org/groups/international-sustainability-standards-board/"
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "ISSB",
+      "terme_en": "ISSB",
+      "definition_fr": "International Sustainability Standards Board. Conseil créé par la Fondation IFRS en novembre 2021 pour établir une base mondiale de normes de publication d'informations de durabilité.",
+      "definition_en": "International Sustainability Standards Board. Board set up by the IFRS Foundation in November 2021 to establish a global baseline of sustainability disclosure standards.",
+      "lien": "https://www.ifrs.org/groups/international-sustainability-standards-board/"
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "TCFD",
+      "terme_en": "TCFD",
+      "definition_fr": "Task Force on Climate-related Financial Disclosures. Ses recommandations de 2017 organisent la publication climatique en quatre piliers : gouvernance, stratégie, gestion des risques, indicateurs et objectifs. Elles sont reprises dans IFRS S2 et le groupe de travail a été dissous en 2023.",
+      "definition_en": "Task Force on Climate-related Financial Disclosures. Its 2017 recommendations organise climate disclosure into four pillars: governance, strategy, risk management, metrics and targets. They are built into IFRS S2 and the task force was disbanded in 2023."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Risques physiques",
+      "terme_en": "Physical risks",
+      "definition_fr": "Risques financiers liés aux effets du changement climatique : événements extrêmes (inondations, sécheresses, cyclones) ou évolutions lentes (hausse des températures, du niveau de la mer).",
+      "definition_en": "Financial risks arising from the effects of climate change: extreme events (floods, droughts, cyclones) or gradual shifts (rising temperatures and sea levels)."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Risques de transition",
+      "terme_en": "Transition risks",
+      "definition_fr": "Risques financiers liés au passage vers une économie bas carbone : nouvelles règles, prix du carbone, évolution des technologies, des marchés et des attentes du public.",
+      "definition_en": "Financial risks arising from the shift to a low-carbon economy: new rules, carbon prices, changes in technology, markets and public expectations."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Double matérialité",
+      "terme_en": "Double materiality",
+      "definition_fr": "Approche qui examine à la fois l'effet des enjeux de durabilité sur la situation financière de l'entreprise et l'effet de l'entreprise sur l'environnement et la société. Les normes ISSB retiennent la seule matérialité financière.",
+      "definition_en": "Approach that considers both the effect of sustainability issues on a company's financial position and the company's effect on the environment and society. ISSB standards use financial materiality only."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Obligation verte, sociale ou durable",
+      "terme_en": "Green, social or sustainability bond",
+      "definition_fr": "Titre de dette dont le produit finance des projets environnementaux, sociaux, ou les deux. Les Principes de l'ICMA et les guides des régulateurs de marché fixent les règles d'usage des fonds, de sélection des projets et de reporting.",
+      "definition_en": "Debt security whose proceeds fund environmental projects, social projects, or both. The ICMA Principles and market regulators' guides set rules on use of proceeds, project selection and reporting.",
+      "lien": "https://www.icmagroup.org/sustainable-finance/"
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Obligation liée au développement durable",
+      "terme_en": "Sustainability-linked bond",
+      "definition_fr": "Obligation dont les conditions financières, souvent le coupon, varient selon que l'émetteur atteint ou non des objectifs de performance de durabilité fixés à l'avance. Le produit n'est pas affecté à des projets précis.",
+      "definition_en": "Bond whose financial terms, often the coupon, change depending on whether the issuer meets predefined sustainability performance targets. Proceeds are not earmarked for specific projects."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Principes de l'ICMA",
+      "terme_en": "ICMA Principles",
+      "definition_fr": "Lignes directrices volontaires publiées par l'International Capital Market Association pour les obligations vertes (depuis 2014), sociales, durables et liées au développement durable. Les guides tunisien, marocain, ouest-africain et d'Afrique centrale s'y réfèrent.",
+      "definition_en": "Voluntary guidelines published by the International Capital Market Association for green bonds (since 2014), social, sustainability and sustainability-linked bonds. The Tunisian, Moroccan, West African and Central African guides refer to them.",
+      "lien": "https://www.icmagroup.org/sustainable-finance/"
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Lignes directrices prudentielles",
+      "terme_en": "Prudential guidance",
+      "definition_fr": "Texte par lequel une banque centrale ou un superviseur précise ses attentes envers les établissements supervisés. Sa force juridique dépend du droit national ; ce registre le classe comme indicatif sauf si le texte se déclare obligatoire.",
+      "definition_en": "Document by which a central bank or supervisor sets out its expectations of supervised institutions. Its legal force depends on national law; this register classes it as guidance unless the text states it is mandatory."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Analyse de scénarios et test de résistance climatique",
+      "terme_en": "Climate scenario analysis and stress testing",
+      "definition_fr": "Exercices qui mesurent l'effet de trajectoires climatiques hypothétiques sur les bilans des institutions financières. Les lignes directrices de la Banque de Tanzanie de 2022 les demandent explicitement.",
+      "definition_en": "Exercises that measure the effect of hypothetical climate pathways on financial institutions' balance sheets. The Bank of Tanzania's 2022 guidelines explicitly require them."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "NGFS",
+      "terme_en": "NGFS",
+      "definition_fr": "Network for Greening the Financial System. Réseau de banques centrales et de superviseurs créé en décembre 2017 pour intégrer les risques climatiques et environnementaux dans la supervision et la politique monétaire.",
+      "definition_en": "Network for Greening the Financial System. Network of central banks and supervisors created in December 2017 to integrate climate and environmental risks into supervision and monetary policy.",
+      "lien": "https://www.ngfs.net/"
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "SBFN",
+      "terme_en": "SBFN",
+      "definition_fr": "Sustainable Banking and Finance Network. Réseau de régulateurs et d'associations bancaires de pays émergents, dont le secrétariat est assuré par la SFI. Il suit les cadres de finance durable de ses membres.",
+      "definition_en": "Sustainable Banking and Finance Network. Network of regulators and banking associations from emerging markets, with a secretariat hosted by the IFC. It tracks members' sustainable finance frameworks.",
+      "lien": "https://data.sbfnetwork.org/"
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Écoblanchiment",
+      "terme_en": "Greenwashing",
+      "definition_fr": "Présentation trompeuse d'un produit, d'une entreprise ou d'un placement comme plus favorable à l'environnement qu'il ne l'est. Les taxonomies et les règles de publication visent notamment à le limiter.",
+      "definition_en": "Misleading presentation of a product, company or investment as more environmentally friendly than it is. Taxonomies and disclosure rules aim, among other things, to limit it."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Finance mixte",
+      "terme_en": "Blended finance",
+      "definition_fr": "Utilisation de fonds publics ou philanthropiques pour réduire le risque d'un projet et attirer des capitaux privés.",
+      "definition_en": "Use of public or philanthropic funds to reduce a project's risk and attract private capital."
+    },
+    {
+      "categorie": "F",
+      "terme_fr": "Entité d'intérêt public",
+      "terme_en": "Public interest entity",
+      "definition_fr": "Catégorie d'entités soumises à des obligations comptables renforcées, en général sociétés cotées, banques, assureurs et grandes entreprises. Sa définition exacte relève de chaque pays.",
+      "definition_en": "Category of entities subject to stricter reporting duties, generally listed companies, banks, insurers and large companies. The exact definition is set by each country."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Accord de Paris",
+      "terme_en": "Paris Agreement",
+      "definition_fr": "Traité adopté en décembre 2015 dans le cadre de la CCNUCC et entré en vigueur le 4 novembre 2016. Il vise à contenir la hausse de la température moyenne nettement en dessous de 2 °C et à poursuivre l'action pour la limiter à 1,5 °C.",
+      "definition_en": "Treaty adopted in December 2015 under the UNFCCC, in force since 4 November 2016. It aims to hold the rise in average temperature well below 2 °C and to pursue efforts to limit it to 1.5 °C.",
+      "lien": "https://unfccc.int/process-and-meetings/the-paris-agreement"
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Contribution déterminée au niveau national (CDN)",
+      "terme_en": "Nationally determined contribution (NDC)",
+      "definition_fr": "Plan climatique que chaque partie à l'Accord de Paris soumet et actualise tous les cinq ans. Les CDN sont publiées sur le registre de la CCNUCC.",
+      "definition_en": "Climate plan that each party to the Paris Agreement submits and updates every five years. NDCs are published on the UNFCCC registry.",
+      "lien": "https://unfccc.int/NDCREG"
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Stratégie de long terme",
+      "terme_en": "Long-term strategy",
+      "definition_fr": "Stratégie de développement à faibles émissions à l'horizon du milieu du siècle, que l'Accord de Paris invite les parties à communiquer.",
+      "definition_en": "Mid-century low-emission development strategy that the Paris Agreement invites parties to communicate."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Plan national d'adaptation (PNA)",
+      "terme_en": "National adaptation plan (NAP)",
+      "definition_fr": "Processus établi dans le cadre de la CCNUCC pour identifier les besoins d'adaptation à moyen et long terme et les intégrer dans la planification nationale.",
+      "definition_en": "Process established under the UNFCCC to identify medium- and long-term adaptation needs and integrate them into national planning."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Article 6 de l'Accord de Paris",
+      "terme_en": "Article 6 of the Paris Agreement",
+      "definition_fr": "Disposition qui permet aux pays de coopérer pour atteindre leurs CDN, notamment par le transfert international de résultats d'atténuation. Plusieurs pays, dont le Kenya, ont adopté des règles qui encadrent ces transferts.",
+      "definition_en": "Provision allowing countries to cooperate to achieve their NDCs, including through international transfers of mitigation outcomes. Several countries, including Kenya, have adopted rules governing these transfers."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Ajustement correspondant",
+      "terme_en": "Corresponding adjustment",
+      "definition_fr": "Écriture comptable par laquelle le pays qui cède des réductions d'émissions les retire de son propre bilan, afin qu'elles ne soient pas comptées deux fois.",
+      "definition_en": "Accounting entry by which the country transferring emission reductions removes them from its own balance, so they are not counted twice."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Crédit carbone",
+      "terme_en": "Carbon credit",
+      "definition_fr": "Unité représentant une tonne d'équivalent CO2 évitée ou retirée de l'atmosphère, certifiée selon une méthode reconnue et échangeable.",
+      "definition_en": "Unit representing one tonne of CO2 equivalent avoided or removed from the atmosphere, certified under a recognised method and tradable."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Marché volontaire du carbone",
+      "terme_en": "Voluntary carbon market",
+      "definition_fr": "Marché où des entreprises ou des particuliers achètent des crédits carbone sans y être obligés par la loi, souvent pour compenser leurs émissions.",
+      "definition_en": "Market where companies or individuals buy carbon credits without a legal obligation, often to offset their emissions."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Taxe carbone",
+      "terme_en": "Carbon tax",
+      "definition_fr": "Prélèvement fiscal proportionnel aux émissions de gaz à effet de serre. L'Afrique du Sud applique la sienne depuis le 1er juin 2019.",
+      "definition_en": "Tax proportional to greenhouse gas emissions. South Africa has applied its own since 1 June 2019."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Budget carbone",
+      "terme_en": "Carbon budget",
+      "definition_fr": "Quantité maximale d'émissions autorisée sur une période donnée, pour un pays, un secteur ou une entreprise. La loi climat sud-africaine de 2024 en attribue aux entreprises.",
+      "definition_en": "Maximum amount of emissions allowed over a given period for a country, sector or company. South Africa's 2024 climate law allocates them to companies."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Neutralité carbone",
+      "terme_en": "Net zero",
+      "definition_fr": "Situation où les émissions de gaz à effet de serre restantes sont compensées par des absorptions équivalentes. La loi nigériane de 2021 fixe cet objectif entre 2050 et 2070.",
+      "definition_en": "State in which remaining greenhouse gas emissions are balanced by equivalent removals. Nigeria's 2021 law sets this target between 2050 and 2070."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "MRV",
+      "terme_en": "MRV",
+      "definition_fr": "Mesure, notification et vérification. Système qui permet de suivre les émissions et les actions climatiques de manière fiable et comparable.",
+      "definition_en": "Measurement, reporting and verification. System for tracking emissions and climate action reliably and comparably."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Pertes et préjudices",
+      "terme_en": "Loss and damage",
+      "definition_fr": "Dommages causés par le changement climatique qui ne peuvent être évités par l'atténuation ni par l'adaptation. Un fonds dédié a été décidé à la COP27 (2022) et rendu opérationnel à la COP28 (2023).",
+      "definition_en": "Climate change damage that can be avoided neither by mitigation nor by adaptation. A dedicated fund was agreed at COP27 (2022) and made operational at COP28 (2023)."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Partenariat pour une transition énergétique juste (JETP)",
+      "terme_en": "Just Energy Transition Partnership (JETP)",
+      "definition_fr": "Accord de financement entre un pays et un groupe de partenaires pour accélérer la sortie des énergies fossiles. L'Afrique du Sud a conclu le premier en novembre 2021, le Sénégal en juin 2023.",
+      "definition_en": "Financing agreement between a country and a group of partners to speed up the move away from fossil fuels. South Africa signed the first in November 2021, Senegal in June 2023."
+    },
+    {
+      "categorie": "C",
+      "terme_fr": "Transition juste",
+      "terme_en": "Just transition",
+      "definition_fr": "Approche qui vise à rendre le passage vers une économie bas carbone équitable pour les travailleurs et les communautés concernés.",
+      "definition_en": "Approach that aims to make the shift to a low-carbon economy fair for the workers and communities affected."
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Convention sur la diversité biologique (CDB)",
+      "terme_en": "Convention on Biological Diversity (CBD)",
+      "definition_fr": "Traité ouvert à la signature à Rio en 1992 et entré en vigueur en 1993. Ses objectifs sont la conservation de la biodiversité, son utilisation durable et le partage juste des avantages tirés des ressources génétiques.",
+      "definition_en": "Treaty opened for signature in Rio in 1992 and in force since 1993. Its objectives are conserving biodiversity, using it sustainably and sharing fairly the benefits from genetic resources.",
+      "lien": "https://www.cbd.int/"
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Stratégie et plan d'action nationaux pour la biodiversité (SPANB)",
+      "terme_en": "National biodiversity strategy and action plan (NBSAP)",
+      "definition_fr": "Principal instrument de mise en œuvre de la CDB au niveau national. Les pays les actualisent pour s'aligner sur le Cadre mondial de Kunming-Montréal.",
+      "definition_en": "Main instrument for implementing the CBD at national level. Countries are updating them to align with the Kunming-Montreal Global Framework.",
+      "lien": "https://www.cbd.int/nbsap/"
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Cadre mondial de la biodiversité de Kunming-Montréal",
+      "terme_en": "Kunming-Montreal Global Biodiversity Framework",
+      "definition_fr": "Adopté en décembre 2022 à la COP15. Il fixe 23 cibles pour 2030 et quatre objectifs pour 2050.",
+      "definition_en": "Adopted in December 2022 at COP15. It sets 23 targets for 2030 and four goals for 2050.",
+      "lien": "https://www.cbd.int/gbf/"
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Cible 30x30",
+      "terme_en": "30x30 target",
+      "definition_fr": "Cible 3 du Cadre de Kunming-Montréal : conserver d'ici 2030 au moins 30 % des zones terrestres, des eaux intérieures et des zones marines et côtières.",
+      "definition_en": "Target 3 of the Kunming-Montreal Framework: conserve by 2030 at least 30% of land, inland waters and marine and coastal areas.",
+      "lien": "https://www.cbd.int/gbf/targets/3/"
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Aire protégée",
+      "terme_en": "Protected area",
+      "definition_fr": "Espace géographique délimité, reconnu et géré par des moyens juridiques ou autres afin d'assurer la conservation de la nature à long terme. L'UICN distingue des catégories allant de Ia (réserve naturelle intégrale) à VI (utilisation durable des ressources).",
+      "definition_en": "Clearly defined geographical space, recognised and managed through legal or other means to achieve long-term conservation of nature. IUCN distinguishes categories from Ia (strict nature reserve) to VI (sustainable use of resources)."
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Accès et partage des avantages (APA)",
+      "terme_en": "Access and benefit sharing (ABS)",
+      "definition_fr": "Règles qui encadrent l'accès aux ressources génétiques et le partage juste et équitable des avantages tirés de leur utilisation. Le Protocole de Nagoya, adopté en 2010, est en vigueur depuis 2014.",
+      "definition_en": "Rules governing access to genetic resources and the fair and equitable sharing of benefits from their use. The Nagoya Protocol, adopted in 2010, has been in force since 2014.",
+      "lien": "https://www.cbd.int/abs/"
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "CITES",
+      "terme_en": "CITES",
+      "definition_fr": "Convention sur le commerce international des espèces de faune et de flore sauvages menacées d'extinction, signée en 1973 et en vigueur depuis 1975. Elle soumet le commerce des espèces inscrites à des permis.",
+      "definition_en": "Convention on International Trade in Endangered Species of Wild Fauna and Flora, signed in 1973 and in force since 1975. It makes trade in listed species subject to permits.",
+      "lien": "https://cites.org/"
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Espèce exotique envahissante",
+      "terme_en": "Invasive alien species",
+      "definition_fr": "Espèce introduite hors de son aire naturelle dont l'établissement menace les écosystèmes, les habitats ou les espèces locales. La loi sud-africaine de 2004 sur la biodiversité prévoit leur contrôle.",
+      "definition_en": "Species introduced outside its natural range whose spread threatens local ecosystems, habitats or species. South Africa's 2004 Biodiversity Act provides for their control."
+    },
+    {
+      "categorie": "B",
+      "terme_fr": "Convention de Maputo",
+      "terme_en": "Maputo Convention",
+      "definition_fr": "Version révisée, adoptée en 2003, de la Convention africaine de 1968 sur la conservation de la nature et des ressources naturelles. Elle est en vigueur depuis 2016 pour les États qui l'ont ratifiée.",
+      "definition_en": "Revised version, adopted in 2003, of the 1968 African Convention on the Conservation of Nature and Natural Resources. It has been in force since 2016 for the states that ratified it."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Économie circulaire",
+      "terme_en": "Circular economy",
+      "definition_fr": "Modèle économique qui garde les produits et les matières en usage le plus longtemps possible par la réduction, le réemploi, la réparation et le recyclage, plutôt que de les extraire, consommer et jeter.",
+      "definition_en": "Economic model that keeps products and materials in use as long as possible through reduction, reuse, repair and recycling, rather than extracting, consuming and discarding them."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Hiérarchie des déchets",
+      "terme_en": "Waste hierarchy",
+      "definition_fr": "Ordre de priorité des modes de gestion : prévention, réemploi, recyclage, autres valorisations, puis élimination en dernier recours.",
+      "definition_en": "Order of priority for waste management: prevention, reuse, recycling, other recovery, then disposal as a last resort."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Responsabilité élargie du producteur (REP)",
+      "terme_en": "Extended producer responsibility (EPR)",
+      "definition_fr": "Principe qui rend le producteur ou l'importateur responsable, financièrement et parfois matériellement, de la gestion de ses produits et emballages en fin de vie. L'Afrique du Sud (2020) et le Kenya (2024) l'ont rendu obligatoire.",
+      "definition_en": "Principle that makes the producer or importer responsible, financially and sometimes physically, for managing its products and packaging at end of life. South Africa (2020) and Kenya (2024) have made it mandatory."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Plastique à usage unique",
+      "terme_en": "Single-use plastic",
+      "definition_fr": "Produit en plastique conçu pour être utilisé une seule fois ou pendant peu de temps avant d'être jeté, comme les sacs, pailles, gobelets ou couverts.",
+      "definition_en": "Plastic product designed to be used once or for a short time before being thrown away, such as bags, straws, cups or cutlery."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Seuil d'épaisseur",
+      "terme_en": "Thickness threshold",
+      "definition_fr": "Critère utilisé par de nombreuses interdictions pour distinguer les sacs visés, exprimé en microns. Le décret malgache de 2014 vise par exemple les sacs de 50 microns ou moins.",
+      "definition_en": "Criterion used by many bans to define which bags are covered, expressed in microns. Madagascar's 2014 decree, for instance, covers bags of 50 microns or less."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Biodégradable et compostable",
+      "terme_en": "Biodegradable and compostable",
+      "definition_fr": "Un matériau biodégradable est décomposé par des micro-organismes, sans garantie de délai ni de conditions. Un matériau compostable se décompose dans des conditions de compostage définies par une norme. Les textes nationaux ne donnent pas toujours la même définition.",
+      "definition_en": "A biodegradable material is broken down by micro-organisms, with no guarantee of time or conditions. A compostable material breaks down under composting conditions defined by a standard. National texts do not always use the same definition."
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Convention de Bâle",
+      "terme_en": "Basel Convention",
+      "definition_fr": "Traité mondial adopté en 1989, en vigueur depuis 1992, qui contrôle les mouvements transfrontières de déchets dangereux et de certains déchets plastiques.",
+      "definition_en": "Global treaty adopted in 1989, in force since 1992, which controls transboundary movements of hazardous wastes and certain plastic wastes.",
+      "lien": "https://www.basel.int/"
+    },
+    {
+      "categorie": "D",
+      "terme_fr": "Convention de Bamako",
+      "terme_en": "Bamako Convention",
+      "definition_fr": "Traité africain adopté en 1991 et en vigueur depuis 1998. Il interdit l'importation en Afrique de déchets dangereux et va plus loin que la Convention de Bâle sur plusieurs points.",
+      "definition_en": "African treaty adopted in 1991 and in force since 1998. It bans the import of hazardous wastes into Africa and goes further than the Basel Convention on several points.",
+      "lien": "https://unep.org/bamako-convention"
+    },
+    {
+      "categorie": "S",
+      "terme_fr": "Principes directeurs des Nations unies (UNGP)",
+      "terme_en": "UN Guiding Principles on Business and Human Rights (UNGPs)",
+      "definition_fr": "Cadre approuvé en juin 2011 par le Conseil des droits de l'homme. Trois piliers : l'obligation de protéger de l'État, la responsabilité de respecter des entreprises et l'accès à des voies de recours.",
+      "definition_en": "Framework endorsed in June 2011 by the Human Rights Council. Three pillars: the state duty to protect, the corporate responsibility to respect and access to remedy.",
+      "lien": "https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf"
+    },
+    {
+      "categorie": "S",
+      "terme_fr": "Plan d'action national entreprises et droits de l'homme",
+      "terme_en": "National action plan on business and human rights",
+      "definition_fr": "Document par lequel un État définit les mesures qu'il prendra pour mettre en œuvre les Principes directeurs des Nations unies. En Afrique, le Kenya, l'Ouganda, le Nigeria et le Liberia en ont adopté un.",
+      "definition_en": "Document in which a state sets out the measures it will take to implement the UN Guiding Principles. In Africa, Kenya, Uganda, Nigeria and Liberia have adopted one.",
+      "lien": "https://globalnaps.org/"
+    },
+    {
+      "categorie": "S",
+      "terme_fr": "Devoir de vigilance",
+      "terme_en": "Human rights due diligence",
+      "definition_fr": "Processus par lequel une entreprise identifie, prévient, atténue et rend compte des atteintes aux droits humains et à l'environnement liées à ses activités et à sa chaîne de valeur.",
+      "definition_en": "Process by which a company identifies, prevents, mitigates and accounts for harm to human rights and the environment linked to its operations and value chain."
+    },
+    {
+      "categorie": "S",
+      "terme_fr": "Principes et droits fondamentaux au travail",
+      "terme_en": "Fundamental principles and rights at work",
+      "definition_fr": "Cinq catégories reconnues par l'OIT : liberté syndicale, élimination du travail forcé, abolition du travail des enfants, non-discrimination, et depuis 2022 un milieu de travail sûr et salubre. Elles reposent sur dix conventions fondamentales.",
+      "definition_en": "Five categories recognised by the ILO: freedom of association, elimination of forced labour, abolition of child labour, non-discrimination, and since 2022 a safe and healthy working environment. They rest on ten fundamental conventions.",
+      "lien": "https://www.ilo.org/"
+    },
+    {
+      "categorie": "S",
+      "terme_fr": "Consentement libre, informé et préalable (CLIP)",
+      "terme_en": "Free, prior and informed consent (FPIC)",
+      "definition_fr": "Droit des peuples autochtones, reconnu par la Déclaration des Nations unies de 2007, d'accepter ou de refuser un projet qui les concerne, avant sa réalisation et en connaissance de cause.",
+      "definition_en": "Right of indigenous peoples, recognised by the 2007 UN Declaration, to give or withhold consent to a project affecting them, before it starts and with full information."
+    },
+    {
+      "categorie": "S",
+      "terme_fr": "Étude d'impact environnemental et social (EIES)",
+      "terme_en": "Environmental and social impact assessment (ESIA)",
+      "definition_fr": "Procédure préalable qui évalue les effets d'un projet sur l'environnement et les populations et fixe les mesures pour les éviter, les réduire ou les compenser.",
+      "definition_en": "Prior procedure that assesses a project's effects on the environment and people and sets measures to avoid, reduce or offset them."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Contraignant, indicatif, volontaire",
+      "terme_en": "Binding, guidance, voluntary",
+      "definition_fr": "Classement de ce registre. Contraignant : le texte crée des obligations sanctionnables (loi, décret, règlement, directive). Indicatif : texte public qui fixe des objectifs ou des attentes sans sanction propre (stratégie, politique, lignes directrices, feuille de route). Volontaire : texte qui s'applique à ceux qui y adhèrent.",
+      "definition_en": "This register's classification. Binding: the text creates enforceable obligations (act, decree, regulation, directive). Guidance: a public text that sets objectives or expectations without its own sanctions (strategy, policy, guidelines, roadmap). Voluntary: a text that applies to those who sign up."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Dédié, intégré",
+      "terme_en": "Dedicated, integrated",
+      "definition_fr": "Un texte est dédié quand le thème est son objet principal. Il est intégré quand le thème fait l'objet d'au moins une disposition identifiable dans un texte plus large, comme un code de l'environnement. Une simple mention ne suffit pas.",
+      "definition_en": "A text is dedicated when the theme is its main subject. It is integrated when the theme is covered by at least one identifiable provision in a broader text, such as an environmental code. A passing mention is not enough."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Directement applicable",
+      "terme_en": "Directly applicable",
+      "definition_fr": "Se dit d'un acte régional qui produit ses effets dans le droit des États membres sans mesure nationale. Les traités de la CEDEAO et de la CEMAC le prévoient pour leurs règlements ; ceux du COMESA, de l'EAC et de la SADC exigent une mesure nationale.",
+      "definition_en": "Said of a regional act that takes effect in member states' law without national measures. The ECOWAS and CEMAC treaties provide for this for their regulations; the COMESA, EAC and SADC treaties require a national measure."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Ratification",
+      "terme_en": "Ratification",
+      "definition_fr": "Acte par lequel un État exprime son consentement à être lié par un traité. Dans beaucoup de pays, une loi autorise d'abord le gouvernement à ratifier.",
+      "definition_en": "Act by which a state expresses its consent to be bound by a treaty. In many countries, a law first authorises the government to ratify."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Journal officiel",
+      "terme_en": "Official gazette",
+      "definition_fr": "Publication de l'État où paraissent les lois et règlements. La publication conditionne en général leur opposabilité. Les pays anglophones parlent de Gazette, les lusophones de Boletim da República.",
+      "definition_en": "State publication in which acts and regulations appear. Publication generally determines when they can be enforced. English-speaking countries use the term Gazette, Portuguese-speaking ones Boletim da República."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Promulgation",
+      "terme_en": "Promulgation",
+      "definition_fr": "Acte par lequel le chef de l'État constate l'adoption d'une loi et la rend exécutoire. Au Maroc, elle se fait par dahir ; dans les pays anglophones, on parle d'assentiment présidentiel.",
+      "definition_en": "Act by which the head of state records the adoption of a law and makes it enforceable. In Morocco this is done by dahir; in English-speaking countries it is presidential assent."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Entrée en vigueur",
+      "terme_en": "Entry into force",
+      "definition_fr": "Date à partir de laquelle un texte produit ses effets. Elle peut être fixée par le texte, par un acte ultérieur, ou par étapes, comme pour la loi climat sud-africaine de 2024.",
+      "definition_en": "Date from which a text takes effect. It may be set by the text itself, by a later act, or in stages, as with South Africa's 2024 climate law."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Loi-cadre",
+      "terme_en": "Framework law",
+      "definition_fr": "Loi qui fixe des principes et des objectifs généraux et renvoie leur mise en œuvre à des textes d'application.",
+      "definition_en": "Law that sets general principles and objectives and leaves their implementation to secondary texts."
+    },
+    {
+      "categorie": "J",
+      "terme_fr": "Décret, arrêté, règlement",
+      "terme_en": "Decree, order, regulations",
+      "definition_fr": "Textes pris par le pouvoir exécutif pour appliquer une loi ou dans son domaine propre. Les termes anglais Regulations, Order ou Statutory Instrument désignent des catégories proches.",
+      "definition_en": "Texts adopted by the executive to apply a law or within its own remit. The English terms Regulations, Order or Statutory Instrument cover similar categories."
+    }
+  ],
+  "ressources": [
+    {
+      "groupe_fr": "Bases juridiques internationales",
+      "groupe_en": "International legal databases",
+      "liens": [
+        {
+          "nom": "FAOLEX",
+          "organisme": "FAO",
+          "lien": "https://www.fao.org/faolex/en/",
+          "description_fr": "Législation et politiques nationales sur l'agriculture, l'alimentation, l'environnement et les ressources naturelles. Licence CC BY-NC-SA 3.0 IGO.",
+          "description_en": "National legislation and policies on agriculture, food, environment and natural resources. CC BY-NC-SA 3.0 IGO licence."
+        },
+        {
+          "nom": "LEAP",
+          "organisme": "PNUE",
+          "lien": "https://leap.unep.org/",
+          "description_fr": "Portail du PNUE sur le droit de l'environnement, avec boîtes à outils thématiques sur le climat et les plastiques.",
+          "description_en": "UNEP's environmental law portal, with thematic toolkits on climate and plastics."
+        },
+        {
+          "nom": "ECOLEX",
+          "organisme": "UICN, PNUE, FAO",
+          "lien": "https://www.ecolex.org/",
+          "description_fr": "Traités, législation et jurisprudence en droit de l'environnement.",
+          "description_en": "Treaties, legislation and case law in environmental law."
+        },
+        {
+          "nom": "InforMEA",
+          "organisme": "Nations unies",
+          "lien": "https://www.informea.org/",
+          "description_fr": "Accords multilatéraux sur l'environnement, décisions des parties et législations nationales.",
+          "description_en": "Multilateral environmental agreements, decisions of the parties and national legislation."
+        },
+        {
+          "nom": "Climate Change Laws of the World",
+          "organisme": "Grantham Research Institute, LSE",
+          "lien": "https://climate-laws.org/",
+          "description_fr": "Lois et politiques climatiques nationales, avec résumés.",
+          "description_en": "National climate laws and policies, with summaries."
+        },
+        {
+          "nom": "Policy Vault Africa",
+          "organisme": "Policy Vault",
+          "lien": "https://policyvault.africa/",
+          "description_fr": "Bibliothèque de politiques publiques africaines classées par pays et par secteur.",
+          "description_en": "Library of African public policies sorted by country and sector."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Journaux officiels et portails juridiques nationaux",
+      "groupe_en": "National gazettes and legal portals",
+      "liens": [
+        {
+          "nom": "AfricanLII",
+          "organisme": "Laws.Africa",
+          "lien": "https://africanlii.org/",
+          "description_fr": "Point d'entrée vers les instituts d'information juridique africains et les textes de l'UA.",
+          "description_en": "Entry point to African legal information institutes and AU texts."
+        },
+        {
+          "nom": "Kenya Law",
+          "organisme": "National Council for Law Reporting",
+          "lien": "https://new.kenyalaw.org/",
+          "description_fr": "Lois, règlements et avis au Journal officiel du Kenya.",
+          "description_en": "Kenyan acts, regulations and gazette notices."
+        },
+        {
+          "nom": "SAFLII et Law Library",
+          "organisme": "Afrique du Sud",
+          "lien": "https://lawlibrary.org.za/",
+          "description_fr": "Législation sud-africaine consolidée.",
+          "description_en": "Consolidated South African legislation."
+        },
+        {
+          "nom": "TanzLII",
+          "organisme": "Tanzanie",
+          "lien": "https://tanzlii.org/",
+          "description_fr": "Législation et notices gouvernementales de Tanzanie.",
+          "description_en": "Tanzanian legislation and government notices."
+        },
+        {
+          "nom": "ULII",
+          "organisme": "Ouganda",
+          "lien": "https://ulii.org/",
+          "description_fr": "Législation de l'Ouganda.",
+          "description_en": "Ugandan legislation."
+        },
+        {
+          "nom": "ZambiaLII",
+          "organisme": "Zambie",
+          "lien": "https://zambialii.org/",
+          "description_fr": "Lois de la Zambie, avec résumés des projets de loi.",
+          "description_en": "Zambian acts, with bill summaries."
+        },
+        {
+          "nom": "MalawiLII",
+          "organisme": "Malawi",
+          "lien": "https://malawilii.org/",
+          "description_fr": "Législation du Malawi.",
+          "description_en": "Malawian legislation."
+        },
+        {
+          "nom": "SeyLII",
+          "organisme": "Seychelles",
+          "lien": "https://seylii.org/",
+          "description_fr": "Législation des Seychelles.",
+          "description_en": "Seychelles legislation."
+        },
+        {
+          "nom": "CivLII",
+          "organisme": "Côte d'Ivoire",
+          "lien": "https://civlii.laws.africa/",
+          "description_fr": "Textes législatifs ivoiriens en accès libre.",
+          "description_en": "Ivorian legislation in open access."
+        },
+        {
+          "nom": "Adala",
+          "organisme": "Ministère de la Justice, Maroc",
+          "lien": "https://adala.justice.gov.ma/",
+          "description_fr": "Portail juridique officiel du Maroc.",
+          "description_en": "Morocco's official legal portal."
+        },
+        {
+          "nom": "Vie publique Sénégal",
+          "organisme": "Secrétariat général du Gouvernement",
+          "lien": "https://www.vie-publique.sn/",
+          "description_fr": "Journal officiel et codes du Sénégal.",
+          "description_en": "Senegal's official journal and codes."
+        },
+        {
+          "nom": "Journal officiel du Gabon",
+          "organisme": "République gabonaise",
+          "lien": "https://journal-officiel.ga/",
+          "description_fr": "Textes publiés au Journal officiel gabonais.",
+          "description_en": "Texts published in Gabon's official journal."
+        },
+        {
+          "nom": "Secrétariat général du Gouvernement du Bénin",
+          "organisme": "République du Bénin",
+          "lien": "https://sgg.gouv.bj/",
+          "description_fr": "Lois et décrets béninois.",
+          "description_en": "Beninese laws and decrees."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Climat",
+      "groupe_en": "Climate",
+      "liens": [
+        {
+          "nom": "Registre des CDN",
+          "organisme": "CCNUCC",
+          "lien": "https://unfccc.int/NDCREG",
+          "description_fr": "Contributions déterminées au niveau national soumises par les parties.",
+          "description_en": "Nationally determined contributions submitted by the parties."
+        },
+        {
+          "nom": "Africa NDC Hub",
+          "organisme": "Banque africaine de développement et partenaires",
+          "lien": "https://africandchub.org/",
+          "description_fr": "Fiches pays sur la mise en œuvre des CDN africaines.",
+          "description_en": "Country briefs on implementing African NDCs."
+        },
+        {
+          "nom": "NDC Partnership",
+          "organisme": "NDC Partnership",
+          "lien": "https://ndcpartnership.org/",
+          "description_fr": "Soutien à la mise en œuvre des CDN et études de cas.",
+          "description_en": "Support for NDC implementation and case studies."
+        },
+        {
+          "nom": "Base de politiques de l'AIE",
+          "organisme": "Agence internationale de l'énergie",
+          "lien": "https://www.iea.org/policies",
+          "description_fr": "Politiques d'énergie et de climat par pays.",
+          "description_en": "Energy and climate policies by country."
+        },
+        {
+          "nom": "Climate Action Tracker",
+          "organisme": "Climate Analytics, NewClimate Institute",
+          "lien": "https://climateactiontracker.org/",
+          "description_fr": "Évaluation indépendante des objectifs climatiques de certains pays, dont l'Afrique du Sud, l'Égypte, l'Éthiopie, le Kenya, le Maroc et le Nigeria.",
+          "description_en": "Independent assessment of selected countries' climate targets, including South Africa, Egypt, Ethiopia, Kenya, Morocco and Nigeria."
+        },
+        {
+          "nom": "Oxford Climate Policy Monitor",
+          "organisme": "Université d'Oxford",
+          "lien": "https://climatepolicymonitor.ox.ac.uk/",
+          "description_fr": "Évaluation de l'alignement des politiques climatiques de 37 juridictions. Sa démarche a inspiré celle de ce registre.",
+          "description_en": "Assessment of the climate policy alignment of 37 jurisdictions. Its approach inspired this register."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Biodiversité",
+      "groupe_en": "Biodiversity",
+      "liens": [
+        {
+          "nom": "Stratégies et plans d'action nationaux",
+          "organisme": "Convention sur la diversité biologique",
+          "lien": "https://www.cbd.int/nbsap/",
+          "description_fr": "SPANB soumis par les parties, dont les versions actualisées après Kunming-Montréal.",
+          "description_en": "NBSAPs submitted by the parties, including updated versions after Kunming-Montreal."
+        },
+        {
+          "nom": "Cadre de Kunming-Montréal",
+          "organisme": "Convention sur la diversité biologique",
+          "lien": "https://www.cbd.int/gbf/",
+          "description_fr": "Texte du cadre, cibles et indicateurs.",
+          "description_en": "Framework text, targets and indicators."
+        },
+        {
+          "nom": "WILDLEX",
+          "organisme": "FAO",
+          "lien": "https://wildlex.org/",
+          "description_fr": "Législation et jurisprudence sur la faune sauvage et les forêts.",
+          "description_en": "Legislation and case law on wildlife and forests."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Finance durable",
+      "groupe_en": "Sustainable finance",
+      "liens": [
+        {
+          "nom": "Portail de données SBFN",
+          "organisme": "Sustainable Banking and Finance Network",
+          "lien": "https://data.sbfnetwork.org/",
+          "description_fr": "Suivi des cadres de finance durable des pays membres, avec bibliothèque de textes.",
+          "description_en": "Tracking of member countries' sustainable finance frameworks, with a document library."
+        },
+        {
+          "nom": "Profils juridictionnels ISSB",
+          "organisme": "Fondation IFRS",
+          "lien": "https://www.ifrs.org/news-and-events/news/2025/06/ifrs-foundation-publishes-jurisdictional-profiles-issb-standards/",
+          "description_fr": "Profils publiés en juin 2025, dont ceux du Ghana, du Kenya, du Nigeria, de la Tanzanie et de la Zambie.",
+          "description_en": "Profiles published in June 2025, including Ghana, Kenya, Nigeria, Tanzania and Zambia."
+        },
+        {
+          "nom": "NGFS",
+          "organisme": "Network for Greening the Financial System",
+          "lien": "https://www.ngfs.net/",
+          "description_fr": "Travaux des banques centrales sur les risques climatiques et environnementaux.",
+          "description_en": "Central bank work on climate and environmental risks."
+        },
+        {
+          "nom": "Sustainable Stock Exchanges Initiative",
+          "organisme": "Nations unies",
+          "lien": "https://sseinitiative.org/",
+          "description_fr": "Pratiques des bourses en matière de durabilité, dont les guides de publication ESG.",
+          "description_en": "Stock exchange sustainability practices, including ESG disclosure guidance."
+        },
+        {
+          "nom": "Principes de l'ICMA",
+          "organisme": "International Capital Market Association",
+          "lien": "https://www.icmagroup.org/sustainable-finance/",
+          "description_fr": "Principes des obligations vertes, sociales, durables et liées au développement durable.",
+          "description_en": "Green, social, sustainability and sustainability-linked bond principles."
+        },
+        {
+          "nom": "Taxonomie continentale de finance durable",
+          "organisme": "Banque africaine de développement",
+          "lien": "https://www.mfw4a.org/news/africas-financial-industry-validates-continental-sustainable-finance-taxonomy",
+          "description_fr": "Présentation de la taxonomie volontaire validée à Nairobi en juillet 2025.",
+          "description_en": "Presentation of the voluntary taxonomy validated in Nairobi in July 2025."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Déchets et plastiques",
+      "groupe_en": "Waste and plastics",
+      "liens": [
+        {
+          "nom": "Base des politiques plastiques",
+          "organisme": "Nicholas Institute, Université Duke",
+          "lien": "https://nicholasinstitute.duke.edu/plastics-policies",
+          "description_fr": "Politiques plastiques nationales et infranationales dans le monde.",
+          "description_en": "National and subnational plastics policies worldwide."
+        },
+        {
+          "nom": "Convention de Bamako",
+          "organisme": "PNUE",
+          "lien": "https://unep.org/bamako-convention",
+          "description_fr": "Secrétariat et documents de la convention africaine sur les déchets dangereux.",
+          "description_en": "Secretariat and documents of the African convention on hazardous waste."
+        },
+        {
+          "nom": "Convention de Bâle",
+          "organisme": "PNUE",
+          "lien": "https://www.basel.int/",
+          "description_fr": "Contrôle des mouvements transfrontières de déchets dangereux et plastiques.",
+          "description_en": "Control of transboundary movements of hazardous and plastic wastes."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Entreprises et droits humains",
+      "groupe_en": "Business and human rights",
+      "liens": [
+        {
+          "nom": "Global NAPs",
+          "organisme": "Institut danois des droits de l'homme",
+          "lien": "https://globalnaps.org/",
+          "description_fr": "Plans d'action nationaux sur les entreprises et les droits de l'homme, pays par pays.",
+          "description_en": "National action plans on business and human rights, country by country."
+        },
+        {
+          "nom": "Business & Human Rights Resource Centre",
+          "organisme": "BHRRC",
+          "lien": "https://www.business-humanrights.org/",
+          "description_fr": "Veille sur les entreprises et les droits humains.",
+          "description_en": "Monitoring of business and human rights."
+        },
+        {
+          "nom": "Principes directeurs des Nations unies",
+          "organisme": "HCDH",
+          "lien": "https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf",
+          "description_fr": "Texte des Principes directeurs de 2011.",
+          "description_en": "Text of the 2011 Guiding Principles."
+        }
+      ]
+    },
+    {
+      "groupe_fr": "Institutions africaines",
+      "groupe_en": "African institutions",
+      "liens": [
+        {
+          "nom": "Traités de l'Union africaine",
+          "organisme": "Commission de l'Union africaine",
+          "lien": "https://au.int/en/treaties",
+          "description_fr": "Textes des conventions et état des signatures et ratifications.",
+          "description_en": "Convention texts and status of signatures and ratifications."
+        },
+        {
+          "nom": "Banque africaine de développement",
+          "organisme": "BAD",
+          "lien": "https://www.afdb.org/",
+          "description_fr": "Programmes climat, dont la plateforme AFAC sur la finance climatique.",
+          "description_en": "Climate programmes, including the AFAC climate finance platform."
+        },
+        {
+          "nom": "Commission économique pour l'Afrique",
+          "organisme": "Nations unies",
+          "lien": "https://www.uneca.org/",
+          "description_fr": "Analyses économiques et climatiques sur le continent.",
+          "description_en": "Economic and climate analysis on the continent."
+        },
+        {
+          "nom": "BCEAO",
+          "organisme": "Banque centrale des États de l'Afrique de l'Ouest",
+          "lien": "https://www.bceao.int/",
+          "description_fr": "Banque centrale de l'UMOA.",
+          "description_en": "Central bank of WAMU."
+        },
+        {
+          "nom": "BEAC",
+          "organisme": "Banque des États de l'Afrique centrale",
+          "lien": "https://www.beac.int/",
+          "description_fr": "Banque centrale de la CEMAC.",
+          "description_en": "Central bank of CEMAC."
+        }
+      ]
+    }
+  ]
+}

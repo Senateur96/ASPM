@@ -1,0 +1,15 @@
+# Vérifie automatiquement les fichiers data/*.json à chaque envoi sur GitHub.
+# En cas d'erreur, GitHub affiche une croix rouge à côté du commit et envoie un e-mail.
+name: Vérifier les données
+on:
+  push:
+  pull_request:
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node outils/verifier.mjs
