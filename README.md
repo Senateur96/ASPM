@@ -15,13 +15,18 @@ assets/css/style.css        Le design : couleurs, polices, mise en page. À ne p
 assets/js/app.js            Le programme qui affiche les pages. À ne pas modifier.
 assets/img/portrait.jpg     La photo de la page « À propos ».
 assets/img/favicon.svg      La petite icône affichée dans l’onglet du navigateur.
+assets/img/apercu.png       L’image affichée quand on partage le lien (LinkedIn, WhatsApp…).
+assets/fonts/               Les polices, hébergées avec le site (aucune requête vers Google).
+404.html                    La page affichée pour une adresse inexistante.
+sitemap.xml                 Le plan du site pour les moteurs de recherche.
 
 data/registre.json          ← LES TEXTES DU REGISTRE, les échéances, la date de mise à jour
 data/referentiel.json       ← Les pays, organisations, thèmes, le glossaire et les ressources
-data/site.json              ← Les textes de l’interface, la Méthodologie et la page À propos
+data/site.json              ← Les textes de l’interface, Méthodologie, À propos, Mentions légales
 data/carte.json             Le tracé de la carte. Ne pas modifier.
 
 outils/verifier.mjs         Un vérificateur automatique des données (voir section 6)
+.github/                    Les vérifications automatiques et le formulaire de signalement
 archive/                    La version d’origine du site (fichier unique), gardée pour référence
 A_VERIFIER.md               La liste des informations à vérifier
 ```
@@ -41,6 +46,8 @@ Le site reste **une seule page** : la navigation entre Carte, Pays, Textes, Thè
 | Ressources | `#ressources` |
 | Le projet | `#apropos` |
 | Méthodologie | `#methodologie` |
+| Journal des versions | `#versions` |
+| Mentions légales | `#mentions` |
 
 ---
 
@@ -195,12 +202,30 @@ Dans `data/referentiel.json`, rubrique `"organisations"`. Le champ `"membres"` l
 Tout est dans `data/site.json` :
 
 - `"interface"` : tous les petits textes du site (menus, boutons, titres), en `"fr"` et en `"en"`. Ne changez que le texte entre guillemets, jamais le nom du champ à gauche.
-- `"methodologie"` : la page Méthodologie, une ligne par paragraphe. Les balises `<p>…</p>`, `<h3>…</h3>`, `<ul><li>…</li></ul>` servent à la mise en forme : gardez-les.
+- `"methodologie"` : la page Méthodologie, une ligne par paragraphe. Les balises `<p>…</p>` (paragraphe), `<h2>…</h2>` (intertitre), `<ul><li>…</li></ul>` (liste) servent à la mise en forme : gardez-les.
+- `"mentions_legales"` : la page Mentions légales, même principe.
 - `"a_propos"` : la page Le projet (paragraphes, biographie, citation, photo).
+
+Les espaces insécables de la typographie française (avant `;` `:` `!` `?` `»`, après `«`, après « n° », dans « 220 000 ») sont ajoutés automatiquement à l’affichage : tapez une espace normale.
 
 Les marqueurs `{date}`, `{date_longue}`, `{annee}` et `{nb_definitions}` sont remplacés automatiquement : laissez-les tels quels.
 
-### 5.8 Changer la photo
+### 5.8 Noter une nouvelle version
+
+À chaque mise à jour importante, ajoutez un bloc **en tête** de la liste `"historique_versions"` de `data/registre.json`, et mettez le même numéro dans `"version"` :
+
+```json
+{
+  "version": "0.5",
+  "date": "2027-01-15",
+  "fr": ["12 textes ajoutés : …", "Correction de la date de …"],
+  "en": ["12 texts added: …", "Corrected date of …"]
+}
+```
+
+Il s’affiche dans À propos → Versions.
+
+### 5.9 Changer la photo
 
 Remplacez le fichier `assets/img/portrait.jpg` par une nouvelle photo portant **exactement le même nom** (format portrait 3 × 4, environ 420 × 560 pixels).
 
@@ -208,11 +233,16 @@ Remplacez le fichier `assets/img/portrait.jpg` par une nouvelle photo portant **
 
 ## 6. Vérifier avant ou après publication
 
-Trois moyens, du plus simple au plus complet :
+Quatre vérifications, de la plus simple à la plus complète :
 
 1. **Sur le site publié**, ajoutez `?verifier` à l’adresse : **https://senateur96.github.io/ASPM/?verifier**. Un encadré indique « aucune erreur », ou la liste des points à corriger. Les visiteurs ordinaires ne voient pas cet encadré. Un texte mal rempli (pays inconnu, force mal orthographiée…) est simplement ignoré, sans bloquer le reste du site.
 2. **Sur GitHub**, après chaque enregistrement, une vérification automatique se lance (onglet **Actions**). Une coche verte ✓ signifie que tout va bien ; une croix rouge ✗ signale une erreur, avec le détail en cliquant dessus. GitHub vous prévient aussi par e-mail.
 3. **Sur votre ordinateur**, si Node.js est installé : `node outils/verifier.mjs`.
+4. **Les liens** : une vérification automatique des 196 liens (sources, glossaire, ressources) tourne le 1er de chaque mois (onglet **Actions → Vérifier les liens**, bouton **Run workflow** pour la lancer à la main). Une croix rouge liste les liens cassés.
+
+### Les signalements des lecteurs
+
+Le lien « Signaler une erreur » (pied de page et Mentions légales) ouvre un formulaire sur GitHub. Les signalements arrivent dans l’onglet **Issues** du dépôt, et GitHub vous prévient par e-mail. Une fois la correction faite, fermez le signalement avec un mot de réponse.
 
 ---
 
@@ -237,6 +267,11 @@ python3 -m http.server 8000
 - **Design** : couleurs, polices (Archivo, Source Serif 4, Overpass Mono) et mise en page sont identiques à la version d’origine. Les couleurs sont définies en tête de `assets/css/style.css` (mode clair et mode sombre).
 - **Mobile** : le site a été vérifié sur des écrans de 320, 390 et 768 pixels de large, sans défilement horizontal. Sur téléphone, la date d’édition n’apparaît plus dans l’en-tête (elle reste en tête de la page Carte), et sur les très petits écrans l’en-tête défile avec la page au lieu de rester fixé.
 - **Langue** : le bouton FR / EN est mémorisé par le navigateur du visiteur.
+- **Accessibilité** : toutes les pages passent sans erreur l’audit automatique axe-core (normes WCAG 2.2 niveau AA), en mode clair et sombre, sur ordinateur et téléphone. Seule remarque restante, sur téléphone : une règle de « bonne pratique » (hors WCAG) prend à tort les onglets du menu, sortis de l’écran par le défilement horizontal, pour des liens d’évitement cachés. La carte se parcourt au clavier (Tab, puis Entrée).
+- **Confidentialité** : aucun cookie, aucune mesure d’audience, aucun service tiers.
+- **Impression** : une fiche pays s’imprime proprement (sans menus), avec l’adresse de chaque source.
+- **Nom de domaine propre** : si le site passe un jour sur un domaine à vous (par exemple `aspm.org`), remplacez `/ASPM/` par `/` dans `404.html`, et l’adresse `https://senateur96.github.io/ASPM/` dans `index.html` et `sitemap.xml`.
+- **Moteurs de recherche** : pour accélérer le référencement, déclarez le site et son plan (`sitemap.xml`) dans Google Search Console.
 - **Version d’origine** : le fichier unique de départ est conservé dans `archive/index_ASPM_original.html`. Il est aussi publié à l’adresse `…/ASPM/archive/index_ASPM_original.html`. Vous pouvez le supprimer quand la nouvelle version vous convient : il reste de toute façon dans l’historique de GitHub.
 
 Licence des données et des textes rédigés pour le site : CC BY 4.0. Les textes officiels restent la propriété de leurs auteurs.

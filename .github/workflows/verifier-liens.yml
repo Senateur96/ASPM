@@ -1,0 +1,23 @@
+# Vérifie chaque mois que les liens des sources, du glossaire et des ressources répondent encore.
+# En cas de lien cassé, la vérification apparaît en rouge dans l'onglet Actions et GitHub envoie un e-mail.
+# On peut aussi la lancer à la main : onglet Actions > Vérifier les liens > Run workflow.
+name: Vérifier les liens
+on:
+  schedule:
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+jobs:
+  liens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tester les liens
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --max-concurrency 8 --timeout 30 --max-retries 2
+            --accept 200..=299,403,429
+            --user-agent "Mozilla/5.0 (compatible; ASPM link checker)"
+            --exclude "github.com/Senateur96/ASPM/issues"
+            data/registre.json data/referentiel.json data/site.json
+          fail: true

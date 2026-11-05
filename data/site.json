@@ -1,5 +1,5 @@
 {
-  "_aide": "Textes de l'interface, page Méthodologie et page À propos. Les marqueurs {date}, {date_longue} et {annee} sont remplacés automatiquement à partir de date_mise_a_jour (data/registre.json) ; {nb_definitions} par le nombre de termes du glossaire.",
+  "_aide": "Textes de l'interface, pages Méthodologie, À propos et Mentions légales. Les marqueurs {date}, {date_longue} et {annee} sont remplacés automatiquement à partir de date_mise_a_jour (data/registre.json) ; {nb_definitions} par le nombre de termes du glossaire.",
   "interface": {
     "fr": {
       "tagline": "Observatoire africain des politiques de durabilité",
@@ -117,7 +117,7 @@
       "cmp_lead": "Choisissez jusqu'à trois pays pour voir, thème par thème, ce que chacun a adopté.",
       "pick": "Choisir un pays",
       "db_h": "Textes",
-      "db_lead": "Tous les textes, filtrables. Le bouton copie la sélection au format CSV pour un tableur.",
+      "db_lead": "Tous les textes, filtrables. Les boutons copient ou téléchargent la sélection au format CSV pour un tableur ; le fichier JSON contient l'ensemble des données.",
       "f_theme": "Thème",
       "f_force": "Force juridique",
       "f_scope": "Portée",
@@ -148,7 +148,20 @@
       "a_h": "À propos",
       "ch_h": "Journal des versions",
       "ev_h": "Niveau de preuve des entrées",
-      "cite_cty": "African Sustainability Policy Monitor ({annee}). Fiche {pays}. Données arrêtées au {date_longue}."
+      "cite_cty": "African Sustainability Policy Monitor ({annee}). Fiche {pays}. Données arrêtées au {date_longue}.",
+      "n_legal": "Mentions légales",
+      "signal": "Signaler une erreur",
+      "dlcsv": "Télécharger en CSV",
+      "dljson": "Données complètes (JSON)",
+      "a_crumbs": "Fil d'Ariane",
+      "a_starts": "Accès rapides",
+      "a_sections": "Rubriques",
+      "a_footer": "Pied de page",
+      "a_map": "Carte des 55 États de l'Union africaine",
+      "ch_lead": "Modifications du registre et du site, de la plus récente à la plus ancienne.",
+      "ver": "Version",
+      "legal_h": "Mentions légales",
+      "sort_hint": "Trier"
     },
     "en": {
       "tagline": "Tracking sustainability policy across Africa",
@@ -266,7 +279,7 @@
       "cmp_lead": "Pick up to three countries to see, theme by theme, what each has adopted.",
       "pick": "Pick a country",
       "db_h": "Texts",
-      "db_lead": "Every text, with filters. The button copies the selection as CSV for a spreadsheet.",
+      "db_lead": "Every text, with filters. The buttons copy or download the selection as CSV for a spreadsheet; the JSON file holds the full dataset.",
       "f_theme": "Theme",
       "f_force": "Legal force",
       "f_scope": "Scope",
@@ -297,44 +310,57 @@
       "a_h": "About",
       "ch_h": "Version history",
       "ev_h": "Evidence level of entries",
-      "cite_cty": "African Sustainability Policy Monitor ({annee}). {pays} profile. Data as of {date_longue}."
+      "cite_cty": "African Sustainability Policy Monitor ({annee}). {pays} profile. Data as of {date_longue}.",
+      "n_legal": "Legal notice",
+      "signal": "Report an error",
+      "dlcsv": "Download as CSV",
+      "dljson": "Full data (JSON)",
+      "a_crumbs": "Breadcrumb",
+      "a_starts": "Quick access",
+      "a_sections": "Sections",
+      "a_footer": "Footer",
+      "a_map": "Map of the 55 African Union member states",
+      "ch_lead": "Changes to the register and the site, most recent first.",
+      "ver": "Version",
+      "legal_h": "Legal notice",
+      "sort_hint": "Sort"
     }
   },
   "methodologie": {
     "fr": [
       "<p>Le registre recense les textes publics de durabilité des 55 États membres de l'Union africaine, selon la liste publiée par l'UA, ainsi que les textes de l'UA et des organisations régionales. Il couvre cinq thèmes, présentés avec leur périmètre sur la page Thèmes.</p>",
-      "<h3>Ce qui entre dans le registre</h3>",
+      "<h2>Ce qui entre dans le registre</h2>",
       "<p>Un texte est retenu s'il est adopté par une autorité publique : constitution, loi, ordonnance, décret, arrêté, règlement, directive ou ligne directrice d'une banque centrale, d'un régulateur ou d'une bourse, stratégie ou politique nationale. Un engagement volontaire n'est retenu que s'il est porté ou signé par une autorité publique. Les chartes d'associations professionnelles sans validation publique et les projets de texte ne sont pas retenus.</p>",
-      "<h3>Comment chaque entrée est établie</h3>",
+      "<h2>Comment chaque entrée est établie</h2>",
       "<ul><li>Identification du texte dans les sources officielles du pays, puis dans les bases de référence.</li><li>Ouverture du texte ou de sa notice pour relever l'intitulé exact, le numéro, la date et l'autorité.</li><li>Classement de la force juridique et du caractère dédié ou intégré pour chaque thème.</li><li>Rédaction d'un résumé factuel en français et en anglais, sans appréciation de l'ambition du texte.</li><li>Attribution d'un niveau de preuve selon la source retenue.</li></ul>",
-      "<h3>Barème de la carte</h3>",
+      "<h2>Barème de la carte</h2>",
       "<p>Pour un thème donné, un pays prend le niveau le plus élevé atteint par ses textes nationaux : texte dédié et contraignant, texte dédié indicatif ou volontaire, disposition dans un texte plus large. Un pays sans texte recensé est « non encore évalué ». Le registre ne qualifie jamais un pays de « sans politique » tant que la recherche n'est pas complète. La vue d'ensemble compte le nombre de thèmes renseignés.</p>",
       "<p>La carte décrit l'existence et la nature juridique des textes. Elle ne note ni leur ambition ni leur mise en œuvre. Un texte abrogé ne colore pas la carte. Les textes régionaux ne colorent pas les pays ; ils figurent sur la fiche de chaque État membre et la carte peut hachurer la zone concernée.</p>",
-      "<h3>Niveaux de preuve</h3>",
+      "<h2>Niveaux de preuve</h2>",
       "<p>Une source officielle est publiée par l'autorité émettrice, un parlement ou un journal officiel. Une base juridique de référence est un registre reconnu : FAOLEX, LEAP, ECOLEX, instituts d'information juridique nationaux, Climate Change Laws of the World, bibliothèque du SBFN. Une source secondaire (presse, cabinet, organisation professionnelle) signale un texte dont l'original n'a pas encore été retrouvé en ligne ; ces entrées sont les premières à vérifier.</p>",
-      "<h3>Dates</h3>",
+      "<h2>Dates</h2>",
       "<p>La date affichée est celle qui figure dans l'intitulé officiel ou, à défaut, la date de signature, de publication ou d'annonce, précisée dans le résumé. Quand seule l'année est connue avec certitude, seule l'année est affichée. Les dates d'entrée en vigueur sont indiquées dans le résumé quand elles diffèrent.</p>",
-      "<h3>Limites</h3>",
+      "<h2>Limites</h2>",
       "<p>Le registre couvre 54 des 55 États membres ; la République arabe sahraouie démocratique n'a pas encore été évaluée. Il s'agit d'un échantillon vérifié et non d'un inventaire complet. Les textes en arabe et en portugais ont été identifiés par les bases de référence. Les contributions déterminées au niveau national et les stratégies biodiversité, adoptées par la quasi-totalité des pays, ne sont pas encore saisies pays par pays ; leurs registres officiels figurent dans les Ressources. Les intitulés traduits ne sont pas officiels.</p>",
-      "<h3>Situations particulières</h3>",
+      "<h2>Situations particulières</h2>",
       "<p>Le registre suit la liste des membres de l'Union africaine et ne prend pas position sur les questions de souveraineté. Le tracé et les noms de la carte n'impliquent aucune reconnaissance de frontière. La République arabe sahraouie démocratique, membre de l'UA, a une fiche et figure en pointillés. Le Somaliland, qui n'est pas membre de l'UA, n'a pas de fiche distincte. Les textes adoptés pendant une transition politique sont recensés avec l'autorité émettrice exacte.</p>"
     ],
     "en": [
       "<p>The register records public sustainability texts from the 55 African Union member states, following the list published by the AU, as well as texts of the AU and regional organisations. It covers five themes, whose scope is set out on the Themes page.</p>",
-      "<h3>What enters the register</h3>",
+      "<h2>What enters the register</h2>",
       "<p>A text is included if a public authority adopted it: constitution, act, ordinance, decree, order, regulation, directive or guidance from a central bank, regulator or stock exchange, national strategy or policy. A voluntary commitment is included only if a public authority leads or signs it. Charters of professional associations without public endorsement and draft texts are not included.</p>",
-      "<h3>How each entry is built</h3>",
+      "<h2>How each entry is built</h2>",
       "<ul><li>The text is identified in the country's official sources, then in reference databases.</li><li>The text or its record is opened to note the exact title, number, date and authority.</li><li>Legal force and dedicated or integrated character are assigned for each theme.</li><li>A factual summary is written in English and French, with no judgement on the text's ambition.</li><li>An evidence level is assigned according to the source used.</li></ul>",
-      "<h3>Map scale</h3>",
+      "<h2>Map scale</h2>",
       "<p>For a given theme, a country takes the highest level reached by its national texts: dedicated and binding text, dedicated guidance or voluntary text, provision within a broader text. A country with no recorded text is \"not yet assessed\". The register never describes a country as having no policy until research is complete. The overview counts the number of themes with data.</p>",
       "<p>The map shows whether texts exist and their legal nature. It does not score their ambition or implementation. A repealed text does not colour the map. Regional texts do not colour countries; they appear on each member state's profile and the map can hatch the zone concerned.</p>",
-      "<h3>Evidence levels</h3>",
+      "<h2>Evidence levels</h2>",
       "<p>An official source is published by the issuing authority, a parliament or an official gazette. A reference legal database is a recognised registry: FAOLEX, LEAP, ECOLEX, national legal information institutes, Climate Change Laws of the World, the SBFN library. A secondary source (press, law firm, professional body) points to a text whose original has not yet been found online; these entries are first in line for verification.</p>",
-      "<h3>Dates</h3>",
+      "<h2>Dates</h2>",
       "<p>The date shown is the one in the official title or, failing that, the date of signature, publication or announcement, specified in the summary. Where only the year is certain, only the year is shown. Commencement dates are given in the summary when they differ.</p>",
-      "<h3>Limits</h3>",
+      "<h2>Limits</h2>",
       "<p>The register covers 54 of the 55 member states; the Sahrawi Arab Democratic Republic has not yet been assessed. It is a verified sample, not a complete inventory. Texts in Arabic and Portuguese were identified through reference databases. Nationally determined contributions and biodiversity strategies, adopted by almost every country, are not yet entered country by country; their official registries are listed under Resources. Translated titles are unofficial.</p>",
-      "<h3>Special cases</h3>",
+      "<h2>Special cases</h2>",
       "<p>The register follows the African Union membership list and takes no position on sovereignty. Boundaries and names on the map do not imply recognition of any border. The Sahrawi Arab Democratic Republic, an AU member, has a profile and is drawn with a dotted outline. Somaliland, which is not an AU member, has no separate profile. Texts adopted during a political transition are recorded with the exact issuing authority.</p>"
     ]
   },
@@ -362,7 +388,7 @@
       "ed": [
         "Le registre est édité à titre personnel par son fondateur. Les données compilées et les textes rédigés pour le site sont placés sous licence Creative Commons Attribution 4.0 (CC BY 4.0). Les textes officiels restent la propriété de leurs auteurs et ne sont pas hébergés ici.",
         "Pour citer le registre : Sylla, S. O. ({annee}). African Sustainability Policy Monitor. Données arrêtées au {date_longue}.",
-        "Cette version est hébergée sur claude.ai (Anthropic). Les mentions légales complètes et un formulaire de signalement accompagneront la mise en ligne sur un domaine propre ; chaque signalement sera vérifié sur le texte officiel avant toute modification."
+        "Cette version est hébergée par GitHub Pages (GitHub, Inc.). L'éditeur, l'hébergeur et le traitement des données sont précisés dans les mentions légales. Pour signaler une erreur ou un texte manquant, utilisez le formulaire de signalement : chaque signalement est vérifié sur le texte officiel avant toute modification."
       ],
       "logo_h": "Le logo",
       "logo": "L'Afrique tracée en lignes de registre. Chaque ligne évoque une entrée ; la ligne ocre, à hauteur du golfe de Guinée et de l'équateur, figure l'entrée que l'on consulte.",
@@ -390,11 +416,43 @@
       "ed": [
         "The register is published in a personal capacity by its founder. The compiled data and the texts written for the site are released under the Creative Commons Attribution 4.0 licence (CC BY 4.0). Official texts remain the property of their authors and are not hosted here.",
         "To cite the register: Sylla, S. O. ({annee}). African Sustainability Policy Monitor. Data as of {date_longue}.",
-        "This version is hosted on claude.ai (Anthropic). Full legal notices and a reporting form will come with the move to a dedicated domain; every report will be checked against the official text before any change."
+        "This version is hosted on GitHub Pages (GitHub, Inc.). The publisher, the host and data processing are set out in the legal notice. To report an error or a missing text, use the reporting form: every report is checked against the official text before any change."
       ],
       "logo_h": "The logo",
       "logo": "Africa drawn in register lines. Each line stands for an entry; the ochre line, level with the Gulf of Guinea and the equator, marks the entry being consulted.",
       "photo_alt": "Portrait of Sékou Oumar Sylla"
     }
+  },
+  "mentions_legales": {
+    "fr": [
+      "<h2>Éditeur</h2>",
+      "<p>African Sustainability Policy Monitor est un registre indépendant, édité à titre personnel et non commercial par Sékou Oumar Sylla, qui en est le directeur de la publication.</p>",
+      "<p>Contact et signalements : <a href=\"https://github.com/Senateur96/ASPM/issues/new/choose\" target=\"_blank\" rel=\"noopener\">formulaire de signalement</a> (un compte GitHub gratuit est nécessaire).</p>",
+      "<h2>Hébergeur</h2>",
+      "<p>GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. Service GitHub Pages, <a href=\"https://pages.github.com\" target=\"_blank\" rel=\"noopener\">pages.github.com</a>.</p>",
+      "<h2>Données personnelles</h2>",
+      "<p>Le site ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience et ne fait appel à aucun service tiers : les polices de caractères sont hébergées avec le site. Seule la langue choisie (FR ou EN) est mémorisée dans votre navigateur ; elle ne quitte pas votre appareil.</p>",
+      "<p>Comme tout hébergeur, GitHub enregistre des données techniques de connexion, dont l'adresse IP, à des fins de sécurité. Voir la <a href=\"https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">déclaration de confidentialité de GitHub</a>.</p>",
+      "<h2>Propriété intellectuelle et licence</h2>",
+      "<p>Les données compilées et les textes rédigés pour le site sont placés sous licence <a href=\"https://creativecommons.org/licenses/by/4.0/deed.fr\" target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 (CC BY 4.0)</a>. Les textes officiels restent la propriété de leurs auteurs et ne sont pas hébergés ici. Les polices Archivo, Source Serif 4 et Overpass Mono sont distribuées sous licence SIL Open Font License 1.1.</p>",
+      "<h2>Responsabilité</h2>",
+      "<p>Le registre est fourni à titre d'information. Il décrit l'existence et la nature juridique des textes, sans constituer un avis juridique. Avant toute décision, vérifiez la version en vigueur du texte officiel auprès de l'autorité émettrice. Les liens externes renvoient vers des sites dont l'éditeur ne contrôle pas le contenu.</p>",
+      "<p>Les frontières et les noms figurant sur la carte n'impliquent aucune reconnaissance ni prise de position.</p>"
+    ],
+    "en": [
+      "<h2>Publisher</h2>",
+      "<p>African Sustainability Policy Monitor is an independent register, published in a personal and non-commercial capacity by Sékou Oumar Sylla, who is its publication director.</p>",
+      "<p>Contact and reports: <a href=\"https://github.com/Senateur96/ASPM/issues/new/choose\" target=\"_blank\" rel=\"noopener\">reporting form</a> (a free GitHub account is required).</p>",
+      "<h2>Host</h2>",
+      "<p>GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States. GitHub Pages service, <a href=\"https://pages.github.com\" target=\"_blank\" rel=\"noopener\">pages.github.com</a>.</p>",
+      "<h2>Personal data</h2>",
+      "<p>The site sets no cookies, uses no audience measurement and calls no third-party service: fonts are hosted with the site. Only your language choice (FR or EN) is stored in your browser; it never leaves your device.</p>",
+      "<p>Like any host, GitHub records technical connection data, including IP addresses, for security purposes. See the <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">GitHub General Privacy Statement</a>.</p>",
+      "<h2>Intellectual property and licence</h2>",
+      "<p>The compiled data and the texts written for the site are released under the <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 (CC BY 4.0)</a> licence. Official texts remain the property of their authors and are not hosted here. The Archivo, Source Serif 4 and Overpass Mono fonts are distributed under the SIL Open Font License 1.1.</p>",
+      "<h2>Liability</h2>",
+      "<p>The register is provided for information. It describes whether texts exist and their legal nature, and is not legal advice. Before any decision, check the version in force of the official text with the issuing authority. External links lead to sites whose content the publisher does not control.</p>",
+      "<p>Boundaries and names on the map do not imply any recognition or position.</p>"
+    ]
   }
 }

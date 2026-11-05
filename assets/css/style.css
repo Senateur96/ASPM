@@ -10,7 +10,7 @@ img{max-width:100%}
    Condensed grotesque for headings and figures, a reading serif for summaries, a mono for references and dates. */
 :root{
   --paper:#EDEFF2; --sheet:#FAFBFC; --ink:#0E1730; --ink2:#47516B; --rule:#C6CCD8; --rule2:#E0E4EB;
-  --indigo:#24317F; --on-indigo:#FFFFFF; --ochre:#9E640A; --ochre-bg:#F5E9D2;
+  --indigo:#24317F; --on-indigo:#FFFFFF; --ochre:#9E640A; --ochre-ink:#8F5C09; --ochre-bg:#F5E9D2;
   --m0:#FAFBFC; --m0line:#A9B2C4; --m1:#C9D0EE; --m2:#6F7DC8; --m3:#24317F; --sea:#E3E7ED;
   --display:"Archivo","Arial Narrow",Arial,sans-serif;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
@@ -18,18 +18,18 @@ img{max-width:100%}
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#0B1020; --sheet:#121930; --ink:#E7EAF3; --ink2:#A3ABC1; --rule:#2E3858; --rule2:#1F2843;
-  --indigo:#A9B5FF; --on-indigo:#0B1020; --ochre:#E5B356; --ochre-bg:#2C2413;
+  --indigo:#A9B5FF; --on-indigo:#0B1020; --ochre:#E5B356; --ochre-ink:#E5B356; --ochre-bg:#2C2413;
   --m0:#121930; --m0line:#56618C; --m1:#38448C; --m2:#6976D6; --m3:#B0BCFF; --sea:#0E1428; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#0B1020; --sheet:#121930; --ink:#E7EAF3; --ink2:#A3ABC1; --rule:#2E3858; --rule2:#1F2843;
-  --indigo:#A9B5FF; --on-indigo:#0B1020; --ochre:#E5B356; --ochre-bg:#2C2413;
+  --indigo:#A9B5FF; --on-indigo:#0B1020; --ochre:#E5B356; --ochre-ink:#E5B356; --ochre-bg:#2C2413;
   --m0:#121930; --m0line:#56618C; --m1:#38448C; --m2:#6976D6; --m3:#B0BCFF; --sea:#0E1428; color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-padding-top:120px}
 body{background:var(--paper);color:var(--ink);font:400 15px/1.5 var(--display);font-stretch:100%;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:var(--sheet)}
 a{color:var(--indigo);text-decoration-thickness:1px;text-underline-offset:3px}
-a:hover{color:var(--ochre)}
+a:hover{color:var(--ochre-ink)}
 :focus-visible{outline:2px solid var(--ochre);outline-offset:2px}
 h1,h2,h3,h4{font-family:var(--display);font-stretch:75%;font-weight:700;margin:0;line-height:1.05;text-wrap:balance;letter-spacing:-.005em}
 h1{font-size:clamp(2.3rem,5vw,3.9rem)}
@@ -44,6 +44,7 @@ p{margin:0}
 .serif{font-family:var(--serif);font-size:1.02rem;line-height:1.6}
 .prose{font-family:var(--serif);font-size:1.05rem;line-height:1.65;max-width:68ch;display:grid;gap:14px}
 .prose h3{font-family:var(--display);margin-top:16px}
+.prose h2{font-family:var(--display);font-size:1.32rem;margin-top:16px}
 .prose ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
 .btn{font:600 .86rem var(--display);border:1px solid var(--indigo);background:var(--indigo);color:var(--on-indigo);padding:8px 14px;cursor:pointer;border-radius:2px;text-decoration:none;display:inline-block}
 .btn:hover{background:var(--ochre);border-color:var(--ochre);color:var(--on-indigo)}
@@ -156,7 +157,7 @@ main{padding-block:32px 72px}
 .tag.b{border-color:var(--indigo);color:var(--indigo)}
 .tag.g{border-style:dashed;border-color:var(--indigo);color:var(--indigo)}
 .tag.v{border-style:dotted}
-.tag.p{border-color:var(--ochre);color:var(--ochre)}
+.tag.p{border-color:var(--ochre);color:var(--ochre-ink)}
 .tag.th{background:var(--paper);border-color:var(--paper);color:var(--ink)}
 .orig{font-family:var(--serif);font-style:italic;color:var(--ink2);font-size:.92rem}
 .meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.82rem;color:var(--ink2)}
@@ -235,3 +236,21 @@ footer b{display:block;color:var(--ink);font-stretch:75%;font-size:1rem;margin-b
 @media (max-width:760px){.mast-meta>[data-i="edition"]{display:none}}
 /* Sur les écrans très bas (petits téléphones, mode paysage), l'en-tête défile avec la page. */
 @media (max-width:760px) and (max-height:700px){.mast{position:static}html{scroll-padding-top:0}}
+
+/* ---------- Ajustements ajoutés lors de la mise en qualité ---------- */
+/* Texte ocre de petite taille : teinte légèrement plus foncée en mode clair pour atteindre
+   le contraste minimal de 4,5:1 (WCAG AA). Le filet ocre et les aplats restent inchangés. */
+.prose a{color:var(--indigo)}
+.prose a:hover{color:var(--ochre-ink)}
+.tools .btn{white-space:nowrap}
+/* Impression : une fiche pays ou une page s'imprime sans en-tête fixe, menus ni boutons. */
+@media print{
+  :root{--paper:#fff;--sheet:#fff;color-scheme:light}
+  body::before,.mast,.skip,.sub,.crumbs,.tools,.starts,footer .footnav,#dcsv,.sugg{display:none!important}
+  main{padding-block:0}
+  .bench{grid-template-columns:1fr}.tindex,.mapnote{display:none}
+  .fiche{max-height:none;border:0}
+  a[href^="http"]::after{content:" <" attr(href) ">";font:400 .7rem var(--mono);color:var(--ink2);overflow-wrap:anywhere}
+  .tw{overflow:visible}th{position:static}
+  .sec,.row,tr{break-inside:avoid}
+}

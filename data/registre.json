@@ -1,7 +1,7 @@
 {
   "_aide": "Liste des textes du registre. Mode d'emploi complet dans README.md. Valeurs possibles : force = contraignant | indicatif | volontaire ; source = officielle | base_reference | secondaire ; themes = FIN, CIR, BIO, CLI, SOC avec la valeur dedie ou integre ; nouveau = true pour afficher le texte dans « Derniers textes ajoutés ».",
   "date_mise_a_jour": "2026-10-31",
-  "version": "1.0",
+  "version": "0.4",
   "textes": [
     {
       "id": "ZAF-01",
@@ -2594,6 +2594,24 @@
     }
   ],
   "historique_versions": [
+    {
+      "version": "0.4",
+      "date": "2026-11-05",
+      "fr": [
+        "Site publié sur GitHub Pages ; contenu séparé du code dans des fichiers de données.",
+        "Polices hébergées avec le site : aucune requête vers un service tiers.",
+        "Ajout des mentions légales, d'un formulaire de signalement et du journal des versions.",
+        "Export CSV téléchargeable et données complètes au format JSON.",
+        "Accessibilité et affichage sur téléphone améliorés ; typographie française (espaces insécables)."
+      ],
+      "en": [
+        "Site published on GitHub Pages; content separated from code in data files.",
+        "Fonts hosted with the site: no request to a third-party service.",
+        "Legal notice, reporting form and version history added.",
+        "Downloadable CSV export and full data in JSON format.",
+        "Improved accessibility and phone display; French typography (non-breaking spaces)."
+      ]
+    },
     {
       "version": "0.3",
       "date": "2026-10-31",

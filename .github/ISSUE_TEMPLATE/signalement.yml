@@ -1,0 +1,38 @@
+name: Signaler une erreur ou un texte manquant / Report an error or a missing text
+description: Une erreur dans une fiche, un lien cassé, un texte à ajouter. / An error, a broken link, a text to add.
+title: "[Signalement] "
+labels: ["signalement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer au registre. Chaque signalement est vérifié sur le texte officiel avant toute modification.
+        Thank you for contributing. Every report is checked against the official text before any change.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Nature du signalement / Type of report
+      options:
+        - Erreur dans une fiche / Error in an entry
+        - Lien cassé / Broken link
+        - Texte manquant / Missing text
+        - Autre / Other
+    validations:
+      required: true
+  - type: input
+    id: ref
+    attributes:
+      label: Pays et numéro du texte, si connus / Country and entry number, if known
+      placeholder: "Ex. : Kenya, KEN-02"
+  - type: textarea
+    id: detail
+    attributes:
+      label: Description
+      description: Ce qui est inexact et ce qui devrait figurer. / What is wrong and what it should say.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source officielle / Official source
+      description: Lien vers le journal officiel, le site de l'autorité ou une base juridique. / Link to the official gazette, the authority's website or a legal database.

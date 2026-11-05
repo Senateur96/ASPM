@@ -1,43 +1,41 @@
 # Informations à vérifier
 
-Cette liste rassemble les points incertains repérés lors de la restructuration du site. **Aucun de ces contenus n’a été modifié** : ils sont signalés pour que vous décidiez. Les emplacements indiqués renvoient aux fichiers du dossier `data/`.
+Cette liste rassemble ce que je ne peux pas confirmer moi-même : le contenu de fond du registre (faits, dates, sources) reste sous votre responsabilité éditoriale, et l’environnement dans lequel j’ai travaillé n’avait pas accès aux sites extérieurs. Les emplacements indiqués renvoient aux fichiers du dossier `data/`.
 
 ---
 
-## 1. À corriger avant la mise en ligne sur GitHub Pages
+## 1. À faire de votre côté sur GitHub
 
-### 1.1 La page À propos indique un hébergement sur claude.ai
-Texte actuel (`data/site.json` → `a_propos` → `fr` → `ed`, 3e paragraphe, et son équivalent `en`) :
-
-> « Cette version est hébergée sur claude.ai (Anthropic). Les mentions légales complètes et un formulaire de signalement accompagneront la mise en ligne sur un domaine propre ; […] »
-
-Une fois le site publié sur GitHub Pages, cette phrase sera inexacte. Proposition :
-
-> « Cette version est hébergée par GitHub Pages. Les mentions légales complètes et un formulaire de signalement accompagneront la mise en ligne sur un domaine propre ; chaque signalement sera vérifié sur le texte officiel avant toute modification. »
->
-> *« This version is hosted on GitHub Pages. Full legal notices and a reporting form will accompany the launch on a dedicated domain; each report will be checked against the official text before any change. »* (à adapter selon le texte anglais actuel)
-
-### 1.2 Mentions légales
-Le site n’a pas de page de mentions légales. Pour un site édité depuis la France, même à titre personnel, l’identification de l’éditeur et de l’hébergeur est normalement requise (loi pour la confiance dans l’économie numérique). L’hébergeur serait GitHub Inc. À confirmer selon votre situation.
-
-### 1.3 Polices Google Fonts et données personnelles
-Les polices sont chargées depuis les serveurs de Google, ce qui transmet l’adresse IP des visiteurs à Google. Certaines juridictions européennes l’ont jugé contraire au RGPD sans consentement. Option : héberger les trois polices dans le dépôt. Le rendu resterait identique. Je ne l’ai pas fait sans votre accord.
+| Action | Pourquoi |
+|---|---|
+| Vérifier que l’onglet **Issues** est activé (Settings → General → Features → Issues). | Le lien « Signaler une erreur » et les mentions légales y renvoient. Il est activé par défaut. |
+| Lancer une première fois **Actions → Vérifier les liens → Run workflow**. | Je n’ai pas pu tester les 196 liens. Cette vérification le fera depuis GitHub. |
+| Facultatif : déclarer le site dans Google Search Console. | Pour accélérer le référencement. |
 
 ---
 
-## 2. Cohérence interne du site
+## 2. Mentions légales (nouvelle page, à relire)
+
+Rédigée à partir des informations déjà présentes sur le site (`data/site.json` → `mentions_legales`). À confirmer :
+
+- vous êtes bien **directeur de la publication**, et le site est édité **à titre personnel et non commercial** ;
+- le **contact** passe uniquement par le formulaire GitHub, qui demande un compte. Si vous souhaitez aussi une adresse e-mail publique, indiquez-la et je l’ajouterai ;
+- l’adresse de l’hébergeur (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107) est celle publiée par GitHub à ce jour.
+
+---
+
+## 3. Cohérence interne
 
 | Point | Constat | Où |
 |---|---|---|
-| Numéro de version | `"version": "1.0"`, alors que le journal des versions s’arrête à la **0.3**. Ce numéro n’est affiché nulle part sur le site. | `data/registre.json` |
-| Journal des versions | Il existe dans les données (`historique_versions`) et l’interface prévoit les libellés « Versions » et « Journal des versions », mais **aucune page ne l’affiche**, ni dans l’original ni maintenant. Faut-il créer cette page ? | `data/registre.json`, `data/site.json` (`n_v`, `ch_h`) |
-| Dates des versions | Les versions 0.1, 0.2 et 0.3 portent toutes la date du 31.10.2026. | `historique_versions` |
 | Date de consultation | « Consulté le 31.10.2026 » s’affiche sous **les 132 sources**. Confirmez qu’elles ont toutes été consultées à cette date. | `data/site.json` → `checked` |
-| Libellé inutilisé | Le libellé « Tous les pays » (`back`) n’est utilisé nulle part. Sans conséquence. | `data/site.json` |
+| Dates des versions | Les versions 0.1, 0.2 et 0.3 portent toutes la date du 31.10.2026. | `historique_versions` |
+| Numéro de version | Passé de « 1.0 » à **0.4** pour suivre le journal des versions (0.3 était la dernière). Le registre se présente comme une « version de travail » : 1.0 pourra marquer la version complète. | `data/registre.json` |
+| Titres « officiels » des textes en arabe | Pour EGY-01 à EGY-05, SDN-01 et LBY-01, le champ « titre officiel » contient un **titre en anglais** alors que la langue du texte est l’arabe : ce n’est donc pas le titre officiel. Ajouter l’intitulé arabe, ou renommer la mention en « titre de référence » pour ces textes. Pour le Rwanda (RWA-02, RWA-03), les lois sont publiées en kinyarwanda, en anglais et en français : le titre anglais est bien officiel. | `data/registre.json` |
 
 ---
 
-## 3. Sources signalées comme secondaires (« à confirmer »)
+## 4. Sources signalées comme secondaires (« à confirmer »)
 
 Le registre lui-même indique que ces quatre entrées reposent sur la presse ou une source non officielle :
 
@@ -48,27 +46,13 @@ Le registre lui-même indique que ces quatre entrées reposent sur la presse ou 
 | BWA-01 | Règlement de 2018 interdisant les sacs plastiques (Botswana) | elaw.org |
 | ZMB-04 | Lignes directrices de 2023 sur les prêts verts (Zambie) | afriwise.com (blog) |
 
-À remplacer par le texte officiel ou le journal officiel quand il est trouvé (puis passer `"source"` à `"officielle"` ou `"base_reference"`).
+À remplacer par le texte officiel quand il est trouvé, puis passer `"source"` à `"officielle"` ou `"base_reference"`.
 
-95 entrées sur 132 s’appuient sur une base de référence (FAOLEX, ECOLEX, LII…) plutôt que sur la source officielle. C’est conforme à la méthodologie affichée, mais ce sont les prochaines candidates à une vérification sur le journal officiel.
-
----
-
-## 4. Liens non vérifiés
-
-L’environnement dans lequel j’ai travaillé ne pouvait pas accéder aux sites extérieurs. **Les 196 liens du site** (132 sources, liens du glossaire et des ressources) n’ont donc pas pu être testés. Il est conseillé de les vérifier, en priorité ceux des sites gouvernementaux, qui changent souvent d’adresse.
+95 entrées sur 132 s’appuient sur une base de référence (FAOLEX, ECOLEX, LII…) plutôt que sur la source officielle. C’est conforme à la méthodologie, mais ce sont les prochaines candidates à une vérification sur le journal officiel.
 
 ---
 
-## 5. Titres sans traduction anglaise
-
-Ces textes officiels sont en arabe ou en kinyarwanda et n’ont qu’une traduction française du titre. **En anglais, le site affiche donc le titre en langue d’origine.** Ajouter un champ `"titre_en"` pour chacun :
-
-EGY-01, EGY-02, EGY-03, EGY-04, EGY-05 (arabe), SDN-01 (arabe), LBY-01 (arabe), RWA-02, RWA-03 (kinyarwanda).
-
----
-
-## 6. Dates incomplètes
+## 5. Dates incomplètes
 
 61 textes n’ont qu’une année, ou une année et un mois. La méthodologie le prévoit, mais une date complète est préférable quand elle figure dans l’intitulé officiel :
 
@@ -77,39 +61,33 @@ EGY-01, EGY-02, EGY-03, EGY-04, EGY-05 (arabe), SDN-01 (arabe), LBY-01 (arabe), 
 
 ---
 
-## 7. Échéances à confirmer
+## 6. Échéances à confirmer
 
-Ces dates d’obligation sont affichées en page d’accueil. Les calendriers de mise en œuvre des normes IFRS S1 et S2 sont parfois reportés :
+Affichées en page d’accueil. Les calendriers des normes IFRS S1 et S2 sont parfois reportés :
 
 - Ghana (GHA-02) : 01.01.2027 et 01.01.2028.
 - Nigeria (NGA-02) : 01.01.2028 et 01.01.2030.
 
 ---
 
-## 8. Page À propos : informations personnelles
+## 7. Page À propos : informations personnelles
 
-Ces informations datent de la rédaction initiale et peuvent évoluer. À confirmer :
+À confirmer qu’elles sont toujours à jour :
 
 - poste actuel (Arkéa Capital, reporting réglementaire ESG) et employeurs précédents ;
 - chiffres de Sustainability Infographics : « une vingtaine de bénévoles », « plus de 220 000 abonnés », « plus de 190 millions de personnes », « l’une des pages LinkedIn indépendantes […] les plus suivies au monde » ;
 - appartenance au centre de recherche sur le leadership climatique de l’Université d’Oxford ;
-- distinctions et programmes de 2021 (Prix Jeunes Écrivains RFI-AUF, Harvard Crossroads Emerging Leaders, « 50 jeunes engagés pour le climat ») ;
-- choix de la licence CC BY 4.0 pour les données et les textes rédigés.
+- distinctions et programmes de 2021 (Prix Jeunes Écrivains RFI-AUF, Harvard Crossroads Emerging Leaders, « 50 jeunes engagés pour le climat »).
 
 ---
 
-## 9. Ce qui a été déplacé, retiré ou ajusté (pour mémoire)
+## 8. Ce qui a été modifié dans le contenu (pour mémoire)
 
-Rien n’a été supprimé du contenu. Voici les changements techniques :
+Les seules modifications de texte que j’ai faites :
 
-- **Fichier d’origine** : `index_ASPM.html` a été déplacé et renommé en `archive/index_ASPM_original.html` (contenu inchangé). Le site démarre désormais depuis `index.html`, nom attendu par GitHub Pages.
-- **Retiré** : la balise `<meta name="claude:viewport-fit-sides">` et l’enveloppe HTML ajoutée par claude.ai, propres à cet hébergement et sans effet ailleurs. Les styles de base de cette enveloppe ont été conservés en tête de `style.css`.
-- **Commentaires des données** : les séparateurs de l’ancien code (« FINANCE DURABLE », « CLIMAT »…) et la légende des codes ne peuvent pas figurer dans un fichier JSON. La légende est reprise dans le champ `_aide` de `data/registre.json` et dans le README. L’ordre des textes est inchangé.
-- **Champ « année »** : il n’est plus saisi à part ; il est déduit de la date. J’ai vérifié qu’il était identique pour les 132 textes.
-- **Liste des nouveaux textes** : la liste séparée d’identifiants est remplacée par un champ `"nouveau": true` sur chacun des 41 textes concernés.
-- **Dates écrites en dur** (en-tête, citations, filtre des échéances) et **« 66 définitions »** : désormais calculées à partir de `date_mise_a_jour` et du glossaire. Le résultat affiché est identique.
-- **Photo** : extraite du code et enregistrée dans `assets/img/portrait.jpg` (même image).
-- **Mobile** : sur téléphone, la date d’édition est masquée dans l’en-tête fixe (elle reste affichée en tête de la page Carte) ; sur les écrans de faible hauteur, l’en-tête défile avec la page ; la page Comparer ne déborde plus à 320 pixels ; un pays touché sur la carte fait défiler jusqu’à sa fiche.
-- **Ajouts** : icône d’onglet (le logo), titre d’onglet propre à chaque page, aperçu pour le partage sur les réseaux, message si JavaScript est désactivé, messages d’erreur en français en cas de faute dans les données, mode `?verifier`, vérification automatique sur GitHub.
+- **À propos**, 3e paragraphe de « Édition et licence » : « Cette version est hébergée sur claude.ai (Anthropic)… » est remplacé par une phrase qui renvoie vers GitHub Pages, les mentions légales et le formulaire de signalement (en français et en anglais).
+- **Page Textes**, phrase d’introduction : elle mentionne désormais les boutons de téléchargement.
+- **Ajouts** : page Mentions légales, page Versions (le journal existait dans les données mais n’était affiché nulle part), entrée 0.4 du journal, lien « Signaler une erreur ».
+- **Typographie** : espaces insécables en français (le point-virgule ne se retrouve plus seul en début de ligne) ; en anglais, suppression de l’espace avant les deux-points (« Authority: » au lieu de « Authority : »).
 
-Contrôle effectué : chaque page, en français et en anglais, a été comparée à l’original. Le contenu produit est identique, et les captures d’écran sur ordinateur sont identiques au pixel près. Seule l’adresse affichée dans la citation des fiches pays change, puisqu’elle reprend l’adresse réelle du site.
+Les autres changements sont techniques et décrits dans le journal des versions (À propos → Versions).

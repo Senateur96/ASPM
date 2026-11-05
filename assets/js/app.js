@@ -4,12 +4,22 @@
    il n'est normalement pas nécessaire de modifier ce fichier : voir README.md. */
 "use strict";
 
-let ASOF,VERSION,COUNTRIES,ORGS,DATA,THEMES,GCAT,GLOSS,RES,DEADLINES,THEMEINFO,CHANGES,ABOUT2,PHOTO,PATHS,ISLANDS,NEWIDS,T,METH;
+let LEGAL,ASOF,VERSION,COUNTRIES,ORGS,DATA,THEMES,GCAT,GLOSS,RES,DEADLINES,THEMEINFO,CHANGES,ABOUT2,PHOTO,PATHS,ISLANDS,NEWIDS,T,METH;
 const SITE_NAME="African Sustainability Policy Monitor";
 
 /* Mois pour la date longue (« 31 octobre 2026 », « 31 October 2026 »). */
 const MOIS={fr:["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],
   en:["January","February","March","April","May","June","July","August","September","October","November","December"]};
+
+/* Typographie française : espace insécable avant ; : ! ? » et après «, après « n° »,
+   et entre les groupes de chiffres (220 000), pour éviter qu'un signe se retrouve seul en début de ligne. */
+const NB="\u00A0";
+function typo(x){
+  if(typeof x==="string")return x.replace(/ ([;:!?»])/g,NB+"$1").replace(/« /g,"«"+NB).replace(/\b(n°|N°) /g,"$1"+NB).replace(/(\d) (\d{3})\b/g,"$1"+NB+"$2");
+  if(Array.isArray(x))return x.map(typo);
+  if(x&&typeof x==="object"){const o={};for(const k in x)o[k]=typo(x[k]);return o}
+  return x;
+}
 
 /* Remplace {date}, {date_longue}, {annee}, {nb_definitions} dans tous les textes d'une langue. */
 function remplir(x,lang,vals){
@@ -63,9 +73,18 @@ function charger(reg,ref,site,carte){
   const [y,m,d]=String(ASOF).split("-");
   const vals={fr:{date:`${d}.${m}.${y}`,date_longue:`${+d} ${MOIS.fr[m-1]} ${y}`,annee:y,nb_definitions:GLOSS.length},
               en:{date:`${d}.${m}.${y}`,date_longue:`${+d} ${MOIS.en[m-1]} ${y}`,annee:y,nb_definitions:GLOSS.length}};
-  T={fr:remplir(site.interface.fr,"fr",vals),en:remplir(site.interface.en,"en",vals)};
-  METH={fr:remplir(site.methodologie.fr,"fr",vals).join("\n"),en:remplir(site.methodologie.en,"en",vals).join("\n")};
-  ABOUT2={fr:remplir(site.a_propos.fr,"fr",vals),en:remplir(site.a_propos.en,"en",vals)};
+  T={fr:typo(remplir(site.interface.fr,"fr",vals)),en:remplir(site.interface.en,"en",vals)};
+  METH={fr:typo(remplir(site.methodologie.fr,"fr",vals)).join("\n"),en:remplir(site.methodologie.en,"en",vals).join("\n")};
+  ABOUT2={fr:typo(remplir(site.a_propos.fr,"fr",vals)),en:remplir(site.a_propos.en,"en",vals)};
+  LEGAL={fr:typo((site.mentions_legales||{}).fr||[]).join("\n"),en:((site.mentions_legales||{}).en||[]).join("\n")};
+  for(const e of DATA){if(e.tf)e.tf=typo(e.tf);e.sf=typo(e.sf);e.ty[0]=typo(e.ty[0])}
+  for(const k in ORGS)ORGS[k].dfr=typo(ORGS[k].dfr);
+  THEMES.forEach(x=>{x.fr=typo(x.fr);x.hfr=typo(x.hfr)});
+  for(const k in THEMEINFO){THEMEINFO[k].inc=typo(THEMEINFO[k].inc);THEMEINFO[k].exc=typo(THEMEINFO[k].exc)}
+  GLOSS.forEach(g=>{g[1]=typo(g[1]);g[3]=typo(g[3])});
+  RES.forEach(r=>{r.fr=typo(r.fr);r.items.forEach(i=>i[3]=typo(i[3]))});
+  DEADLINES.forEach(d=>d.fr=typo(d.fr));
+  CHANGES.forEach(c=>c.fr=typo(c.fr));
   PHOTO=site.a_propos.photo;
   PATHS=carte.contours;ISLANDS=carte.iles;
   for(const c of Object.keys(COUNTRIES))if(!PATHS[c])err.push(`referentiel.json : le pays ${c} n'a pas de contour dans carte.json.`);
@@ -113,7 +132,7 @@ Promise.all(["data/registre.json","data/referentiel.json","data/site.json","data
 
 /* Titre de l'onglet selon la page affichée. */
 function setTitle(h){
-  const K={carte:null,pays:"n_cty",comparer:"n_cmp",regional:"n_reg",base:"n_db",themes:"n_themes",glossaire:"n_gl",ressources:"n_res",apropos:"n_a",methodologie:"n_m"};
+  const K={carte:null,pays:"n_cty",comparer:"n_cmp",regional:"n_reg",base:"n_db",themes:"n_themes",glossaire:"n_gl",ressources:"n_res",apropos:"n_a",methodologie:"n_m",versions:"n_v",mentions:"n_legal"};
   let p=null;
   if(h.startsWith("pays-")&&COUNTRIES[h.slice(5)])p=COUNTRIES[h.slice(5)][L==="fr"?0:1];
   else if(K[h])p=T[L][K[h]];
@@ -126,6 +145,8 @@ function demarrer(){
 /* ---------- état et fonctions utilitaires ---------- */
 let THEME="ALL",OVER="",SEL=null,DBQ="",CMP=["KEN","NGA","ZAF"],GCF="",SORT={k:"n",d:-1};
 const t=k=>T[L][k];
+/* deux-points : espace insécable avant en français, aucune espace avant en anglais */
+const COLON=()=>L==="fr"?"\u00A0: ":": ";
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const I=L2=>L2==="fr"?0:1;
 const cname=c=>COUNTRIES[c]?COUNTRIES[c][I(L)]:(ORGS[c]?ORGS[c][L]:c);
@@ -153,8 +174,8 @@ function tags(e,k){
 function row(e,k,full){
   const o=showOrig(e);
   return `<div class="row"><span class="doc">${esc(e.id)}</span><span class="t">${esc(title(e))}</span><span class="dt">${esc(fmtDate(e.dt))}</span>
-  ${full?`<div class="sub">${o?`<p class="orig">${esc(t("official_title"))} : ${esc(o)}</p>`:""}${tags(e,k)}<p class="serif">${esc(L==="fr"?e.sf:e.se)}</p>
-  <div class="meta"><span>${esc(e.ty[I(L)])}</span><span>${esc(t("authority"))} : ${esc(e.a)}</span><a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(t("source"))}</a><span class="mono">${esc(t("checked"))}</span></div></div>`
+  ${full?`<div class="sub">${o?`<p class="orig">${esc(t("official_title"))}${COLON()}${esc(o)}</p>`:""}${tags(e,k)}<p class="serif">${esc(L==="fr"?e.sf:e.se)}</p>
+  <div class="meta"><span>${esc(e.ty[I(L)])}</span><span>${esc(t("authority"))}${COLON()}${esc(e.a)}</span><a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(t("source"))}</a><span class="mono">${esc(t("checked"))}</span></div></div>`
   :`<div class="sub"><span class="meta"><span>${COUNTRIES[e.c]?`<a href="#pays-${e.c}">${esc(cname(e.c))}</a>`:esc(cname(e.c))}</span><span>${esc(t("f")[e.f])}</span><span>${Object.keys(e.th).map(thName).map(esc).join(", ")}</span></span></div>`}
   </div>`;
 }
@@ -163,8 +184,8 @@ function copyText(txt,statusEl,fallbackEl){
   try{navigator.clipboard.writeText(txt).then(()=>statusEl.textContent=t("copied"),fail)}catch(e){fail()}
 }
 
-const crumbs=(...items)=>`<nav class="crumbs" aria-label="Fil d'Ariane"><a href="#carte">${esc(t("home"))}</a>${items.map(([h,l])=>` <span aria-hidden="true">›</span> `+(h?`<a href="#${h}">${esc(l)}</a>`:`<span aria-current="page">${esc(l)}</span>`)).join("")}</nav>`;
-const SUBS={pays:[["pays","n_all"],["comparer","n_cmp"],["regional","n_reg"]],apropos:[["apropos","n_proj"],["methodologie","n_m"]]};
+const crumbs=(...items)=>`<nav class="crumbs" aria-label="${esc(t("a_crumbs"))}"><a href="#carte">${esc(t("home"))}</a>${items.map(([h,l])=>` <span aria-hidden="true">›</span> `+(h?`<a href="#${h}">${esc(l)}</a>`:`<span aria-current="page">${esc(l)}</span>`)).join("")}</nav>`;
+const SUBS={pays:[["pays","n_all"],["comparer","n_cmp"],["regional","n_reg"]],apropos:[["apropos","n_proj"],["methodologie","n_m"],["versions","n_v"],["mentions","n_legal"]]};
 const subnav=(g,cur)=>`<nav class="sub" aria-label="${esc(t(g==="pays"?"n_cty":"n_a"))}">${SUBS[g].map(([h,k])=>`<a href="#${h}" ${h===cur?'aria-current="page"':""}>${esc(t(k))}</a>`).join("")}</nav>`;
 /* ---------- home ---------- */
 function viewHome(){
@@ -172,7 +193,7 @@ function viewHome(){
   app.innerHTML=`<section class="view">
   <div class="head"><div><p class="lbl">${esc(t("edition"))}</p><h1 style="margin-top:10px">${esc(t("h1"))}</h1><p class="lead">${esc(t("lead"))}</p></div>
    <dl class="figs"><div><dt>${esc(t("fg1"))}</dt><dd>${DATA.length}</dd></div><div><dt>${esc(t("fg2"))}</dt><dd>${nC}</dd></div><div><dt>${esc(t("fg3"))}</dt><dd>${nB}</dd></div><div><dt>${esc(t("fg4"))}</dt><dd>${reg.length}</dd></div></dl></div>
-  <nav class="starts" aria-label="Accès rapides"><a href="#pays"><b>${esc(t("st1h"))}</b><span>${esc(t("st1"))}</span></a><a href="#base"><b>${esc(t("st2h"))}</b><span>${esc(t("st2"))}</span></a><a href="#glossaire"><b>${esc(t("st3h"))}</b><span>${esc(t("st3"))}</span></a></nav>
+  <nav class="starts" aria-label="${esc(t("a_starts"))}"><a href="#pays"><b>${esc(t("st1h"))}</b><span>${esc(t("st1"))}</span></a><a href="#base"><b>${esc(t("st2h"))}</b><span>${esc(t("st2"))}</span></a><a href="#glossaire"><b>${esc(t("st3h"))}</b><span>${esc(t("st3"))}</span></a></nav>
   <div class="bench">
    <div class="tindex"><div class="tlist" role="group" aria-label="${esc(t("th_idx"))}">${tbtn("ALL",t("all"),new Set(nat.map(e=>e.c)).size)}${THEMES.map(x=>tbtn(x.k,x[L],new Set(nat.filter(e=>e.th[x.k]).map(e=>e.c)).size)).join("")}</div>
     <div class="legend" id="legend"></div>
@@ -195,7 +216,7 @@ function svgMap(){
   let p="",h="";
   for(const c in PATHS){p+=`<path class="cty${c==="ESH"?" esh":""}" data-c="${c}" d="${PATHS[c].d}" tabindex="0" role="button"></path>`;h+=`<path class="hatch" data-h="${c}" d="${PATHS[c].d}" hidden></path>`}
   for(const c of ISLANDS){const [x,y]=PATHS[c].c;p+=`<circle class="cty island" data-c="${c}" cx="${x}" cy="${y}" r="7" tabindex="0" role="button"></circle>`}
-  return `<svg viewBox="0 0 800 735" role="img" aria-label="${L==="fr"?"Carte des 55 États de l'Union africaine":"Map of the 55 African Union member states"}"><defs><pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V7" stroke-width="2.2"/></pattern></defs><g>${p}</g><g>${h}</g></svg>`;
+  return `<svg viewBox="0 0 800 735" role="group" aria-label="${esc(t("a_map"))}"><defs><pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V7" stroke-width="2.2"/></pattern></defs><g>${p}</g><g>${h}</g></svg>`;
 }
 function paint(){
   app.querySelectorAll(".cty").forEach(el=>{const c=el.dataset.c,lv=mapLevel(c);el.setAttribute("class",`cty${c==="ESH"?" esh":""}${el.tagName==="circle"?" island":""} lv${lv}${c===SEL?" sel":""}`);el.setAttribute("aria-label",cname(c)+", "+lvText(lv))});
@@ -218,7 +239,7 @@ function fiche(){
     el.innerHTML=`<p class="serif muted">${esc(t("hint"))}</p><p class="lbl">${esc(t("cov"))} · ${cs.length}</p><div class="reg">${cs.map(c=>`<div class="row" style="grid-template-columns:minmax(0,1fr) auto"><a href="#pays-${c}">${esc(cname(c))}</a><span class="mono muted">${THEME==="ALL"?nThemes(c)+"/5":esc(lvLabel(level(c,THEME)))}</span></div>`).join("")}</div>`;return}
   const list=nat.filter(e=>e.c===SEL&&(THEME==="ALL"||e.th[THEME])).sort((a,b)=>String(b.dt).localeCompare(String(a.dt)));
   el.innerHTML=`<p class="lbl">${esc(t("R")[COUNTRIES[SEL][2]])}</p><h3>${esc(cname(SEL))}<span class="code">${SEL}</span></h3>
-  <p class="muted">${THEME==="ALL"?`${esc(t("themes_in"))} : ${nThemes(SEL)}/5`:esc(thName(THEME))+" · "+esc(lvLabel(level(SEL,THEME)))}</p>
+  <p class="muted">${THEME==="ALL"?`${esc(t("themes_in"))}${COLON()}${nThemes(SEL)}/5`:esc(thName(THEME))+" · "+esc(lvLabel(level(SEL,THEME)))}</p>
   ${list.length?`<div class="reg">${list.map(e=>`<div class="row" style="grid-template-columns:62px minmax(0,1fr)"><span class="doc">${esc(e.id)}</span><span><span class="t">${esc(title(e))}</span><br><span class="mono muted">${esc(fmtDate(e.dt))} · ${esc(t("f")[e.f])}</span></span></div>`).join("")}</div>`:`<p class="empty">${esc(THEME==="ALL"?t("na"):t("noText"))}</p>`}
   <a class="btn" href="#pays-${SEL}" style="justify-self:start">${esc(t("open"))}</a>`;
 }
@@ -228,7 +249,7 @@ function chart(){
   const mx=Math.max(...Object.values(ys)),top=Math.ceil(mx/2)*2;
   const W=640,H=240,pl=30,pr=8,pt=12,pb=26,n=y1-y0+1,bw=(W-pl-pr)/n;
   let g="";for(let v=0;v<=top;v+=2){const y=pt+(H-pt-pb)*(1-v/top);g+=`<line class="grid" x1="${pl}" x2="${W-pr}" y1="${y}" y2="${y}"/><text x="${pl-6}" y="${y+4}" text-anchor="end">${v}</text>`}
-  let b="";for(let yr=y0;yr<=y1;yr++){const v=ys[yr]||0;if(v){const h=(H-pt-pb)*v/top;b+=`<rect class="bar${v===mx?" mx":""}" x="${pl+(yr-y0)*bw+1}" y="${H-pb-h}" width="${Math.max(bw-2,1)}" height="${h}"><title>${yr} : ${v}</title></rect>`}
+  let b="";for(let yr=y0;yr<=y1;yr++){const v=ys[yr]||0;if(v){const h=(H-pt-pb)*v/top;b+=`<rect class="bar${v===mx?" mx":""}" x="${pl+(yr-y0)*bw+1}" y="${H-pb-h}" width="${Math.max(bw-2,1)}" height="${h}"><title>${yr}${COLON()}${v}</title></rect>`}
     if(yr%5===0)b+=`<text x="${pl+(yr-y0)*bw+bw/2}" y="${H-8}" text-anchor="middle">${yr}</text>`}
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t("chart_h"))}">${g}<line class="axis" x1="${pl}" x2="${W-pr}" y1="${H-pb}" y2="${H-pb}"/>${b}</svg>`;
 }
@@ -259,13 +280,14 @@ function viewCountries(){
     cst.textContent=cs.length+" / 55";};
   const cq=document.getElementById("cq"),cr=document.getElementById("cr"),co=document.getElementById("co"),cb=document.getElementById("cb"),cst=document.getElementById("cst");
   cq.oninput=draw;cr.onchange=draw;co.onchange=draw;
-  app.querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.s;SORT={k,d:SORT.k===k?-SORT.d:(k==="c"||k==="r"?1:-1)};draw()});
-  draw();
+  const sortAria=()=>app.querySelectorAll("th button").forEach(b=>{const th=b.parentElement;if(b.dataset.s===SORT.k)th.setAttribute("aria-sort",SORT.d>0?"ascending":"descending");else th.removeAttribute("aria-sort")});
+  app.querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.s;SORT={k,d:SORT.k===k?-SORT.d:(k==="c"||k==="r"?1:-1)};draw();sortAria()});
+  draw();sortAria();
 }
 function viewCountry(c){
   const orgs=orgsOf(c),all=nat.filter(e=>e.c===c);
   const regs=reg.filter(e=>e.c==="AU"||orgs.includes(e.c));
-  const cite=t("cite_cty").replace("{pays}",cname(c))+"\n"+location.href.split("#")[0]+"#pays-"+c;
+  const cite=t("cite_cty").replace("{pays}",cname(c))+"\n"+location.origin+location.pathname+"#pays-"+c;
   app.innerHTML=`<section class="view">${crumbs(["pays",t("n_cty")],[null,cname(c)])}
   <div class="chead"><div><p class="lbl">${esc(t("R")[COUNTRIES[c][2]])} · ${c}</p><h1 style="margin-top:8px">${esc(cname(c))}</h1></div>
    <div class="tags"><span class="tag">${esc(t("memberships"))}</span><span class="tag th">${esc(ORGS.AU[L])}</span>${orgs.map(o=>`<span class="tag th">${esc(ORGS[o][L])}</span>`).join("")}</div></div>
@@ -292,27 +314,29 @@ function viewCompare(){
 }
 
 /* ---------- register ---------- */
-function csvOf(rows){const q=v=>'"'+String(v??"").replace(/"/g,'""')+'"';
+function csvOf(rows){const q=v=>'"'+String(v??"").replace(/\u00A0/g," ").replace(/"/g,'""')+'"';
   return [["id","country_or_zone","themes","title","official_title","type","legal_force","date","authority","source_url","source_type"].join(",")].concat(rows.map(e=>[e.id,cname(e.c),Object.keys(e.th).join("|"),title(e),e.ti,e.ty[I(L)],t("f")[e.f],e.dt,e.a,e.u,t("s")[e.s]].map(q).join(","))).join("\n")}
 function viewDB(){
-  const sel=(id,lab,opts)=>`<select id="${id}" aria-label="${esc(lab)}"><option value="">${esc(lab)} : ${esc(t("any"))}</option>${opts}</select>`;
+  const sel=(id,lab,opts)=>`<select id="${id}" aria-label="${esc(lab)}"><option value="">${esc(lab)}${COLON()}${esc(t("any"))}</option>${opts}</select>`;
   app.innerHTML=`<section class="view"><div><h1>${esc(t("db_h"))}</h1><p class="serif muted" style="margin-top:12px">${esc(t("db_lead"))}</p></div>
   <div class="tools"><input type="search" id="dq" placeholder="${esc(t("q"))}" aria-label="${esc(t("q"))}" value="${esc(DBQ)}">
    ${sel("dt",t("f_theme"),THEMES.map(x=>`<option value="${x.k}">${esc(x[L])}</option>`).join(""))}
    ${sel("df",t("f_force"),["b","g","v"].map(k=>`<option value="${k}">${esc(t("f")[k])}</option>`).join(""))}
    ${sel("ds",t("f_scope"),`<option value="n">${esc(t("national"))}</option><option value="r">${esc(t("regional"))}</option>`)}
    ${sel("dsrc",t("f_src"),["o","r","p"].map(k=>`<option value="${k}">${esc(t("s")[k])}</option>`).join(""))}
-   <button class="btn" id="dcopy" type="button">${esc(t("copycsv"))}</button></div>
+   <button class="btn" id="dcopy" type="button">${esc(t("copycsv"))}</button><button class="btn line" id="ddl" type="button">${esc(t("dlcsv"))}</button><a class="btn line" href="data/registre.json" download>${esc(t("dljson"))}</a></div>
   <p class="status" id="dst" aria-live="polite"></p>
   <div class="tw"><table><thead><tr><th>№</th><th>${esc(t("col_cty"))}</th><th>${esc(t("col_title"))}</th><th>${esc(t("f_theme"))}</th><th>${esc(t("col_type"))}</th><th>${esc(t("col_force"))}</th><th>${esc(t("col_date"))}</th><th>${esc(t("col_src"))}</th></tr></thead><tbody id="dbb"></tbody></table></div>
   <textarea id="dcsv" hidden readonly style="width:100%;min-height:160px;font:12px var(--mono);background:var(--sheet);color:var(--ink);border:1px solid var(--rule);padding:10px"></textarea></section>`;
   let rows=[];const g=id=>document.getElementById(id);
   const draw=()=>{const q=g("dq").value.trim().toLowerCase();DBQ=g("dq").value;
-    rows=DATA.filter(e=>(!g("dt").value||e.th[g("dt").value])&&(!g("df").value||e.f===g("df").value)&&(!g("ds").value||(g("ds").value==="n")===!!COUNTRIES[e.c])&&(!g("dsrc").value||e.s===g("dsrc").value)&&(!q||(title(e)+" "+e.ti+" "+e.a+" "+cname(e.c)+" "+e.id).toLowerCase().includes(q))).sort((a,b)=>byName(a.c,b.c)||String(b.dt).localeCompare(String(a.dt)));
+    rows=DATA.filter(e=>(!g("dt").value||e.th[g("dt").value])&&(!g("df").value||e.f===g("df").value)&&(!g("ds").value||(g("ds").value==="n")===!!COUNTRIES[e.c])&&(!g("dsrc").value||e.s===g("dsrc").value)&&(!q||(title(e)+" "+e.ti+" "+e.a+" "+cname(e.c)+" "+e.id).replace(/\u00A0/g," ").toLowerCase().includes(q))).sort((a,b)=>byName(a.c,b.c)||String(b.dt).localeCompare(String(a.dt)));
     g("dbb").innerHTML=rows.map(e=>`<tr><td class="n">${esc(e.id)}</td><td>${COUNTRIES[e.c]?`<a href="#pays-${e.c}">${esc(cname(e.c))}</a>`:esc(cname(e.c))}</td><td style="min-width:260px">${esc(title(e))}</td><td>${Object.keys(e.th).map(thName).map(esc).join(", ")}</td><td>${esc(e.ty[I(L)])}</td><td>${esc(t("f")[e.f])}</td><td class="n">${esc(fmtDate(e.dt))}</td><td><a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(t("s")[e.s])}</a></td></tr>`).join("");
     g("dst").textContent=rows.length+" "+t("rows")};
   ["dq","dt","df","ds","dsrc"].forEach(id=>{g(id).oninput=draw;g(id).onchange=draw});
-  g("dcopy").onclick=()=>copyText(csvOf(rows),g("dst"),g("dcsv"));draw();
+  g("dcopy").onclick=()=>copyText(csvOf(rows),g("dst"),g("dcsv"));
+  g("ddl").onclick=()=>{const blob=new Blob(["\ufeff"+csvOf(rows)],{type:"text/csv;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`aspm-registre-${ASOF}-${L}.csv`;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)};
+  draw();
 }
 
 /* ---------- regional ---------- */
@@ -329,7 +353,7 @@ function viewGloss(){
   <div id="gl"></div></section>`;
   const i=I(L);
   const draw=()=>{const q=document.getElementById("gq").value.trim().toLowerCase();
-    const li=GLOSS.filter(g=>(!GCF||g[0]===GCF)&&(!q||g.slice(1,5).join(" ").toLowerCase().includes(q))).sort((a,b)=>a[1+i].localeCompare(b[1+i],L,{sensitivity:"base"}));
+    const li=GLOSS.filter(g=>(!GCF||g[0]===GCF)&&(!q||g.slice(1,5).join(" ").replace(/\u00A0/g," ").toLowerCase().includes(q))).sort((a,b)=>a[1+i].localeCompare(b[1+i],L,{sensitivity:"base"}));
     let out="",cur="";li.forEach(g=>{const l=g[1+i].normalize("NFD").replace(/[\u0300-\u036f]/g,"")[0].toUpperCase();if(l!==cur){if(cur)out+="</dl>";cur=l;out+=`<div class="letter">${l}</div><dl class="gl">`}
       out+=`<div><dt>${esc(g[1+i])}<small>${esc(g[2-i])} · ${esc(GCAT[g[0]][i])}</small></dt><dd>${esc(g[3+i])}${g[5]?` <a href="${esc(g[5])}" target="_blank" rel="noopener">${esc(t("ref"))}</a>`:""}</dd></div>`});
     document.getElementById("gl").innerHTML=out+(cur?"</dl>":"");document.getElementById("gst").textContent=li.length+" / "+GLOSS.length};
@@ -349,6 +373,13 @@ function viewMethod(){
    <div class="dl">${["o","r","p"].map(k=>`<div><span class="big">${cs(k)}</span><span>${esc(t("s")[k])}</span></div>`).join("")}${["b","g","v"].map(k=>`<div><span class="big">${cf(k)}</span><span>${esc(t("f")[k])}</span></div>`).join("")}</div>
    <p class="lbl" style="margin-top:12px">${esc(t("s").p)}</p><div class="reg">${DATA.filter(e=>e.s==="p").map(e=>row(e)).join("")}</div></div></div></section>`;
 }
+function viewVersions(){
+  app.innerHTML=`<section class="view">${crumbs(["apropos",t("n_a")],[null,t("n_v")])}${subnav("apropos","versions")}<div><h1>${esc(t("ch_h"))}</h1><p class="serif muted" style="margin-top:12px;max-width:66ch">${esc(t("ch_lead"))}</p></div>
+  ${CHANGES.map(c=>`<div class="sec"><div class="sec-h"><h2>${esc(t("ver"))} ${esc(c.v)}</h2><span class="mono muted">${esc(fmtDate(c.d))}</span></div><div class="prose"><ul>${(L==="fr"?c.fr:c.en).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div></div>`).join("")}</section>`;
+}
+function viewLegal(){
+  app.innerHTML=`<section class="view">${crumbs(["apropos",t("n_a")],[null,t("n_legal")])}${subnav("apropos","mentions")}<h1>${esc(t("legal_h"))}</h1><div class="prose">${LEGAL[L]}</div></section>`;
+}
 function viewAbout(){const A=ABOUT2[L];
   app.innerHTML=`<section class="view">${subnav("apropos","apropos")}<h1>${esc(t("a_h"))}</h1>
   <div class="sec"><div class="sec-h"><h2>${esc(A.why_h)}</h2></div><div class="prose">${A.why.map(p=>`<p>${esc(p)}</p>`).join("")}</div></div>
@@ -361,29 +392,32 @@ function viewAbout(){const A=ABOUT2[L];
 }
 function i18n(){document.documentElement.lang=L;document.querySelectorAll("[data-i]").forEach(el=>el.textContent=t(el.dataset.i));
   document.querySelectorAll("[data-ph]").forEach(el=>{el.placeholder=t(el.dataset.ph);el.setAttribute("aria-label",t(el.dataset.ph))});
+  document.querySelectorAll("[data-al]").forEach(el=>el.setAttribute("aria-label",t(el.dataset.al)));
   document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L))}
-const GROUP={carte:"carte",pays:"pays",comparer:"pays",regional:"pays",base:"base",themes:"themes",glossaire:"glossaire",ressources:"ressources",apropos:"apropos",methodologie:"apropos"};
+const GROUP={carte:"carte",pays:"pays",comparer:"pays",regional:"pays",base:"base",themes:"themes",glossaire:"glossaire",ressources:"ressources",apropos:"apropos",methodologie:"apropos",versions:"apropos",mentions:"apropos"};
 function route(){const h=(location.hash||"#carte").slice(1),v=h.startsWith("pays-")?"pays":h;
   const g=GROUP[v]||"carte";document.querySelectorAll("nav.idx a").forEach(a=>{if(a.dataset.g===g)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
   closeSugg();setTitle(h);
-  if(h.startsWith("pays-")&&COUNTRIES[h.slice(5)])return viewCountry(h.slice(5));
-  ({themes:viewThemes,pays:viewCountries,comparer:viewCompare,base:viewDB,regional:viewRegional,glossaire:viewGloss,ressources:viewRes,methodologie:viewMethod,apropos:viewAbout}[v]||viewHome)();
+  if(h.startsWith("pays-")&&COUNTRIES[h.slice(5)])viewCountry(h.slice(5));
+  else ({themes:viewThemes,pays:viewCountries,comparer:viewCompare,base:viewDB,regional:viewRegional,glossaire:viewGloss,ressources:viewRes,methodologie:viewMethod,apropos:viewAbout,versions:viewVersions,mentions:viewLegal}[v]||viewHome)();
+  /* menus défilants (téléphone) : ramener l'onglet actif à l'écran */
+  document.querySelectorAll("nav.idx,nav.sub").forEach(n=>{const a=n.querySelector('[aria-current="page"]');if(a&&n.scrollWidth>n.clientWidth)n.scrollLeft=Math.max(0,a.offsetLeft-n.offsetLeft-16)});
   window.scrollTo(0,0)}
 const gs=document.getElementById("gsearch"),sg=document.getElementById("sugg");let sgi=-1;
-function closeSugg(){sg.hidden=true;gs.setAttribute("aria-expanded","false");sgi=-1}
-const norm=x=>String(x).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+function closeSugg(){sg.hidden=true;gs.setAttribute("aria-expanded","false");gs.removeAttribute("aria-activedescendant");sgi=-1}
+const norm=x=>String(x).replace(/\u00A0/g," ").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 function go(href,all){if(all)DBQ=gs.value;gs.value="";closeSugg();if(location.hash===href)route();else location.hash=href}
 function openSugg(){const q=norm(gs.value.trim());if(q.length<2){closeSugg();return}
   const cs=Object.keys(COUNTRIES).filter(c=>norm(COUNTRIES[c][0]+" "+COUNTRIES[c][1]+" "+c).includes(q)).sort(byName).slice(0,5);
   const ts=DATA.filter(e=>norm(title(e)+" "+e.ti+" "+e.id+" "+e.a).includes(q)).slice(0,6);
-  let h="";if(cs.length)h+=`<p class="lbl">${esc(t("sg_c"))}</p>`+cs.map(c=>`<a role="option" href="#pays-${c}"><span>${esc(cname(c))}</span><span>${c}</span></a>`).join("");
-  if(ts.length)h+=`<p class="lbl">${esc(t("sg_t"))}</p>`+ts.map(e=>`<a role="option" href="${COUNTRIES[e.c]?"#pays-"+e.c:"#regional"}"><span>${esc(title(e))}</span><span>${esc(e.id)}</span></a>`).join("");
-  h+=cs.length||ts.length?`<a role="option" href="#base" data-all="1"><span>${esc(t("sg_all"))}</span><span>↵</span></a>`:`<p class="status">${esc(t("sg_none"))}</p>`;
-  sg.innerHTML=h;sg.hidden=false;gs.setAttribute("aria-expanded","true");sgi=-1;
+  let h="";if(cs.length)h+=`<p class="lbl">${esc(t("sg_c"))}</p>`+cs.map(c=>`<a role="option" aria-selected="false" href="#pays-${c}"><span>${esc(cname(c))}</span><span>${c}</span></a>`).join("");
+  if(ts.length)h+=`<p class="lbl">${esc(t("sg_t"))}</p>`+ts.map(e=>`<a role="option" aria-selected="false" href="${COUNTRIES[e.c]?"#pays-"+e.c:"#regional"}"><span>${esc(title(e))}</span><span>${esc(e.id)}</span></a>`).join("");
+  h+=cs.length||ts.length?`<a role="option" aria-selected="false" href="#base" data-all="1"><span>${esc(t("sg_all"))}</span><span>↵</span></a>`:`<p class="status">${esc(t("sg_none"))}</p>`;
+  sg.innerHTML=h;sg.querySelectorAll("a").forEach((a,i)=>a.id="sg"+i);sg.hidden=false;gs.setAttribute("aria-expanded","true");gs.removeAttribute("aria-activedescendant");sgi=-1;
   sg.querySelectorAll("a").forEach(a=>a.addEventListener("mousedown",ev=>{ev.preventDefault();go(a.getAttribute("href"),a.dataset.all)}))}
 gs.addEventListener("input",openSugg);gs.addEventListener("blur",()=>setTimeout(closeSugg,150));
 gs.addEventListener("keydown",ev=>{const it=[...sg.querySelectorAll("a")];
-  if(ev.key==="ArrowDown"||ev.key==="ArrowUp"){if(!it.length)return;ev.preventDefault();sgi=(sgi+(ev.key==="ArrowDown"?1:-1)+it.length)%it.length;it.forEach((a,i)=>a.setAttribute("aria-selected",i===sgi))}
+  if(ev.key==="ArrowDown"||ev.key==="ArrowUp"){if(!it.length)return;ev.preventDefault();sgi=(sgi+(ev.key==="ArrowDown"?1:-1)+it.length)%it.length;it.forEach((a,i)=>a.setAttribute("aria-selected",i===sgi));gs.setAttribute("aria-activedescendant",it[sgi].id)}
   else if(ev.key==="Enter"){ev.preventDefault();if(sgi>=0&&it[sgi])go(it[sgi].getAttribute("href"),it[sgi].dataset.all);else go("#base",true)}
   else if(ev.key==="Escape")closeSugg()});
 document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("aspm-lang",L)}catch(e){}i18n();route()});
